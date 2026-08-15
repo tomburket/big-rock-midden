@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>Big Rock Midden &middot; Archive</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,300;0,400;0,600;1,300&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root {
+--ink: #14130f;
+--ink-mid: #2b2a24;
+--ink-light: #4f4d45;
+--ink-faint: #67655c;
+--rule: #c9c6ba;
+--rule-soft: #e6e3da;
+--accent: #2f4739;
+--accent-deep: #1d2e24;
+--bg: #f4f3ee;
+--card: #ffffff;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+background: var(--bg);
+color: var(--ink);
+font-family: 'Spectral', Georgia, serif;
+font-weight: 400;
+line-height: 1.65;
+-webkit-font-smoothing: antialiased;
+}
+
+.masthead {
+background: var(--accent-deep);
+color: #f4f3ec;
+padding: 34px 22px 26px;
+border-bottom: 3px solid var(--accent);
+}
+
+.masthead-inner { max-width: 47rem; margin: 0 auto; }
+
+.masthead-label {
+font-family: 'IBM Plex Sans', sans-serif;
+font-size: 12.5px;
+font-weight: 500;
+letter-spacing: 0.13em;
+text-transform: uppercase;
+color: #c6d8c9;
+padding-bottom: 12px;
+border-bottom: 1px solid rgba(157,179,164,0.28);
+margin-bottom: 16px;
+}
+
+.masthead-title {
+font-family: 'Spectral', Georgia, serif;
+font-weight: 400;
+font-size: 38px;
+line-height: 1.1;
+letter-spacing: -0.008em;
+color: #fbfaf5;
+}
+
+.content { max-width: 47rem; margin: 0 auto; padding: 40px 22px 60px; }
+
+.edition {
+background: var(--card);
+border: 1px solid var(--rule);
+border-left: 3px solid var(--accent);
+padding: 21px 22px 19px;
+margin-bottom: 16px;
+display: block;
+text-decoration: none;
+color: inherit;
+transition: border-left-color 0.14s;
+}
+
+a.edition:hover { border-left-color: var(--ink); }
+
+.edition-head {
+display: flex;
+align-items: baseline;
+gap: 12px;
+flex-wrap: wrap;
+margin-bottom: 6px;
+}
+
+.edition-num {
+font-family: 'IBM Plex Sans', sans-serif;
+font-size: 12.5px;
+font-weight: 600;
+letter-spacing: 0.09em;
+text-transform: uppercase;
+color: var(--ink-faint);
+}
+
+.edition-current {
+font-family: 'IBM Plex Sans', sans-serif;
+font-size: 11px;
+font-weight: 600;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+background: #e0e6d5;
+color: #3d4a22;
+padding: 3px 9px;
+}
+
+.edition-date {
+font-family: 'Spectral', Georgia, serif;
+font-size: 23px;
+font-weight: 400;
+color: var(--ink);
+}
+
+.edition-topics {
+font-family: 'IBM Plex Sans', sans-serif;
+font-size: 14.5px;
+color: var(--ink-light);
+line-height: 1.55;
+}
+
+.footer {
+background: var(--accent-deep);
+color: #cfdfd1;
+padding: 30px 22px 34px;
+text-align: center;
+font-family: 'IBM Plex Sans', sans-serif;
+font-size: 14px;
+line-height: 1.72;
+}
+
+.footer strong {
+font-family: 'Spectral', Georgia, serif;
+font-weight: 400;
+font-size: 18px;
+color: #f4f3ec;
+}
+
+.footer a { color: #c3d4c6; text-decoration: none; border-bottom: 1px solid rgba(195,212,198,0.3); }
+.footer a:hover { border-bottom-color: #c3d4c6; }
+
+@media (min-width: 640px) {
+.masthead { padding: 46px 32px 34px; }
+.masthead-title { font-size: 52px; }
+.content { padding: 54px 30px 76px; }
+.edition { padding: 26px 28px 24px; }
+}
+</style>
+</head>
+<body>
+
+<header class="masthead">
+<div class="masthead-inner">
+<div class="masthead-label">Archive</div>
+<div class="masthead-title">Big Rock Midden</div>
+</div>
+</header>
+
+<main class="content" id="list"></main>
+
+<footer class="footer">
+<strong>Big Rock Midden</strong><br>
+Prepared by Tom Burket &middot; word/cairn
+<br><br><a href="/">Current edition &rarr;</a>
+</footer>
+
+<script>
+const editions = [
+{
+number: 1,
+date: "August 15, 2026",
+items: 10,
+topics: "AI and legal reasoning \u00b7 Fraud enforcement \u00b7 Caremark \u00b7 Health AI partnerships \u00b7 Academic AI policy \u00b7 Deep time",
+file: null
+}
+];
+
+const list = document.getElementById('list');
+list.innerHTML = editions.map(function (e) {
+  const href = e.file === null ? '/' : e.file;
+  const badge = e.file === null ? '<span class="edition-current">Current</span>' : '';
+  return '<a class="edition" href="' + href + '">'
+    + '<div class="edition-head"><span class="edition-num">Edition No. ' + e.number + '</span>'
+    + badge + '</div>'
+    + '<div class="edition-date">' + e.date + '</div>'
+    + '<div class="edition-topics">' + e.items + ' entries &middot; ' + e.topics + '</div>'
+    + '</a>';
+}).join('');
+</script>
+
+</body>
+</html>
