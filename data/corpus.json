@@ -1,0 +1,143 @@
+{
+ "schema_version": 1,
+ "current_edition": 1,
+ "edition_dates": {
+  "1": "August 15"
+ },
+ "active_threads": [
+  "f1",
+  "f2",
+  "f3",
+  "f4",
+  "curious"
+ ],
+ "thread_names": {
+  "f1": "The AI-and-law field",
+  "f2": "Enforcement and rulemaking",
+  "f3": "The enforcement rail (runtime and formal-methods products)",
+  "f4": "The governance seat (CCO/CRO/board)",
+  "curious": "Untagged reservoir"
+ },
+ "cards": [
+  {
+   "id": "e1c1",
+   "ed": 1,
+   "sec": "The Field",
+   "tag": "study",
+   "h": "A preregistered trial of about 100 law students found AI’s effect on legal reasoning turns on where in the workflow it is used",
+   "src": "SSRN · Aug 13",
+   "t": "f1",
+   "s": "Randomized trial of about 100 law students: AI helped at drafting, and at revision it lifted weak work while degrading strong work.",
+   "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6525800",
+   "img": null
+  },
+  {
+   "id": "e1c2",
+   "ed": 1,
+   "sec": "Enforcement and Rulemaking",
+   "tag": "policy",
+   "h": "The Justice Department’s new Fraud Division lists health care among five priorities and cites no civil fraud statute",
+   "src": "DOJ · Aug 13",
+   "t": "f2",
+   "s": "The new Fraud Division’s first priorities memo names health care and in-house data science, and cites no statute anywhere.",
+   "url": "https://www.justice.gov/opa/media/1457756/dl?inline",
+   "img": null
+  },
+  {
+   "id": "e1c3",
+   "ed": 1,
+   "sec": "Enforcement and Rulemaking",
+   "tag": "report",
+   "h": "Medicare Advantage plans overturned 95% of appealed skilled-nursing denials; about one in five denials was appealed",
+   "src": "HHS OIG · June 2026",
+   "t": "f2",
+   "s": "OIG pulled June 2024 prior-auth data from the 19 largest MA parents: 95 percent of appealed SNF denials overturned, but only a fifth were appealed.",
+   "url": "https://oig.hhs.gov/documents/audit/11694/OEI-09-24-00331.pdf",
+   "img": null
+  },
+  {
+   "id": "e1c4",
+   "ed": 1,
+   "sec": "Risk and Governance",
+   "tag": "ruling",
+   "h": "Delaware Chancery dismissed the second Boeing oversight case, crediting the flow of risk-register reporting to the board",
+   "src": "Del. Ch. · Aug 13",
+   "t": "f4",
+   "s": "Zurn dismissed Caremark claims over the Flight 1282 door plug, crediting the named board reporting streams as evidence the system worked.",
+   "url": "https://courts.delaware.gov/opinions/download.aspx?id=399780",
+   "img": null
+  },
+  {
+   "id": "e1c5",
+   "ed": 1,
+   "sec": "Risk and Governance",
+   "tag": "ruling",
+   "h": "Chancery approved a Beauty Health settlement, graded the released oversight claims weak and cut a $737,500 fee request to $100,000",
+   "src": "Del. Ch. · Aug 11",
+   "t": "f4",
+   "s": "Will approved the Beauty Health settlement while calling the released oversight claims weak, and cut a $737,500 fee request to $100,000.",
+   "url": "https://courts.delaware.gov/opinions/download.aspx?id=399650",
+   "img": null
+  },
+  {
+   "id": "e1c6",
+   "ed": 1,
+   "sec": "The Industry",
+   "tag": "deal",
+   "h": "Novo Nordisk named AWS its preferred cloud provider and strategic AI partner, with no deal value disclosed",
+   "src": "Novo Nordisk · Aug 10",
+   "t": "curious",
+   "s": "Novo Nordisk made AWS its preferred cloud and AI partner with a London co-innovation hub, disclosing no value and no term.",
+   "url": "https://www.globenewswire.com/news-release/2026/08/10/3341794/0/en/novo-nordisk-and-aws-enter-strategic-partnership-to-accelerate-drug-discovery-through-ai.html",
+   "img": null
+  },
+  {
+   "id": "e1c7",
+   "ed": 1,
+   "sec": "The Industry",
+   "tag": "deal",
+   "h": "The OpenAI Foundation committed $100 million to a public health delivery initiative beginning with hepatitis C cure rates",
+   "src": "Common Health Coalition · Aug 13",
+   "t": "curious",
+   "s": "A $100 million OpenAI Foundation commitment routes AI-funded delivery infrastructure into state and local hepatitis C programs.",
+   "url": "https://files.commonhealthcoalition.org/storage/v1/object/public/resource-files/B2FNews.pdf",
+   "img": null
+  },
+  {
+   "id": "e1c8",
+   "ed": 1,
+   "sec": "Bioethics and the Academy",
+   "tag": "policy",
+   "h": "Columbia Law School’s default AI policy permits research and drafting support and bars AI from original legal analysis",
+   "src": "Columbia Law · Aug 1",
+   "t": "f1",
+   "s": "Columbia Law’s default AI policy splits process assistance from the graded analytic act and leaves the override with the instructor.",
+   "url": "https://www.law.columbia.edu/academics/registration-services/resources/ai-policy",
+   "img": null
+  },
+  {
+   "id": "e1c9",
+   "ed": 1,
+   "sec": "Bioethics and the Academy",
+   "tag": "policy",
+   "h": "JAMA updated its AI author guidance, barring AI-drafted opinion pieces and letters and requiring disclosure of tool, version and dates",
+   "src": "JAMA · Aug 10",
+   "t": "curious",
+   "s": "JAMA’s updated author guidance carves opinion pieces, letters and clinical images out of AI use entirely rather than treating disclosure as sufficient.",
+   "url": "https://jamanetwork.com/journals/jama/pages/instructions-for-authors",
+   "img": null
+  },
+  {
+   "id": "e1c10",
+   "ed": 1,
+   "sec": "The Cache",
+   "tag": "study",
+   "h": "Cosmogenic dating of five boulders places the last glacial maximum in the northern Dinaric Mountains at 19.5 ka",
+   "src": "Boreas · Aug 13",
+   "t": "curious",
+   "s": "Chlorine-36 dating of five moraine boulders in Slovenia fixes the local LGM at 19.5 ka; no ice-sheet simulation reproduces the mapped extent.",
+   "url": "https://doi.org/10.1111/bor.70081",
+   "img": null
+  }
+ ]
+}
