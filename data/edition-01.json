@@ -1,0 +1,239 @@
+{
+ "edition": 1,
+ "date_long": "August 15, 2026",
+ "topics": "AI and legal reasoning · Fraud enforcement · Caremark · Health AI partnerships · Academic AI policy · Deep time",
+ "sections": [
+  {
+   "id": "field",
+   "title": "The Field",
+   "pill": "The\nField",
+   "cards": [
+    {
+     "tag_class": "tag-field",
+     "tag_label": "The Field",
+     "headline": "A preregistered trial of about 100 law students found AI’s effect on legal reasoning turns on where in the workflow it is used",
+     "source": "SSRN · Revised August 13, 2026",
+     "summary": "Four University of Minnesota law faculty randomized about 100 second- and third-year students into two arms: a control group with no AI until a final revision task, and a group given AI on the initial synthesis memo and again at revision. Between them sat closed-book comprehension questions and an application memo neither group used AI for. Students with AI wrote stronger synthesis memos, faster. Comprehension did not decline afterward, contrary to the authors’ preregistered hypothesis, and the AI group outperformed the control on the later application task. At revision, weaker initial memos improved and stronger ones regressed. The paper is forthcoming in the Northwestern University Law Review.",
+     "why": "The claim is about sequence rather than exposure. That makes it a design question for any workflow where junior staff use AI at drafting, at review, or at both.",
+     "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6525800",
+     "link_label": "Read at SSRN",
+     "img": null,
+     "landscape": {
+      "tag": "study",
+      "t": "f1",
+      "t2": null,
+      "src_short": "SSRN · Aug 13",
+      "gloss": "Randomized trial of about 100 law students: AI helped at drafting, and at revision it lifted weak work while degrading strong work.",
+      "img": null
+     }
+    }
+   ]
+  },
+  {
+   "id": "enforcement",
+   "title": "Enforcement and Rulemaking",
+   "pill": "Enforcement\nand Rulemaking",
+   "cards": [
+    {
+     "tag_class": "tag-enforce",
+     "tag_label": "Enforcement",
+     "headline": "The Justice Department’s new Fraud Division lists health care among five priorities and cites no civil fraud statute",
+     "source": "U.S. Department of Justice · August 13, 2026",
+     "summary": "Assistant Attorney General Colin M. McDonald issued a memorandum Aug. 13 to all Fraud Division personnel setting five enforcement priorities. Health care is the second, naming telemedicine programs, Medicare or Medicaid fraud, controlled substance diversion, and home health and hospice schemes. The memo projects national health expenditures growing “from over $3 trillion a year to over $7 trillion” and puts fraud at 3 percent to 10 percent of that. The attached organizational chart gives the division a Health Care Fraud Section, a National Fraud Detection Center and an Information Technology Section, supported by “a cross-disciplinary team of experts in data science.” The memo cites no statute anywhere — not the False Claims Act, not the qui tam provisions — and the division does not appear in 28 C.F.R. Part 0.",
+     "why": "A litigating component with its own Health Care Fraud Section and its own detection center changes where a self-disclosure lands and who builds the algorithm that generates the lead.",
+     "url": "https://www.justice.gov/opa/media/1457756/dl?inline",
+     "link_label": "Read at justice.gov",
+     "img": null,
+     "landscape": {
+      "tag": "policy",
+      "t": "f2",
+      "t2": null,
+      "src_short": "DOJ · Aug 13",
+      "gloss": "The new Fraud Division’s first priorities memo names health care and in-house data science, and cites no statute anywhere.",
+      "img": null
+     }
+    },
+    {
+     "tag_class": "tag-enforce",
+     "tag_label": "Enforcement",
+     "headline": "Medicare Advantage plans overturned 95% of appealed skilled-nursing denials; about one in five denials was appealed",
+     "source": "HHS Office of Inspector General · June 2026",
+     "summary": "The Office of Inspector General collected June 2024 prior-authorization data from the 19 largest Medicare Advantage parent organizations, covering 29.3 million enrollees, or 86 percent of Medicare Advantage enrollment. Those plans denied 12 percent of skilled nursing facility admission requests — 13,500 of 109,400 — with company rates running from 23 percent down to 0.4 percent. Requests originating from nursing home residents were denied at 40 percent, against 11 percent for other enrollees. Roughly 2,400 of the 13,500 denials were appealed, and plans overturned 2,313 of 2,445 appeals in the enrollee’s favor. Requests processed by naviHealth, which handled half the volume, were denied at 14 percent, against 11 percent for plans reviewing internally and 9 percent for other contractors.",
+     "why": "The overturn rate describes the fifth of denials that were contested. The other four-fifths were not.",
+     "url": "https://oig.hhs.gov/documents/audit/11694/OEI-09-24-00331.pdf",
+     "link_label": "Read at HHS OIG",
+     "img": null,
+     "landscape": {
+      "tag": "report",
+      "t": "f2",
+      "t2": null,
+      "src_short": "HHS OIG · June 2026",
+      "gloss": "OIG pulled June 2024 prior-auth data from the 19 largest MA parents: 95 percent of appealed SNF denials overturned, but only a fifth were appealed.",
+      "img": null
+     }
+    }
+   ]
+  },
+  {
+   "id": "governance",
+   "title": "Risk and Governance",
+   "pill": "Risk and\nGovernance",
+   "cards": [
+    {
+     "tag_class": "tag-risk",
+     "tag_label": "Governance",
+     "headline": "Delaware Chancery dismissed the second Boeing oversight case, crediting the flow of risk-register reporting to the board",
+     "source": "Delaware Court of Chancery · August 13, 2026",
+     "summary": "Vice Chancellor Morgan T. Zurn granted a Rule 23.1 motion Aug. 13, dismissing Caremark claims brought after the Jan. 5, 2024 door-plug blowout on Alaska Airlines Flight 1282. Plaintiffs argued the board failed to monitor manufacturing quality in the years after a 2021 oversight settlement. Zurn held that the reporting the board did receive — Safety Management System risk register reports, in-service safety reports and a compliance risk management report — cut against an inference of conscious disregard, and that an alleged red flag must present a need to act “so clear that to ignore it implies a conscious disregard of duty.” Updates addressing general risks, the opinion said, “may be evidence that the reporting system is working as it should.” All three counts failed on demand futility.",
+     "why": "The register is the exhibit. What defeated the claim was the existence and routing of the reports, not whether the risk was contained.",
+     "url": "https://courts.delaware.gov/opinions/download.aspx?id=399780",
+     "link_label": "Read at Delaware Chancery",
+     "img": null,
+     "landscape": {
+      "tag": "ruling",
+      "t": "f4",
+      "t2": null,
+      "src_short": "Del. Ch. · Aug 13",
+      "gloss": "Zurn dismissed Caremark claims over the Flight 1282 door plug, crediting the named board reporting streams as evidence the system worked.",
+      "img": null
+     }
+    },
+    {
+     "tag_class": "tag-risk",
+     "tag_label": "Governance",
+     "headline": "Chancery approved a Beauty Health settlement, graded the released oversight claims weak and cut a $737,500 fee request to $100,000",
+     "source": "Delaware Court of Chancery · August 11, 2026",
+     "summary": "In a letter opinion Aug. 11, Vice Chancellor Lori W. Will approved a stockholder settlement over the HydraFacial Syndeo launch as fair, reasonable and adequate, then assessed what had been given up. Plaintiffs had pleaded Caremark and Massey theories — that directors and officers knowingly permitted false statements about the product, or failed to monitor a known defect risk — plus a waste claim on a buyback. “Imperfect compliance is not bad faith,” Will wrote. “Nor does a defective product launch — especially one met with active remediation — indicate a conscious dereliction of duty.” Counsel sought $737,500 inclusive of expenses and received $100,000, allocated to two firms with a third receiving nothing. Service awards of $2,500 for two named plaintiffs were denied.",
+     "why": "Active remediation carries the sentence. The formulation sits in a fee ruling rather than a merits opinion, which is where it will be hardest to find later.",
+     "url": "https://courts.delaware.gov/opinions/download.aspx?id=399650",
+     "link_label": "Read at Delaware Chancery",
+     "img": null,
+     "landscape": {
+      "tag": "ruling",
+      "t": "f4",
+      "t2": null,
+      "src_short": "Del. Ch. · Aug 11",
+      "gloss": "Will approved the Beauty Health settlement while calling the released oversight claims weak, and cut a $737,500 fee request to $100,000.",
+      "img": null
+     }
+    }
+   ]
+  },
+  {
+   "id": "industry",
+   "title": "The Industry",
+   "pill": "The\nIndustry",
+   "cards": [
+    {
+     "tag_class": "tag-industry",
+     "tag_label": "The Industry",
+     "headline": "Novo Nordisk named AWS its preferred cloud provider and strategic AI partner, with no deal value disclosed",
+     "source": "Novo Nordisk · August 10, 2026",
+     "summary": "The Aug. 10 release, issued by Novo Nordisk, designates Amazon Web Services its preferred cloud provider and strategic AI partner and establishes a joint co-innovation hub in London staffed by teams from both companies. Named services are Amazon Bio Discovery and Amazon Bedrock for target identification and therapy design, and Bedrock AgentCore for operational AI agents. No contract value and no term appear anywhere in the release. Reduced clinical documentation time and AI enablement for more than 25,000 employees are cited as results of the existing collaboration rather than as commitments under the new agreement. The release also names Amazon Pharmacy, Amazon Ads and Amazon One Medical among the Amazon businesses Novo Nordisk works with.",
+     "why": "A regulated sponsor’s discovery and clinical documentation workflows move onto an agentic stack. Validation, records and vendor oversight are argued at that seam.",
+     "url": "https://www.globenewswire.com/news-release/2026/08/10/3341794/0/en/novo-nordisk-and-aws-enter-strategic-partnership-to-accelerate-drug-discovery-through-ai.html",
+     "link_label": "Read at Novo Nordisk",
+     "img": null,
+     "landscape": {
+      "tag": "deal",
+      "t": "curious",
+      "t2": null,
+      "src_short": "Novo Nordisk · Aug 10",
+      "gloss": "Novo Nordisk made AWS its preferred cloud and AI partner with a London co-innovation hub, disclosing no value and no term.",
+      "img": null
+     }
+    },
+    {
+     "tag_class": "tag-industry",
+     "tag_label": "The Industry",
+     "headline": "The OpenAI Foundation committed $100 million to a public health delivery initiative beginning with hepatitis C cure rates",
+     "source": "Common Health Coalition · August 13, 2026",
+     "summary": "The Common Health Coalition announced the Breakthroughs to Follow-Through initiative Aug. 13. The stated goal is at least doubling hepatitis C cure rates in participating jurisdictions within two years, expanding later to HIV prevention and curable cancers. Four jurisdictions are named — Alabama, Illinois, Louisiana and Massachusetts — with four more to be announced within six months. EqualCure leads a hepatitis C center of excellence for clinical expertise. The Institute for Public Health Innovation, PopHIVE and Your Local Epidemiologist provide technical assistance across operations, data management and community engagement. Dave A. Chokshi chairs the coalition. Anna Makanju is head of civil society and philanthropy at the OpenAI Foundation.",
+     "why": "The release names the outside entities holding the data management and clinical roles. That is where use, consent and reporting questions will sit.",
+     "url": "https://files.commonhealthcoalition.org/storage/v1/object/public/resource-files/B2FNews.pdf",
+     "link_label": "Read at Common Health Coalition",
+     "img": null,
+     "landscape": {
+      "tag": "deal",
+      "t": "curious",
+      "t2": null,
+      "src_short": "Common Health Coalition · Aug 13",
+      "gloss": "A $100 million OpenAI Foundation commitment routes AI-funded delivery infrastructure into state and local hepatitis C programs.",
+      "img": null
+     }
+    }
+   ]
+  },
+  {
+   "id": "academy",
+   "title": "Bioethics and the Academy",
+   "pill": "Bioethics and\nthe Academy",
+   "cards": [
+    {
+     "tag_class": "tag-academy",
+     "tag_label": "The Academy",
+     "headline": "Columbia Law School’s default AI policy permits research and drafting support and bars AI from original legal analysis",
+     "source": "Columbia Law School · Effective August 1, 2026",
+     "summary": "The 2026–2027 default academic policy took effect Aug. 1. Students “must bear full intellectual responsibility for all work submitted for academic credit.” AI is permitted for learning, research and writing support, including clarity, grammar and testing arguments. It is prohibited for original legal arguments and analysis, for generating written work, for classroom participation without permission and in examinations absent advance written permission: “Every word of a student’s examination answer must be produced by that student without assistance from AI.” Students must disclose any AI use that contributes to a written submission. Sections 8 through 11 are defaults, and individual instructors may override them in writing.",
+     "why": "The line runs between process assistance and the graded analytic act. The override sits with the instructor, not the school.",
+     "url": "https://www.law.columbia.edu/academics/registration-services/resources/ai-policy",
+     "link_label": "Read at Columbia Law",
+     "img": null,
+     "landscape": {
+      "tag": "policy",
+      "t": "f1",
+      "t2": null,
+      "src_short": "Columbia Law · Aug 1",
+      "gloss": "Columbia Law’s default AI policy splits process assistance from the graded analytic act and leaves the override with the instructor.",
+      "img": null
+     }
+    },
+    {
+     "tag_class": "tag-academy",
+     "tag_label": "The Academy",
+     "headline": "JAMA updated its AI author guidance, barring AI-drafted opinion pieces and letters and requiring disclosure of tool, version and dates",
+     "source": "JAMA · Updated August 10, 2026",
+     "summary": "Authors are accountable for all content and must confirm the accuracy of anything generated by AI. Assistance with content creation, revision or formatting must be reported in the acknowledgment section, naming the platform, version, manufacturer, dates of use, which portions were affected and a confirmation that the authors take responsibility. AI-drafted opinion manuscripts, letters to the editor and online comments are not permitted. Neither are clinical images created or manipulated by AI, unless part of a formal research design that is fully disclosed. AI should not generate or format references. Failure to disclose may be grounds for rejection or postpublication corrective action. Grammar and spelling checkers are exempt. Guidance for AI used in research runs separately and longer, to reporting requirements across methods, results and discussion.",
+     "why": "Some categories are carved out rather than disclosed. Where the writing is the thing being assessed, disclosure is not treated as the remedy.",
+     "url": "https://jamanetwork.com/journals/jama/pages/instructions-for-authors",
+     "link_label": "Read at JAMA",
+     "img": null,
+     "landscape": {
+      "tag": "policy",
+      "t": "curious",
+      "t2": null,
+      "src_short": "JAMA · Aug 10",
+      "gloss": "JAMA’s updated author guidance carves opinion pieces, letters and clinical images out of AI use entirely rather than treating disclosure as sufficient.",
+      "img": null
+     }
+    }
+   ]
+  },
+  {
+   "id": "cache",
+   "title": "The Cache",
+   "pill": "The\nCache",
+   "cards": [
+    {
+     "tag_class": "tag-cache",
+     "tag_label": "The Cache",
+     "headline": "Cosmogenic dating of five boulders places the last glacial maximum in the northern Dinaric Mountains at 19.5 ka",
+     "source": "Boreas · August 13, 2026",
+     "summary": "In a paper published Aug. 13, the team mapped a palaeoglacial landscape above 1,100 meters on the Trnovski Gozd karst plateau in Slovenia and dated five boulders from the crest of the largest moraine using terrestrial cosmogenic chlorine-36. The median age is 19.5 ± 2.1 ka after correction for a denudation rate of 20 millimeters per thousand years, consistent with the global last glacial maximum. Geomorphological mapping gives a glaciated area of about 6 square kilometers. The best-fitting Parallel Ice Sheet Model scenario, at a temperature offset of minus 7.0 degrees Celsius and precipitation scaling of 0.95, yields 27.4 square kilometers while still reproducing the position of the dated moraine. “None of the [PISM] simulations fully reproduce the geomorphologically reconstructed glacier extent,” the authors wrote.",
+     "why": "The dating fixes the moraine. The best-fitting simulation reproduces that moraine’s position and still puts the glacier at more than four times the mapped area.",
+     "url": "https://doi.org/10.1111/bor.70081",
+     "link_label": "Read at Boreas",
+     "img": null,
+     "landscape": {
+      "tag": "study",
+      "t": "curious",
+      "t2": null,
+      "src_short": "Boreas · Aug 13",
+      "gloss": "Chlorine-36 dating of five moraine boulders in Slovenia fixes the local LGM at 19.5 ka; no ice-sheet simulation reproduces the mapped extent.",
+      "img": null
+     }
+    }
+   ]
+  }
+ ]
+}
