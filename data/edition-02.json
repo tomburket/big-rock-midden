@@ -1,0 +1,232 @@
+{
+  "edition": 2,
+  "date_long": "August 21, 2026",
+  "topics": "AI regulation portfolios · Fraud enforcement · HIPAA enforcement · Behavioral health M&A · AI billing agents · Mechanistic interpretability",
+  "sections": [
+    {
+      "id": "field",
+      "title": "The Field",
+      "pill": "The\nField",
+      "cards": [
+        {
+          "tag_class": "tag-field",
+          "tag_label": "The Field",
+          "headline": "A new scoring instrument grades what national AI-regulation portfolios actually contain, not just their headline law",
+          "source": "arXiv · August 15, 2026",
+          "summary": "Six researchers built a scored evaluation instrument that compares national AI-policy portfolios — the full, versioned collection of binding rules, funding programs and voluntary guidance a country has issued — rather than one flagship law. Each sub-criterion is scored on ordered anchors tied to a specific supporting provision, across China, India, Japan, Singapore, South Korea, the UK and the US, with the EU included as a supranational comparator. The protocol records its own source search, missing evidence and cutoff date. The authors are explicit about the limit: the framework evaluates what a portfolio provides on paper, not enforcement success or policy outcomes. It is a preprint, self-constructed, with no outside validation reported.",
+          "why": "State AI obligations pose the same sorting problem: rules spread across statutes, agency guidance and funding conditions rather than one law.",
+          "url": "https://arxiv.org/abs/2608.15417",
+          "link_label": "Read at arXiv",
+          "img": null,
+          "landscape": {
+            "tag": "study",
+            "t": "f1",
+            "t2": null,
+            "src_short": "arXiv · Aug 15",
+            "gloss": "A scored instrument compares national AI-policy portfolios provision by provision — what a country’s rules actually say, not just its flagship law.",
+            "img": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "enforcement",
+      "title": "Enforcement and Rulemaking",
+      "pill": "Enforcement\nand Rulemaking",
+      "cards": [
+        {
+          "tag_class": "tag-enforce",
+          "tag_label": "Enforcement and Rulemaking",
+          "headline": "A final rule gives DOJ’s new fraud division health care jurisdiction, but not False Claims Act authority",
+          "source": "Federal Register · August 18, 2026",
+          "summary": "A final rule effective Aug. 24 establishes the National Fraud Enforcement Division inside 28 C.F.R. Part 0, adding Subpart M. The new section assigns the division criminal jurisdiction over health care fraud, controlled-substance diversion and fraud against health plans. Its only civil grant authorizes injunctions, restitution, forfeiture, damages and penalties — all tethered to the division’s criminal-jurisdiction paragraphs. Neither the False Claims Act nor qui tam appears anywhere in the rule’s text, confirmed by full-text search. The rule is exempt from notice-and-comment as a matter of agency organization. It closes the gap left by the division’s Aug. 13 priorities memo, which named health care as a top enforcement target without citing any statute.",
+          "why": "Criminal health care fraud referrals now have a codified home in the new division. False Claims Act cases stay where they were.",
+          "url": "https://www.federalregister.gov/documents/2026/08/18/2026-16846/establishing-the-national-fraud-enforcement-division",
+          "link_label": "Read at the Federal Register",
+          "img": null,
+          "landscape": {
+            "tag": "policy",
+            "t": "f2",
+            "t2": null,
+            "src_short": "Federal Register · Aug 18",
+            "gloss": "A final rule gives DOJ’s new fraud division criminal health care jurisdiction and a civil remedy tethered to it — but no False Claims Act authority.",
+            "img": null
+          }
+        },
+        {
+          "tag_class": "tag-enforce",
+          "tag_label": "Enforcement and Rulemaking",
+          "headline": "OIG asks whether AI should be built to catch AI-generated Medicare fraud, against a reported $2.1 billion suspended in year one",
+          "source": "HHS Office of Inspector General · August 17, 2026",
+          "summary": "A new OIG white paper organizes durable-medical-equipment fraud around three exploitable elements: an enrolled supplier, a physician order and an enrollee’s identification number. The paper states plainly it did not analyze claims data or medical records — its calls to action rest on OIG’s own investigations and interviews. One asks CMS to explore whether AI could help clinical reviewers identify AI-generated physician orders and documentation. In its own response, CMS reports its Fraud Defense Operations Center suspended more than $2.1 billion in potentially fraudulent payments in its first year, $1.9 billion of it DME-specific — a figure CMS supplies, not one OIG verified independently. Several suggestions await an anticipated CMS rulemaking not yet proposed.",
+          "why": "OIG’s three elements (supplier enrollment, physician orders, patient identifiers) are the same control points a provider compliance program already monitors.",
+          "url": "https://oig.hhs.gov/documents/evaluation/11855/OEI-02-24-00311.pdf",
+          "link_label": "Read at HHS-OIG",
+          "img": null,
+          "landscape": {
+            "tag": "report",
+            "t": "f2",
+            "t2": null,
+            "src_short": "HHS-OIG · Aug 17",
+            "gloss": "OIG floats exploring AI to catch AI-generated physician orders, against a CMS-reported $2.1 billion suspended in fraudulent DME payments in year one.",
+            "img": null
+          }
+        },
+        {
+          "tag_class": "tag-enforce",
+          "tag_label": "Enforcement and Rulemaking",
+          "headline": "OCR settled a five-year-old ransomware breach for $552,250 over a risk analysis that was never done",
+          "source": "HHS Office for Civil Rights · July 1, 2026",
+          "summary": "OCR reached a resolution agreement and two-year corrective action plan with OSF Healthcare System over a 2021 Nephilim ransomware attack that stole the protected health information of 53,907 patients. The attack was discovered April 23, 2021; scope was determined that August; patients and HHS were notified Oct. 1, 2021 — a gap OCR cited as untimely on both counts. OCR’s core finding: OSF never conducted an accurate, thorough risk analysis of the risks to its electronic health information before the attack. OSF will pay $552,250 and must complete an HHS-approved risk analysis within 90 days, file annual workforce-training attestations, and retain compliance documentation for six years.",
+          "why": "OCR cited the missing risk analysis and the five-month notification delay, not the attack itself. Both findings concern documents and clocks a compliance office controls.",
+          "url": "https://www.hhs.gov/hipaa/for-professionals/compliance-enforcement/agreements/ra-cap-with-osf-healthcare-system/index.html",
+          "link_label": "Read at HHS",
+          "img": null,
+          "landscape": {
+            "tag": "ruling",
+            "t": "f2",
+            "t2": null,
+            "src_short": "OCR · Jul 1",
+            "gloss": "OCR settled a five-year-old ransomware breach for $552,250, citing a risk analysis that was never done and notification that came too late.",
+            "img": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "industry",
+      "title": "The Industry",
+      "pill": "The\nIndustry",
+      "cards": [
+        {
+          "tag_class": "tag-industry",
+          "tag_label": "The Industry",
+          "headline": "Universal Health Services closed its $835 million acquisition of Talkspace, forming a virtual-to-inpatient behavioral health network",
+          "source": "Universal Health Services · August 17, 2026",
+          "summary": "UHS closed its acquisition of Talkspace on Aug. 17, a deal announced in March at $5.25 a share and roughly $835 million in enterprise value. The combination joins Talkspace’s virtual platform to UHS’s outpatient and inpatient behavioral health facilities under one company — UHS says it is now the only U.S. company with a nationally scaled, end-to-end behavioral health continuum. The release states treating practitioners remain individually licensed and exercise independent professional judgment consistent with their training, scope of practice and licensure. It also describes Talkspace’s AI support tool, \"Tee,\" as developed to meet HIPAA privacy standards — the acquirer’s own characterization, not an independent assessment.",
+          "why": "One company now spans virtual, outpatient and inpatient care, each under separate licensure rules. The tool’s HIPAA claim is the acquirer’s own, not an outside review.",
+          "url": "https://ir.uhs.com/news-releases/news-release-details/universal-health-services-inc-completes-acquisition-talkspace",
+          "link_label": "Read at UHS",
+          "img": null,
+          "landscape": {
+            "tag": "deal",
+            "t": "curious",
+            "t2": null,
+            "src_short": "UHS · Aug 17",
+            "gloss": "UHS closed its $835 million Talkspace acquisition, spanning virtual to inpatient behavioral care under one company — with an AI tool’s HIPAA claim resting on the acquirer’s own word.",
+            "img": null
+          }
+        },
+        {
+          "tag_class": "tag-industry",
+          "tag_label": "The Industry",
+          "headline": "Cotiviti moved coordination-of-benefits determination to enrollment, ahead of any claim",
+          "source": "Cotiviti · August 13, 2026",
+          "summary": "Cotiviti launched Proactive COB, which applies AI to identify other health insurance and determine the correct benefit order at member enrollment — before any claim is submitted, rather than recovering errors afterward. The release names Naomi Murphy, J.D., executive vice president of data mining and COB, and states Cotiviti’s customers collectively serve over 300 million members and patients — the reach of Cotiviti’s overall customer base, not a claim of adoption for this specific product. No pricing, customer count or accuracy rate is disclosed for Proactive COB itself. The shift is timing, not just automation: an AI-derived coverage determination now sits at the enrollment record rather than at the claim.",
+          "why": "The coverage determination now happens at enrollment, before any claim exists. An error there sets the member’s benefit order instead of surfacing in a payment review.",
+          "url": "https://www.businesswire.com/news/home/20260813788823/en/Cotiviti-Introduces-AI-Enabled-Proactive-COB-To-Resolve-Coordination-of-Benefits-Issues-at-Enrollment",
+          "link_label": "Read at Cotiviti",
+          "img": null,
+          "landscape": {
+            "tag": "deal",
+            "t": "curious",
+            "t2": null,
+            "src_short": "Cotiviti · Aug 13",
+            "gloss": "Cotiviti moved AI-driven coordination-of-benefits determination to enrollment, ahead of any claim — shifting where an error first surfaces.",
+            "img": null
+          }
+        },
+        {
+          "tag_class": "tag-industry",
+          "tag_label": "The Industry",
+          "headline": "Cedar launched an agentic platform that answers and places patient billing calls, with an opt-out and human-routing rule stated in the release",
+          "source": "Cedar · August 13, 2026",
+          "summary": "Cedar launched its \"Kora Platform,\" which orchestrates AI agents across voice and digital channels to handle inbound and outbound patient billing contact — verifying patients, running real-time eligibility checks, taking payments, resolving coordination-of-benefits questions and enrolling patients in Medicaid. The release states that automated decisions follow documented safeguards, that patients can opt out, and that anything clinical or out of scope routes straight to a human. Cedar says the platform operates under HITRUST and PCI DSS independent audits. Named: Dugan Winkie, Cedar’s chief strategy officer, and Tennille Lizarraga, chief revenue cycle officer at ApolloMD, an early customer. The release also reports several performance figures — all issuer-scoped, with no denominator and no independent validation.",
+          "why": "The opt-out and human-routing commitments appear in the release itself. A customer contracting for the platform can hold the vendor to them.",
+          "url": "https://www.cedar.com/all-press/cedar-launches-agentic-platform-to-help-providers-collect-from-healthcares-fastest-growing-payer-patients",
+          "link_label": "Read at Cedar",
+          "img": null,
+          "landscape": {
+            "tag": "deal",
+            "t": "curious",
+            "t2": null,
+            "src_short": "Cedar · Aug 13",
+            "gloss": "Cedar’s new AI billing agent can enroll patients in Medicaid and place outbound calls about money — with the vendor’s own opt-out and human-routing rule written into the release.",
+            "img": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "academy",
+      "title": "Bioethics and the Academy",
+      "pill": "Bioethics and\nthe Academy",
+      "cards": [
+        {
+          "tag_class": "tag-academy",
+          "tag_label": "Bioethics and the Academy",
+          "headline": "Federal research-misconduct guidance recommends against detection-tool output as sole evidence",
+          "source": "HHS Office of Research Integrity · August 14, 2026",
+          "summary": "The Office of Research Integrity issued guidance Aug. 14 applying the federal research-misconduct rule to generative AI, prompted by the September 2024 revision of 42 C.F.R. Part 93. The standard is unchanged: a significant departure from accepted practices, committed intentionally, knowingly or recklessly, proven by a preponderance of the evidence. Output from tools that detect data manipulation or plagiarism may be evidence, the guidance says, but ORI \"recommends against relying on such tools as the sole source of evidence during a research misconduct proceeding.\" The document is marked nonbinding and reaches only research funded by the Public Health Service.",
+          "why": "A federal body has stated an evidentiary position on detection output in a misconduct proceeding. The tools it names detect data manipulation and plagiarism, not AI authorship.",
+          "url": "https://ori.hhs.gov/sites/default/files/2026-08/ORI%20Generative%20Artificial%20Intelligence%20Guidance_final.pdf",
+          "link_label": "Read at ORI",
+          "img": null,
+          "landscape": {
+            "tag": "policy",
+            "t": "f2",
+            "t2": null,
+            "src_short": "ORI · Aug 14",
+            "gloss": "New federal guidance says detection-tool output may be evidence of research misconduct but recommends against relying on it alone.",
+            "img": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "cache",
+      "title": "The Cache",
+      "pill": "The\nCache",
+      "cards": [
+        {
+          "tag_class": "tag-cache",
+          "tag_label": "The Cache",
+          "headline": "An identifiability theorem gives a model-intrinsic mathematical fingerprint an error bar — and proves it isn’t what interpretability can read",
+          "source": "arXiv · August 10, 2026",
+          "summary": "Methods that extract a model’s internal \"circuits\" recover different features depending on random seed and width, with no theory saying whether that variability is real or an artifact. Treating a forward pass as a dynamical system with depth as time, the authors apply the Koopman operator and prove its spectrum is recoverable at a convergence rate confirmed across three language models — the first identifiability theorem for a mechanistic-interpretability primitive, they say, with a matching lower bound. The method loses to a simpler technique on one benchmark task, a gap their own theorem predicts. \"The identifiable object and the legible object are not the same object.\"",
+          "why": "The proof separates what can be verified about a model’s internals from what can be read out of them. Vendor interpretability claims sit on the second side.",
+          "url": "https://arxiv.org/abs/2608.10172",
+          "link_label": "Read at arXiv",
+          "img": null,
+          "landscape": {
+            "tag": "study",
+            "t": "curious",
+            "t2": null,
+            "src_short": "arXiv · Aug 10",
+            "gloss": "A new theorem proves a mathematical fingerprint of a model’s internals is provably identifiable — and provably not the same as what can actually be read.",
+            "img": null
+          }
+        },
+        {
+          "tag_class": "tag-cache",
+          "tag_label": "The Cache",
+          "headline": "A Bayesian method infers which causal structures could produce an unusually large observed effect",
+          "source": "arXiv · August 12, 2026",
+          "summary": "Rather than inferring a causal graph from data alone, the method starts from a stated event — a particularly large causal effect, observed or hypothesized — and targets the posterior over causal graphs and parameters conditional on it. The authors cast this explicitly as a Bayesian inference problem. Existing Bayesian approaches struggle when the conditioning event carries little posterior mass, so the authors adapt techniques from rare-event estimation, driving a population of particles toward the constrained region while keeping samples that approximate the conditional posterior. Evaluation runs on synthetic graphs, with a case study on the Sachs protein dataset producing pathway-level summaries. Accepted to UAI 2026, a peer-reviewed conference meeting this week in Amsterdam.",
+          "why": "It formalizes the question an investigation asks: given that this effect occurred, which structures could have produced it. The answer is a posterior over graphs, not one explanation.",
+          "url": "https://arxiv.org/abs/2608.12640",
+          "link_label": "Read at arXiv",
+          "img": null,
+          "landscape": {
+            "tag": "study",
+            "t": "curious",
+            "t2": null,
+            "src_short": "arXiv · Aug 12",
+            "gloss": "A Bayesian method works backward from an unusually large observed effect to a posterior over the causal structures that could have produced it.",
+            "img": null
+          }
+        }
+      ]
+    }
+  ]
+}
