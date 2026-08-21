@@ -1,8 +1,9 @@
 {
  "schema_version": 1,
- "current_edition": 1,
+ "current_edition": 2,
  "edition_dates": {
-  "1": "August 15"
+  "1": "August 15",
+  "2": "August 21"
  },
  "active_threads": [
   "f1",
@@ -137,6 +138,126 @@
    "t": "curious",
    "s": "Chlorine-36 dating of five moraine boulders in Slovenia fixes the local LGM at 19.5 ka; no ice-sheet simulation reproduces the mapped extent.",
    "url": "https://doi.org/10.1111/bor.70081",
+   "img": null
+  },
+  {
+   "id": "e2c1",
+   "ed": 2,
+   "sec": "The Field",
+   "tag": "study",
+   "h": "A new scoring instrument grades what national AI-regulation portfolios actually contain, not just their headline law",
+   "src": "arXiv · Aug 15",
+   "t": "f1",
+   "s": "A scored instrument compares national AI-policy portfolios provision by provision — what a country’s rules actually say, not just its flagship law.",
+   "url": "https://arxiv.org/abs/2608.15417",
+   "img": null
+  },
+  {
+   "id": "e2c2",
+   "ed": 2,
+   "sec": "Enforcement and Rulemaking",
+   "tag": "policy",
+   "h": "A final rule gives DOJ’s new fraud division health care jurisdiction, but not False Claims Act authority",
+   "src": "Federal Register · Aug 18",
+   "t": "f2",
+   "s": "A final rule gives DOJ’s new fraud division criminal health care jurisdiction and a civil remedy tethered to it — but no False Claims Act authority.",
+   "url": "https://www.federalregister.gov/documents/2026/08/18/2026-16846/establishing-the-national-fraud-enforcement-division",
+   "img": null
+  },
+  {
+   "id": "e2c3",
+   "ed": 2,
+   "sec": "Enforcement and Rulemaking",
+   "tag": "report",
+   "h": "OIG asks whether AI should be built to catch AI-generated Medicare fraud, against a reported $2.1 billion suspended in year one",
+   "src": "HHS-OIG · Aug 17",
+   "t": "f2",
+   "s": "OIG floats exploring AI to catch AI-generated physician orders, against a CMS-reported $2.1 billion suspended in fraudulent DME payments in year one.",
+   "url": "https://oig.hhs.gov/documents/evaluation/11855/OEI-02-24-00311.pdf",
+   "img": null
+  },
+  {
+   "id": "e2c4",
+   "ed": 2,
+   "sec": "Enforcement and Rulemaking",
+   "tag": "ruling",
+   "h": "OCR settled a five-year-old ransomware breach for $552,250 over a risk analysis that was never done",
+   "src": "OCR · Jul 1",
+   "t": "f2",
+   "s": "OCR settled a five-year-old ransomware breach for $552,250, citing a risk analysis that was never done and notification that came too late.",
+   "url": "https://www.hhs.gov/hipaa/for-professionals/compliance-enforcement/agreements/ra-cap-with-osf-healthcare-system/index.html",
+   "img": null
+  },
+  {
+   "id": "e2c5",
+   "ed": 2,
+   "sec": "The Industry",
+   "tag": "deal",
+   "h": "Universal Health Services closed its $835 million acquisition of Talkspace, forming a virtual-to-inpatient behavioral health network",
+   "src": "UHS · Aug 17",
+   "t": "curious",
+   "s": "UHS closed its $835 million Talkspace acquisition, spanning virtual to inpatient behavioral care under one company — with an AI tool’s HIPAA claim resting on the acquirer’s own word.",
+   "url": "https://ir.uhs.com/news-releases/news-release-details/universal-health-services-inc-completes-acquisition-talkspace",
+   "img": null
+  },
+  {
+   "id": "e2c6",
+   "ed": 2,
+   "sec": "The Industry",
+   "tag": "deal",
+   "h": "Cotiviti moved coordination-of-benefits determination to enrollment, ahead of any claim",
+   "src": "Cotiviti · Aug 13",
+   "t": "curious",
+   "s": "Cotiviti moved AI-driven coordination-of-benefits determination to enrollment, ahead of any claim — shifting where an error first surfaces.",
+   "url": "https://www.businesswire.com/news/home/20260813788823/en/Cotiviti-Introduces-AI-Enabled-Proactive-COB-To-Resolve-Coordination-of-Benefits-Issues-at-Enrollment",
+   "img": null
+  },
+  {
+   "id": "e2c7",
+   "ed": 2,
+   "sec": "The Industry",
+   "tag": "deal",
+   "h": "Cedar launched an agentic platform that answers and places patient billing calls, with an opt-out and human-routing rule stated in the release",
+   "src": "Cedar · Aug 13",
+   "t": "curious",
+   "s": "Cedar’s new AI billing agent can enroll patients in Medicaid and place outbound calls about money — with the vendor’s own opt-out and human-routing rule written into the release.",
+   "url": "https://www.cedar.com/all-press/cedar-launches-agentic-platform-to-help-providers-collect-from-healthcares-fastest-growing-payer-patients",
+   "img": null
+  },
+  {
+   "id": "e2c8",
+   "ed": 2,
+   "sec": "Bioethics and the Academy",
+   "tag": "policy",
+   "h": "Federal research-misconduct guidance recommends against detection-tool output as sole evidence",
+   "src": "ORI · Aug 14",
+   "t": "f2",
+   "s": "New federal guidance says detection-tool output may be evidence of research misconduct but recommends against relying on it alone.",
+   "url": "https://ori.hhs.gov/sites/default/files/2026-08/ORI%20Generative%20Artificial%20Intelligence%20Guidance_final.pdf",
+   "img": null
+  },
+  {
+   "id": "e2c9",
+   "ed": 2,
+   "sec": "The Cache",
+   "tag": "study",
+   "h": "An identifiability theorem gives a model-intrinsic mathematical fingerprint an error bar — and proves it isn’t what interpretability can read",
+   "src": "arXiv · Aug 10",
+   "t": "curious",
+   "s": "A new theorem proves a mathematical fingerprint of a model’s internals is provably identifiable — and provably not the same as what can actually be read.",
+   "url": "https://arxiv.org/abs/2608.10172",
+   "img": null
+  },
+  {
+   "id": "e2c10",
+   "ed": 2,
+   "sec": "The Cache",
+   "tag": "study",
+   "h": "A Bayesian method infers which causal structures could produce an unusually large observed effect",
+   "src": "arXiv · Aug 12",
+   "t": "curious",
+   "s": "A Bayesian method works backward from an unusually large observed effect to a posterior over the causal structures that could have produced it.",
+   "url": "https://arxiv.org/abs/2608.12640",
    "img": null
   }
  ]
