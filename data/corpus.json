@@ -1,9 +1,10 @@
 {
  "schema_version": 1,
- "current_edition": 2,
+ "current_edition": 3,
  "edition_dates": {
   "1": "August 15",
-  "2": "August 21"
+  "2": "August 21",
+  "3": "August 28"
  },
  "active_threads": [
   "f1",
@@ -258,6 +259,114 @@
    "t": "curious",
    "s": "A Bayesian method works backward from an unusually large observed effect to a posterior over the causal structures that could have produced it.",
    "url": "https://arxiv.org/abs/2608.12640",
+   "img": null
+  },
+  {
+   "id": "e3c1",
+   "ed": 3,
+   "sec": "The Field",
+   "tag": "report",
+   "h": "A software engineer running 50 AI agents found they had built themselves a constitution, courts and 450 legal artifacts",
+   "src": "yegge.ai · Aug 24",
+   "t": "f3",
+   "s": "A software engineer audited what his 50 AI agents had built to coordinate themselves and found a constitution, case law and 450 legal artifacts.",
+   "url": "https://yegge.ai/essays/fences-not-sandboxes/",
+   "img": null
+  },
+  {
+   "id": "e3c2",
+   "ed": 3,
+   "sec": "The Field",
+   "tag": "policy",
+   "h": "FDA lets authorized AI devices update themselves after clearance and publishes no list of which ones carry that authority",
+   "src": "FDA · Aug 2025",
+   "t": "f2",
+   "s": "FDA lets AI-enabled devices update themselves under pre-authorized change plans and publishes no list of which cleared devices carry that authority.",
+   "url": "https://www.fda.gov/media/166704/download",
+   "img": null
+  },
+  {
+   "id": "e3c3",
+   "ed": 3,
+   "sec": "The Field",
+   "tag": "report",
+   "h": "Bill Gates proposes new national and international AI institutions, a “Human Reserved” job category, and a tax on AI tokens and robots",
+   "src": "Gates Notes · Aug 26",
+   "t": "curious",
+   "s": "Gates proposes new national and international AI-governance institutions, a “Human Reserved” job category, and a tax on AI tokens and robots.",
+   "url": "https://www.gatesnotes.com/a-turbulent-ai-era-and-critical-choices-to-make",
+   "img": null
+  },
+  {
+   "id": "e3c4",
+   "ed": 3,
+   "sec": "Enforcement and Rulemaking",
+   "tag": "ruling",
+   "h": "A $541.5 million Medicare Advantage settlement turns on record amendments the rendering provider did not initiate",
+   "src": "DOJ · Aug 26",
+   "t": "f2",
+   "s": "A $541.5 million Medicare Advantage settlement turns on diagnosis codes resting on record amendments the rendering provider did not initiate.",
+   "url": "https://www.justice.gov/opa/pr/villages-health-system-llc-agrees-5415m-settlement-resolve-false-claims-act-allegations",
+   "img": null
+  },
+  {
+   "id": "e3c5",
+   "ed": 3,
+   "sec": "Enforcement and Rulemaking",
+   "tag": "ruling",
+   "h": "A Justice Department skin-cancer test settlement resolves into an allowed bankruptcy claim rather than a payment",
+   "src": "DOJ · Aug 26",
+   "t": "f2",
+   "s": "A False Claims Act settlement resolves into an allowed $5,038,011 bankruptcy claim, not a payment, and does not bind the company that bought the assets.",
+   "url": "https://www.justice.gov/opa/pr/dermtech-inc-pay-5m-resolve-allegations-it-submitted-false-claims-medicare-unreliable-skin",
+   "img": null
+  },
+  {
+   "id": "e3c6",
+   "ed": 3,
+   "sec": "Enforcement and Rulemaking",
+   "tag": "ruling",
+   "h": "OCR settled a two-year records delay for $50,000 and announced it only by posting the agreement",
+   "src": "OCR · Aug 27",
+   "t": "f2",
+   "s": "OCR resolved a two-year right-of-access delay for $50,000 and a two-year corrective action plan, posted without a press release.",
+   "url": "https://www.hhs.gov/hipaa/for-professionals/compliance-enforcement/agreements/ra-cap-with-azul-vision/index.html",
+   "img": null
+  },
+  {
+   "id": "e3c7",
+   "ed": 3,
+   "sec": "Bioethics and the Academy",
+   "tag": "policy",
+   "h": "Berkeley Law’s AI policy makes a citation to a nonexistent source raise a presumption of prohibited AI use",
+   "src": "Berkeley Law · Summer 2026",
+   "t": "f1",
+   "s": "Berkeley Law’s AI policy makes a citation to a nonexistent source raise a presumption of prohibited AI use, with no rebuttal standard stated.",
+   "url": "https://www.law.berkeley.edu/wp-content/uploads/2026/05/AI-Final-Policy-26.pdf",
+   "img": null
+  },
+  {
+   "id": "e3c8",
+   "ed": 3,
+   "sec": "Bioethics and the Academy",
+   "tag": "policy",
+   "h": "Washington State University canceled its AI detection tool after a third of AI-allegation hearings ended in no-fault findings",
+   "src": "WSU Provost · Feb 11",
+   "t": "f1",
+   "s": "A university canceled its AI detection tool after a third of its AI-allegation hearings ended in no-fault findings on detection-only evidence.",
+   "url": "https://provost.wsu.edu/documents/2026/02/cancellation-of-turnitin-ai-detection-software_memo-to-instructors_provost-office_spring-2026.pdf/",
+   "img": null
+  },
+  {
+   "id": "e3c9",
+   "ed": 3,
+   "sec": "The Cache",
+   "tag": "study",
+   "h": "Two papers recover what a transformer implicitly believes, then steer it by optimizing that belief",
+   "src": "arXiv · Jul 19–21",
+   "t": "curious",
+   "s": "Two papers recover a transformer’s implicit prior and posterior from its outputs alone, then steer it by optimizing that recovered belief.",
+   "url": "https://arxiv.org/abs/2607.17060",
    "img": null
   }
  ]
