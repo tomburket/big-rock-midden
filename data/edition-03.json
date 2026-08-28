@@ -1,0 +1,206 @@
+{
+  "edition": 3,
+  "date_long": "August 28, 2026",
+  "topics": "Agentic governance · Medicare Advantage self-disclosure · HIPAA right of access · AI device change control · Evidence standards in AI adjudication · Bayesian interpretability",
+  "sections": [
+    {
+      "id": "field",
+      "title": "The Field",
+      "pill": "The\nField",
+      "cards": [
+        {
+          "tag_class": "tag-field",
+          "tag_label": "The Field",
+          "headline": "A software engineer running 50 AI agents found they had built themselves a constitution, courts and 450 legal artifacts",
+          "source": "yegge.ai · August 24, 2026",
+          "summary": "Steve Yegge, a Seattle-based software engineer, published a first-person account of running 50 to 60 AI agents on his video game project. Inspecting what the agents had built to coordinate themselves, he found a legal system rather than an engineering one: a constitution, offices, case law, registries and 450 catalogued legal artifacts, including more than 100 “fences” — mechanisms that refuse an action for lack of credentials or policy. Rules move through a documented lifecycle from custom to advisory to written law to mechanical enforcement, and changes require ratification before taking effect. Yegge writes that law is the only mature technology for coordinating replaceable strangers through text. The account is self-reported and unaudited.",
+          "why": "Yegge forecasts the same pattern at ordinary companies as model costs fall, with each organization needing rules written for itself rather than a system it can adopt.",
+          "url": "https://yegge.ai/essays/fences-not-sandboxes/",
+          "link_label": "Read at yegge.ai",
+          "img": null,
+          "landscape": {
+            "tag": "report",
+            "t": "f3",
+            "t2": null,
+            "src_short": "yegge.ai · Aug 24",
+            "gloss": "A software engineer audited what his 50 AI agents had built to coordinate themselves and found a constitution, case law and 450 legal artifacts.",
+            "img": null
+          }
+        },
+        {
+          "tag_class": "tag-field",
+          "tag_label": "The Field",
+          "headline": "FDA lets authorized AI devices update themselves after clearance and publishes no list of which ones carry that authority",
+          "source": "U.S. Food and Drug Administration · Guidance last revised August 18, 2025",
+          "summary": "FDA’s Predetermined Change Control Plan guidance, final since December 2024 and last revised August 18, 2025, lets a manufacturer specify in advance how an AI-enabled device may be modified after authorization, so approved changes can be made without a new submission. No FDA list, count or dashboard identifies which cleared devices carry that authority: the agency’s AI-Enabled Medical Devices list, last modified June 16, 2026, carries six columns — decision date, submission number, device, company, panel and product code — and no field for the plans. FDA describes that list as not comprehensive. The only public tally is an attorney’s search of clearance letters, updated August 21 and self-described as incomplete.",
+          "why": "A device authorized to update itself after clearance is not described by its clearance record. No public source identifies which devices hold that authorization.",
+          "url": "https://www.fda.gov/media/166704/download",
+          "link_label": "Read at FDA",
+          "img": null,
+          "landscape": {
+            "tag": "policy",
+            "t": "f2",
+            "t2": null,
+            "src_short": "FDA · Aug 2025",
+            "gloss": "FDA lets AI-enabled devices update themselves under pre-authorized change plans and publishes no list of which cleared devices carry that authority.",
+            "img": null
+          }
+        },
+        {
+          "tag_class": "tag-field",
+          "tag_label": "The Field",
+          "headline": "Bill Gates proposes new national and international AI institutions, a “Human Reserved” job category, and a tax on AI tokens and robots",
+          "source": "Gates Notes · August 26, 2026",
+          "summary": "Bill Gates published an essay arguing the AI transition will be “one of the most turbulent times in human history” and proposing three responses. The specifics: a cross-agency national framework and a new international AI organization drawing on nuclear inspections, aviation regulation and the ozone agreements; a category of work deliberately kept human, which he names “Human Reserved”; and a tax on AI tokens and robots to offset falling payroll revenue. He cites Stanford employment data on young workers in AI-exposed occupations, calls Pope Leo XIV’s May encyclical “a strong foundation,” and promises detailed follow-ups beginning with next month’s Goalkeepers report. The data are his citations, and the proposals carry no implementation detail.",
+          "why": "Gates Notes is Bill Gates’s personal website, where he writes about what he is learning and working on. He says he will now write about AI regularly.",
+          "url": "https://www.gatesnotes.com/a-turbulent-ai-era-and-critical-choices-to-make",
+          "link_label": "Read at Gates Notes",
+          "img": null,
+          "landscape": {
+            "tag": "report",
+            "t": "curious",
+            "t2": null,
+            "src_short": "Gates Notes · Aug 26",
+            "gloss": "Gates proposes new national and international AI-governance institutions, a “Human Reserved” job category, and a tax on AI tokens and robots.",
+            "img": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "enforcement",
+      "title": "Enforcement and Rulemaking",
+      "pill": "Enforcement\nand Rulemaking",
+      "cards": [
+        {
+          "tag_class": "tag-enforce",
+          "tag_label": "Enforcement and Rulemaking",
+          "headline": "A $541.5 million Medicare Advantage settlement turns on record amendments the rendering provider did not initiate",
+          "source": "U.S. Department of Justice · August 26, 2026",
+          "summary": "The Villages Health System LLC, a Florida primary-care provider, agreed on Aug. 26 to pay $541.5 million over Medicare Advantage diagnosis codes. Some codes rested on amendments to a patient’s medical record that were “not initiated by the rendering provider and were not timely or were not approved by the rendering provider”; others had no adequate record support. The conduct ran 2020 through 2024, and Humana, UnitedHealthcare entities and Florida Blue are returning the overpayments to CMS. The Justice Department calls the allegations self-disclosed, submitted under the HHS inspector general’s protocol. The company filed for Chapter 11 in July 2025; the bankruptcy court approved the settlement Aug. 25.",
+          "why": "The alleged defect is in who amended the medical record and when, rather than in the diagnosis a code reports.",
+          "url": "https://www.justice.gov/opa/pr/villages-health-system-llc-agrees-5415m-settlement-resolve-false-claims-act-allegations",
+          "link_label": "Read at justice.gov",
+          "img": null,
+          "landscape": {
+            "tag": "ruling",
+            "t": "f2",
+            "t2": null,
+            "src_short": "DOJ · Aug 26",
+            "gloss": "A $541.5 million Medicare Advantage settlement turns on diagnosis codes resting on record amendments the rendering provider did not initiate.",
+            "img": null
+          }
+        },
+        {
+          "tag_class": "tag-enforce",
+          "tag_label": "Enforcement and Rulemaking",
+          "headline": "A Justice Department skin-cancer test settlement resolves into an allowed bankruptcy claim rather than a payment",
+          "source": "U.S. Department of Justice · August 26, 2026",
+          "summary": "The Justice Department announced Aug. 26 that it settled a whistleblower suit against DermTech Inc., a skin-cancer testing company now liquidating in Chapter 11 as DTech Liquidating Inc. What the United States received is an Allowed Class Three General Unsecured Claim of $5,038,011 in the bankruptcy — a claim against the estate, not a payment, which is why the department’s own headline reads “up to $5M.” The suit alleged DermTech billed Medicare for melanoma-marker tests run against an unvalidated positive control and for tests with too little patient RNA to be tested. The claims do not reach DermTech LLC, which bought the assets in 2024. The allegations were not adjudicated.",
+          "why": "The recovery depends on what a liquidating estate distributes, and the purchaser of the assets is not bound by the settlement.",
+          "url": "https://www.justice.gov/opa/pr/dermtech-inc-pay-5m-resolve-allegations-it-submitted-false-claims-medicare-unreliable-skin",
+          "link_label": "Read at justice.gov",
+          "img": null,
+          "landscape": {
+            "tag": "ruling",
+            "t": "f2",
+            "t2": null,
+            "src_short": "DOJ · Aug 26",
+            "gloss": "A False Claims Act settlement resolves into an allowed $5,038,011 bankruptcy claim, not a payment, and does not bind the company that bought the assets.",
+            "img": null
+          }
+        },
+        {
+          "tag_class": "tag-enforce",
+          "tag_label": "Enforcement and Rulemaking",
+          "headline": "OCR settled a two-year records delay for $50,000 and announced it only by posting the agreement",
+          "source": "HHS Office for Civil Rights · Posted August 27, 2026",
+          "summary": "The HHS Office for Civil Rights resolved a HIPAA right-of-access complaint with Azul Vision, Inc., a California eye-care practice with 31 clinics, for $50,000 and a two-year corrective action plan. A patient asked for her records on Jan. 9, 2023 and received them on Jan. 6, 2025; the complaint was filed that April. The plan requires revised policies within 30 days, access-request lists submitted to HHS every 90 days, annual attestations from an owner or officer, and six years of document retention. The agreement took effect Aug. 13 and appeared on OCR’s agreements index Aug. 27; no press release accompanied it. It is not an admission of liability.",
+          "why": "A two-year delay in producing one patient’s records produced a two-year corrective action plan reporting to HHS every 90 days.",
+          "url": "https://www.hhs.gov/hipaa/for-professionals/compliance-enforcement/agreements/ra-cap-with-azul-vision/index.html",
+          "link_label": "Read at HHS",
+          "img": null,
+          "landscape": {
+            "tag": "ruling",
+            "t": "f2",
+            "t2": null,
+            "src_short": "OCR · Aug 27",
+            "gloss": "OCR resolved a two-year right-of-access delay for $50,000 and a two-year corrective action plan, posted without a press release.",
+            "img": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "academy",
+      "title": "Bioethics and the Academy",
+      "pill": "Bioethics and\nthe Academy",
+      "cards": [
+        {
+          "tag_class": "tag-academy",
+          "tag_label": "Bioethics and the Academy",
+          "headline": "Berkeley Law’s AI policy makes a citation to a nonexistent source raise a presumption of prohibited AI use",
+          "source": "UC Berkeley School of Law · Effective summer 2026",
+          "summary": "The University of California, Berkeley School of Law adopted an artificial-intelligence policy, effective for summer 2026, whose operative rule states that “citations to sources that do not exist will raise a presumption of prohibited AI use.” The policy specifies no rebuttal standard, no forum and no burden of proof for that presumption. A companion questions-and-answers page states the weaker proposition that a citation to cases that do not exist is “a strong indication” of AI use, and it is the Q&A, not the policy, that says such matters are handled like other student conduct violations. The policy originated at a May 6 faculty meeting and was posted later that month.",
+          "why": "A law school has written an evidentiary presumption into an academic rule without the procedural frame a presumption ordinarily carries.",
+          "url": "https://www.law.berkeley.edu/wp-content/uploads/2026/05/AI-Final-Policy-26.pdf",
+          "link_label": "Read at Berkeley Law",
+          "img": null,
+          "landscape": {
+            "tag": "policy",
+            "t": "f1",
+            "t2": null,
+            "src_short": "Berkeley Law · Summer 2026",
+            "gloss": "Berkeley Law’s AI policy makes a citation to a nonexistent source raise a presumption of prohibited AI use, with no rebuttal standard stated.",
+            "img": null
+          }
+        },
+        {
+          "tag_class": "tag-academy",
+          "tag_label": "Bioethics and the Academy",
+          "headline": "Washington State University canceled its AI detection tool after a third of AI-allegation hearings ended in no-fault findings",
+          "source": "Washington State University Office of the Provost · February 11, 2026",
+          "summary": "Washington State University’s Office of the Provost canceled its Turnitin AI detection software in a Feb. 11, 2026 memo to instructors, citing its own adjudication record. The memo states that between 2023 and 2025, 33 percent of Academic Integrity Hearing Board cases alleging inappropriate AI use ended in a finding of not responsible “because AI detection was submitted independent of any other supporting evidence.” It restates the rule that no AI detector may be the sole support for a misconduct case, and that suspicion of AI use is not sufficient for a finding. The memo gives no case count behind the percentage.",
+          "why": "An institution published the outcomes of its own AI-misconduct adjudications, and the outcomes are why it stopped using the tool.",
+          "url": "https://provost.wsu.edu/documents/2026/02/cancellation-of-turnitin-ai-detection-software_memo-to-instructors_provost-office_spring-2026.pdf/",
+          "link_label": "Read at WSU",
+          "img": null,
+          "landscape": {
+            "tag": "policy",
+            "t": "f1",
+            "t2": null,
+            "src_short": "WSU Provost · Feb 11",
+            "gloss": "A university canceled its AI detection tool after a third of its AI-allegation hearings ended in no-fault findings on detection-only evidence.",
+            "img": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "cache",
+      "title": "The Cache",
+      "pill": "The\nCache",
+      "cards": [
+        {
+          "tag_class": "tag-cache",
+          "tag_label": "The Cache",
+          "headline": "Two papers recover what a transformer implicitly believes, then steer it by optimizing that belief",
+          "source": "arXiv · July 19 and 21, 2026",
+          "summary": "Two papers from an overlapping group ask what a trained transformer has internalized about a latent task, and answer it without opening the model. The first shows that different internal posteriors can produce identical average predictions, so comparing predictions cannot identify a belief, and introduces a method that recovers the model’s implicit prior and posterior from next-token generation alone. It is tested on balls-and-urns, linear regression and Markov-chain families, with code and frozen artifacts released. The second steers generations by optimizing a prompt prefix against that recovered posterior, without backpropagating through the transformer. Both validate only on synthetic processes; no natural-language model is steered.",
+          "why": "The question is what a model believes, made answerable from its outputs alone rather than from access to its internals.",
+          "url": "https://arxiv.org/abs/2607.17060",
+          "link_label": "Read at arXiv",
+          "img": null,
+          "landscape": {
+            "tag": "study",
+            "t": "curious",
+            "t2": null,
+            "src_short": "arXiv · Jul 19–21",
+            "gloss": "Two papers recover a transformer’s implicit prior and posterior from its outputs alone, then steer it by optimizing that recovered belief.",
+            "img": null
+          }
+        }
+      ]
+    }
+  ]
+}
