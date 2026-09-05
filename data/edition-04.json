@@ -1,0 +1,206 @@
+{
+  "edition": 4,
+  "date_long": "September 4, 2026",
+  "topics": "AI compliance vocabulary · Medicare audits · Genetic data in bankruptcy · Clinical AI access · River geometry · Knitted switches",
+  "sections": [
+    {
+      "id": "field",
+      "title": "The Field",
+      "pill": "The\nField",
+      "cards": [
+        {
+          "tag_class": "tag-field",
+          "tag_label": "The Field",
+          "headline": "Engineers and lawyers mean different things by “accurate,” and European AI law requires both",
+          "source": "arXiv · August 31, 2026",
+          "summary": "The European Union’s AI Act requires that high-risk AI systems be “accurate,” and a new preprint argues the word has no shared meaning across the two professions that must apply it. Machine-learning researchers and lawyers, the authors write, use the term in ways that are sometimes contradictory. They lay out five tensions between the two readings — what accuracy is, what counts as performance, how far a result is valid, what it is for, and whether it is inherently statistical — and say the resulting frictions bear on compliance. The paper is conceptual, without a formal result, and is not peer reviewed.",
+          "why": "Compliance programs are increasingly asked to attest that AI systems are accurate. The paper says the word has no meaning yet that engineers and lawyers both accept.",
+          "url": "https://arxiv.org/abs/2608.31018",
+          "link_label": "Read at arXiv",
+          "img": null,
+          "landscape": {
+            "tag": "study",
+            "t": "f1",
+            "t2": null,
+            "src_short": "arXiv · Aug 31",
+            "gloss": "A preprint argues that machine-learning researchers and lawyers mean different things by “accuracy,” which the EU AI Act requires of high-risk systems.",
+            "img": null
+          }
+        },
+        {
+          "tag_class": "tag-field",
+          "tag_label": "The Field",
+          "headline": "A proposal to give every automated decision a receipt showing which reasons it was allowed to use",
+          "source": "arXiv · September 1, 2026",
+          "summary": "Two researchers at Işık University in Istanbul propose that a regulated company using an automated decision system publish, before deployment, a map of which factors it may decide on and which it may not, then attach to every individual decision a tamper-proof record showing the decision was checked against that map. A measure they call the Causal Harm Rate reports how much of a prediction came from off-limits factors. They built a working prototype and tested it mainly on 10,000 simulated credit applicants, with a smaller check on a standard public dataset, and released the code. No institution has adopted the approach; the paper describes itself as a proof of concept.",
+          "why": "Compliance programs document why a decision was made after the fact. This design puts the permitted reasons on the record before the system runs.",
+          "url": "https://arxiv.org/abs/2609.01040",
+          "link_label": "Read at arXiv",
+          "img": null,
+          "landscape": {
+            "tag": "study",
+            "t": "f1",
+            "t2": null,
+            "src_short": "arXiv · Sep 1",
+            "gloss": "Researchers propose that automated decisions carry a signed record showing which reasons they were allowed to use, and release a working prototype.",
+            "img": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "enforcement",
+      "title": "Enforcement and Rulemaking",
+      "pill": "Enforcement\nand Rulemaking",
+      "cards": [
+        {
+          "tag_class": "tag-enforce",
+          "tag_label": "Enforcement and Rulemaking",
+          "headline": "Auditors checked 180 transplant organs and found Medicare should not have paid for 55",
+          "source": "HHS Office of Inspector General · Posted September 3, 2026",
+          "summary": "Medicare paid transplant centers for organs never transplanted into Medicare patients because agency guidance told centers to count them, an inspector general audit posted Sept. 3 finds. Auditors sampled 180 organs at 12 centers and found 55 were not used in Medicare-covered transplants, worth $2.8 million; projected across 2017 to 2022, the same error cost somewhere between $220 million and $540 million, with a central estimate of $380 million. Federal law limits reimbursement to organs actually transplanted into Medicare beneficiaries; CMS guidance counts any organ removed and furnished as usable. CMS agreed to recover the only sum auditors could document, $154,210 at two centers lacking records, but declined to commit to rewriting its guidance.",
+          "why": "The report carries three figures at three levels of certainty. CMS accepted only the smallest, and nobody was asked to repay the headline number.",
+          "url": "https://oig.hhs.gov/documents/audit/11866/OAS-25-07-124.pdf",
+          "link_label": "Read at HHS-OIG",
+          "img": null,
+          "landscape": {
+            "tag": "report",
+            "t": "f2",
+            "t2": null,
+            "src_short": "HHS-OIG · Sep 3",
+            "gloss": "An OIG audit sampled 180 transplant organs, found 55 Medicare should not have paid for, and projected a six-year cost between $220 million and $540 million.",
+            "img": null
+          }
+        },
+        {
+          "tag_class": "tag-enforce",
+          "tag_label": "Enforcement and Rulemaking",
+          "headline": "Generic drugmakers kept a prescription-only label for nearly four years after the brand went over the counter, and Medicare paid $587.7 million",
+          "source": "HHS Office of Inspector General · Posted September 2, 2026",
+          "summary": "Medicare Part D paid $587.7 million over three years for five drugs that had gone over the counter, an inspector general audit posted Sept. 2 finds. FDA’s drug directory lists products as their manufacturers certify them each year, and when Voltaren and Pataday went over the counter on Feb. 14, 2020, their generic makers left the prescription-only label in place; it was still there at the end of 2023. Those two drugs were 99.9% of the total. CMS guidance says plans are “ultimately responsible” for coverage decisions, yet CMS never set a deadline for rejecting the claims. It accepted the audit’s one recommendation.",
+          "why": "The federal drug list is self-certified by the companies it lists, and plans relied on it. The lag ran from February 2020 to the end of 2023.",
+          "url": "https://oig.hhs.gov/documents/audit/11864/OAS-24-02-004.pdf",
+          "link_label": "Read at HHS-OIG",
+          "img": null,
+          "landscape": {
+            "tag": "report",
+            "t": "f2",
+            "t2": null,
+            "src_short": "HHS-OIG · Sep 2",
+            "gloss": "Generic makers left prescription-only labels in place for nearly four years after the brand went over the counter, and Medicare Part D paid $587.7 million.",
+            "img": null
+          }
+        },
+        {
+          "tag_class": "tag-enforce",
+          "tag_label": "Enforcement and Rulemaking",
+          "headline": "Forty-one states and D.C. signed the 23andMe settlement; California, suing on its own, had been barred from damages four days earlier",
+          "source": "Office of the New York Attorney General · July 14, 2026",
+          "summary": "Forty-one states and the District of Columbia signed a July 14 agreement in the 23andMe bankruptcy that recognizes a $150 million claim by the states but limits what they will collect to $18 million, divided among them; some announcements said 43, counting the announcing state twice. California, which sued 23andMe separately under its own genetic-privacy law in May, is not among them; on July 10 the bankruptcy judge barred it from seeking damages, ruling that as a party to the bankruptcy it had already had its chance to contest the court’s jurisdiction. The agreement binds the successor nonprofit that bought the genetic data and takes effect only on the judge’s approval, not yet confirmed.",
+          "why": "Genetic data changed hands through a bankruptcy, and the obligations followed it to the buyer. A state suing on its own was told it had missed its chance.",
+          "url": "https://ag.ny.gov/sites/default/files/settlements-agreements/chrome-holding-co-settlement-2026.pdf",
+          "link_label": "Read the stipulation at ag.ny.gov",
+          "img": null,
+          "landscape": {
+            "tag": "ruling",
+            "t": "f5",
+            "t2": null,
+            "src_short": "NY AG · Jul 14",
+            "gloss": "Forty-one states and D.C. signed the 23andMe bankruptcy settlement; California, suing separately, had been barred from damages four days earlier.",
+            "img": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "industry",
+      "title": "The Industry",
+      "pill": "The\nIndustry",
+      "cards": [
+        {
+          "tag_class": "tag-industry",
+          "tag_label": "The Industry",
+          "headline": "Hospitals can now plug their Epic patient records into ChatGPT; OpenAI has not said how long it keeps the data",
+          "source": "OpenAI · September 1, 2026",
+          "summary": "OpenAI said Sept. 1 that hospitals can connect their Epic records to ChatGPT for Healthcare, so a clinician can ask it what has changed since a patient’s last visit. Access is to “authorized patient information,” in OpenAI’s words, under a business associate agreement, the HIPAA contract that binds a vendor; trade coverage describes it as read-only. This is separate from the consumer product launched in January, in which patients connect their own records to ChatGPT. Pilot partners include UCSF Health, Cedars-Sinai, HCA Healthcare and Memorial Sloan Kettering. Epic has issued no statement, and OpenAI’s announcement does not say how long patient data is retained or whether any of it is used to train models.",
+          "why": "A business associate agreement puts the vendor inside HIPAA. Retention and training terms are what the agreement has to settle, and the announcement leaves both open.",
+          "url": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources/",
+          "link_label": "Read at OpenAI",
+          "img": null,
+          "landscape": {
+            "tag": "deal",
+            "t": "curious",
+            "t2": null,
+            "src_short": "OpenAI · Sep 1",
+            "gloss": "Hospitals can connect Epic records to ChatGPT for Healthcare under a HIPAA vendor contract; OpenAI has not said how long it retains the data.",
+            "img": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "cache",
+      "title": "The Cache",
+      "pill": "The\nCache",
+      "cards": [
+        {
+          "tag_class": "tag-cache",
+          "tag_label": "The Cache",
+          "headline": "Rivers gather water and deltas spread it, yet both follow one size rule on average; half the deltas break it partway down",
+          "source": "Quanta Magazine · August 10, 2026",
+          "summary": "A river network gathers water from a wide basin into one channel; a delta does the reverse, splitting one channel into many. A study in Science published April 30 finds both obey the same size rule: across about 30 deltas, channel length grows with the area it serves at the rate geologist John Hack measured for river basins in 1957. The sameness holds only on average, the authors say. Half the deltas break the pattern partway down, growing one way near the top and another toward the coast, and the reason is geometry rather than shared physics. A Quanta essay published Aug. 10 uses the finding to ask why rivers are so mathematical.",
+          "why": "One number describes networks that gather water and networks that spread it. The finding is that the shared number hides two kinds of delta.",
+          "url": "https://www.quantamagazine.org/why-are-rivers-so-mathematical-20260810/",
+          "link_label": "Read at Quanta",
+          "img": null,
+          "landscape": {
+            "tag": "study",
+            "t": "curious",
+            "t2": null,
+            "src_short": "Quanta · Aug 10",
+            "gloss": "River networks and delta networks follow the same size rule on average, and about half the deltas break it partway down.",
+            "img": null
+          }
+        },
+        {
+          "tag_class": "tag-cache",
+          "tag_label": "The Cache",
+          "headline": "A 1979 improv manual has become cult reading in tech",
+          "source": "The New York Times · August 30, 2026",
+          "summary": "Theatrical play is having a moment in Silicon Valley. Keith Johnstone’s 1979 acting guide “Impro” has become cult reading in tech, recommended to new hires at Palantir, the data-analysis company, while AI companies hire improvisers to train their models and to run motivational sessions for staff. The essay quotes Johnstone: “Those who say ‘Yes’ are rewarded by the adventures they have, and those who say ‘No’ are rewarded by the safety they attain.” It argues the same worldview treats reality as something people can shape, and that pushed far enough, misleading investors stops looking like lying and starts looking like building a new reality.",
+          "why": "Yes-sayers and no-sayers work in the same company. Compliance is the job that says no, and Johnstone’s line counts that as safety rather than adventure.",
+          "url": "https://www.nytimes.com/2026/08/30/opinion/silicon-valley-theater-improv.html",
+          "link_label": "Read at The New York Times",
+          "img": null,
+          "landscape": {
+            "tag": "report",
+            "t": "curious",
+            "t2": null,
+            "src_short": "NYT · Aug 30",
+            "gloss": "A 1979 improv manual has become cult reading in tech, and the essay closes on Johnstone’s yes-sayers and no-sayers.",
+            "img": null
+          }
+        },
+        {
+          "tag_class": "tag-cache",
+          "tag_label": "The Cache",
+          "headline": "Knit stretchy yarn a certain way and the fabric snaps between shapes and stays there",
+          "source": "Harvard SEAS · July 15, 2026",
+          "summary": "Machine-knitted fabric made with stretchy yarn, and with different yarns showing on its front and back, curls into a three-dimensional shape and can be made to snap between two or more shapes and stay put, the way a light switch rests up or down rather than springing back. Harvard engineers report the finding in Advanced Functional Materials, published online June 15 and announced by the school July 15. Combining horizontal and vertical stripes lets the cloth settle into more than one resting shape. Adding conductive yarn turns the snap into a switch: the team built a knee patch that counts steps and a lampshade whose colors change as sections are stretched and snapped.",
+          "why": "The snap comes from stresses the knitting itself builds into the cloth. The engineers’ own starting point was how textile artists think about structure.",
+          "url": "https://seas.harvard.edu/news/oh-snap-fabrics-multiple-stable-shapes",
+          "link_label": "Read at Harvard SEAS",
+          "img": null,
+          "landscape": {
+            "tag": "study",
+            "t": "curious",
+            "t2": null,
+            "src_short": "Harvard SEAS · Jul 15",
+            "gloss": "Machine-knitted fabric with stretchy yarn snaps between stable shapes and holds them, and Harvard engineers wired the snap as a switch.",
+            "img": null
+          }
+        }
+      ]
+    }
+  ]
+}
