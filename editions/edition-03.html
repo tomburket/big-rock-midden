@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+EDITION METADATA
+edition: 3
+date: August 28, 2026
+cards: 9
+sections: The Field, Enforcement and Rulemaking, Bioethics and the Academy, The Cache
+template_version: v1.0
+-->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>Big Rock Midden &middot; August 28, 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,300;0,400;0,600;1,300;1,400&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root {
+--ink: #14130f;
+--ink-mid: #2b2a24;
+--ink-light: #4f4d45;
+--ink-faint: #67655c;
+--rule: #c9c6ba;
+--rule-soft: #e6e3da;
+--accent: #2f4739;
+--accent-deep: #1d2e24;
+--bg: #f4f3ee;
+--card: #ffffff;
+--tag-field: #dfe4ee;      --tag-field-text: #2a3d63;
+--tag-enforce: #eddfdc;    --tag-enforce-text: #6e2b22;
+--tag-risk: #efe6d3;       --tag-risk-text: #6b4a12;
+--tag-industry: #d8e6e3;   --tag-industry-text: #1c4a44;
+--tag-academy: #e5dcea;    --tag-academy-text: #4a2c5c;
+--tag-cache: #e0e6d5;      --tag-cache-text: #3d4a22;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+background: var(--bg);
+color: var(--ink);
+font-family: 'Spectral', Georgia, serif;
+font-weight: 400;
+line-height: 1.65;
+-webkit-font-smoothing: antialiased;
+}
+
+/* ============================ masthead ============================ */
+
+.masthead {
+background: var(--accent-deep);
+color: #f4f3ec;
+padding: 34px 22px 26px;
+border-bottom: 3px solid var(--accent);
+}
+
+.masthead-inner { max-width: 47rem; margin: 0 auto; }
+
+.masthead-date {
+font-family: 'IBM Plex Sans', sans-serif;
+font-size: 12.5px;
+font-weight: 500;
+letter-spacing: 0.13em;
+text-transform: uppercase;
+color: #c6d8c9;
+padding-bottom: 12px;
+border-bottom: 1px solid rgba(157,179,164,0.28);
+margin-bottom: 16px;
+}
+
+.masthead-title {
+font-family: 'Spectral', Georgia, serif;
+font-weight: 400;
+font-size: 38px;
+line-height: 1.1;
+letter-spacing: -0.008em;
+color: #fbfaf5;
+}
+
+.masthead-rule {
+margin: 14px 0 12px;
+height: 0;
+border-top: 1px solid rgba(157,179,164,0.42);
+border-bottom: 3px double rgba(157,179,164,0.22);
+padding-bottom: 3px;
+}
+
+.masthead-meta {
+font-family: 'IBM Plex Sans', sans-serif;
+font-size: 14.5px;
+font-weight: 400;
+color: #cfdfd1;
+line-height: 1.5;
+}
+
+/* ========================= summary strip ========================== */
+
+.summary-strip {
+background: #26382d;
+padding: 15px 22px;
+display: flex;
+flex-wrap: wrap;
+gap: 26px;
+justify-content: center;
+}
+
+.summary-pill { text-align: center; min-width: 62px; }
+
+.summary-pill-num {
+font-family: 'Spectral', Georgia, serif;
+font-size: 26px;
+font-weight: 400;
+color: #f4f7ef;
+line-height: 1.1;
+}
+
+.summary-pill-label {
+font-family: 'IBM Plex Sans', sans-serif;
+font-size: 11px;
+font-weight: 500;
+letter-spacing: 0.09em;
+text-transform: uppercase;
+color: #c0d3c3;
+margin-top: 3px;
+line-height: 1.32;
+}
+
+/* ============================== nav =============================== */
+
+.section-nav {
+background: var(--card);
+border-bottom: 1px solid var(--rule);
+padding: 13px 22px;
+display: flex;
+flex-wrap: wrap;
+gap: 6px 20px;
+justify-content: center;
+font-family: 'IBM Plex Sans', sans-serif;
+font-size: 13.5px;
+font-weight: 500;
+letter-spacing: 0.04em;
+}
+
+.section-nav a {
+color: var(--ink-light);
+text-decoration: none;
+border-bottom: 1px solid transparent;
+padding-bottom: 2px;
+transition: color 0.14s, border-color 0.14s;
+}
+
+.section-nav a:hover { color: var(--accent); border-bottom-color: var(--accent); }
+
+/* ============================ content ============================= */
+
+.content { max-width: 47rem; margin: 0 auto; padding: 40px 22px 60px; }
+
+section { margin-bottom: 50px; }
+
+.section-header { display: flex; align-items: baseline; gap: 13px; }
+
+.section-number {
+font-family: 'IBM Plex Sans', sans-serif;
+font-size: 12.5px;
+font-weight: 600;
+letter-spacing: 0.09em;
+color: var(--ink-faint);
+}
+
+.section-title {
+font-family: 'Spectral', Georgia, serif;
+font-size: 24px;
+font-weight: 400;
+letter-spacing: 0.004em;
+color: var(--accent-deep);
+}
+
+/* stratification: three rules of decreasing weight, like a section cut */
+.section-rule {
+border: 0;
+height: 0;
+margin: 9px 0 26px;
+border-top: 2px solid var(--accent);
+border-bottom: 1px solid var(--rule);
+padding-bottom: 3px;
+position: relative;
+}
+
+.section-rule::after {
+content: "";
+position: absolute;
+left: 0; right: 0; top: 7px;
+border-top: 1px solid var(--rule-soft);
+}
+
+/* ============================= cards ============================== */
+
+.item-card {
+background: var(--card);
+border: 1px solid var(--rule);
+border-left: 3px solid var(--accent);
+padding: 23px 22px 20px;
+margin-bottom: 22px;
+}
+
+.item-header { margin-bottom: 11px; }
+
+.item-tag {
+display: inline-block;
+font-family: 'IBM Plex Sans', sans-serif;
+font-size: 11px;
+font-weight: 600;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+padding: 4px 10px;
+margin-bottom: 10px;
+background: var(--tag-field);
+color: var(--tag-field-text);
+}
+
+.tag-field    { background: var(--tag-field);    color: var(--tag-field-text); }
+.tag-enforce  { background: var(--tag-enforce);  color: var(--tag-enforce-text); }
+.tag-risk     { background: var(--tag-risk);     color: var(--tag-risk-text); }
+.tag-industry { background: var(--tag-industry); color: var(--tag-industry-text); }
+.tag-academy  { background: var(--tag-academy);  color: var(--tag-academy-text); }
+.tag-cache    { background: var(--tag-cache);    color: var(--tag-cache-text); }
+
+.item-headline {
+font-family: 'Spectral', Georgia, serif;
+font-size: 23px;
+font-weight: 600;
+line-height: 1.3;
+letter-spacing: -0.004em;
+color: var(--ink);
+}
+
+.item-source {
+font-family: 'IBM Plex Sans', sans-serif;
+font-size: 13.5px;
+font-weight: 400;
+color: var(--ink-faint);
+letter-spacing: 0.02em;
+margin-bottom: 13px;
+padding-bottom: 11px;
+border-bottom: 1px solid var(--rule-soft);
+}
+
+.item-summary { font-size: 19px; line-height: 1.68; color: var(--ink-mid); }
+
+.item-summary i, .item-summary em,
+.implication-text i, .implication-text em { font-style: italic; }
+
+.implication-block {
+margin-top: 17px;
+padding: 15px 17px;
+background: #f1f2ec;
+border-left: 2px solid var(--accent);
+}
+
+.implication-label {
+font-family: 'IBM Plex Sans', sans-serif;
+font-size: 11.5px;
+font-weight: 600;
+letter-spacing: 0.12em;
+text-transform: uppercase;
+color: var(--accent);
+margin-bottom: 6px;
+}
+
+.implication-text { font-size: 18px; line-height: 1.62; color: var(--ink-mid); }
+
+.item-link {
+display: inline-block;
+margin-top: 15px;
+font-family: 'IBM Plex Sans', sans-serif;
+font-size: 14px;
+font-weight: 500;
+letter-spacing: 0.02em;
+color: var(--accent);
+text-decoration: none;
+border-bottom: 1px solid var(--rule);
+padding-bottom: 1px;
+transition: border-color 0.14s;
+}
+
+.item-link:hover { border-bottom-color: var(--accent); }
+
+.back-to-top {
+display: block;
+text-align: center;
+font-family: 'IBM Plex Sans', sans-serif;
+font-size: 13.5px;
+letter-spacing: 0.04em;
+color: var(--ink-faint);
+text-decoration: none;
+margin-top: 34px;
+}
+
+.back-to-top:hover { color: var(--accent); }
+
+/* ============================= footer ============================= */
+
+.footer {
+background: var(--accent-deep);
+color: #cfdfd1;
+padding: 30px 22px 34px;
+text-align: center;
+font-family: 'IBM Plex Sans', sans-serif;
+font-size: 14px;
+line-height: 1.72;
+}
+
+.footer strong {
+font-family: 'Spectral', Georgia, serif;
+font-weight: 400;
+font-size: 18px;
+color: #f4f3ec;
+letter-spacing: 0.008em;
+}
+
+.footer-gloss {
+max-width: 30rem;
+margin: 11px auto 14px;
+font-family: 'Spectral', Georgia, serif;
+font-style: italic;
+font-weight: 400;
+font-size: 16.5px;
+line-height: 1.55;
+letter-spacing: 0.01em;
+color: #c6d8c9;
+}
+
+.footer a { color: #c3d4c6; text-decoration: none; border-bottom: 1px solid rgba(195,212,198,0.3); }
+.footer a:hover { border-bottom-color: #c3d4c6; }
+
+/* Small screens: the summary strip duplicates the masthead's entry count and
+   topic list verbatim, and at legible type it costs a full screen before the
+   first card. Drop it and tighten the nav so card one lands above the fold. */
+@media (max-width: 639px) {
+.summary-strip { display: none; }
+.section-nav {
+padding: 11px 16px;
+gap: 3px 16px;
+font-size: 13px;
+justify-content: flex-start;
+}
+.masthead { padding: 26px 22px 22px; }
+.masthead-title { font-size: 34px; }
+.content { padding: 28px 20px 52px; }
+.item-card { padding: 21px 19px 19px; }
+.item-headline { font-size: 21px; }
+section { margin-bottom: 40px; }
+}
+
+@media (min-width: 640px) {
+.masthead { padding: 46px 32px 34px; }
+.masthead-title { font-size: 52px; }
+.content { padding: 54px 30px 76px; }
+.item-card { padding: 32px 34px 28px; }
+.item-headline { font-size: 26px; }
+.item-summary { font-size: 20px; }
+.implication-text { font-size: 19px; }
+.section-title { font-size: 27px; }
+.masthead-meta { font-size: 15.5px; }
+}
+</style>
+</head>
+<body>
+
+<header class="masthead">
+<div class="masthead-inner">
+<div class="masthead-date">August 28, 2026 &middot; Edition No. 3</div>
+<div class="masthead-title">Big Rock Midden</div>
+<div class="masthead-rule"></div>
+<div class="masthead-meta">9 entries &middot; Agentic governance &middot; Medicare Advantage self-disclosure &middot; HIPAA right of access &middot; AI device change control &middot; Evidence standards in AI adjudication &middot; Bayesian interpretability</div>
+</div>
+</header>
+
+<div class="summary-strip" aria-label="Coverage summary">
+<div class="summary-pill"><div class="summary-pill-num">3</div><div class="summary-pill-label">The<br>Field</div></div>
+<div class="summary-pill"><div class="summary-pill-num">3</div><div class="summary-pill-label">Enforcement<br>and Rulemaking</div></div>
+<div class="summary-pill"><div class="summary-pill-num">2</div><div class="summary-pill-label">Bioethics and<br>the Academy</div></div>
+<div class="summary-pill"><div class="summary-pill-num">1</div><div class="summary-pill-label">The<br>Cache</div></div>
+</div>
+
+<nav class="section-nav">
+<a href="#field">The Field</a>
+<a href="#enforcement">Enforcement and Rulemaking</a>
+<a href="#academy">Bioethics and the Academy</a>
+<a href="#cache">The Cache</a>
+</nav>
+
+<main class="content">
+
+<!-- THE FIELD -->
+<section id="field">
+<div class="section-header"><span class="section-number">01</span><span class="section-title">The Field</span></div>
+<hr class="section-rule">
+
+<div class="item-card" id="c01">
+<div class="item-header">
+<span class="item-tag tag-field">The Field</span>
+<div class="item-headline">A software engineer running 50 AI agents found they had built themselves a constitution, courts and 450 legal artifacts</div>
+</div>
+<div class="item-source">yegge.ai &middot; August 24, 2026</div>
+<div class="item-summary">Steve Yegge, a Seattle-based software engineer, published a first-person account of running 50 to 60 AI agents on his video game project. Inspecting what the agents had built to coordinate themselves, he found a legal system rather than an engineering one: a constitution, offices, case law, registries and 450 catalogued legal artifacts, including more than 100 &ldquo;fences&rdquo; &mdash; mechanisms that refuse an action for lack of credentials or policy. Rules move through a documented lifecycle from custom to advisory to written law to mechanical enforcement, and changes require ratification before taking effect. Yegge writes that law is the only mature technology for coordinating replaceable strangers through text. The account is self-reported and unaudited.</div>
+<div class="implication-block">
+<div class="implication-label">Why it matters</div>
+<div class="implication-text">Yegge forecasts the same pattern at ordinary companies as model costs fall, with each organization needing rules written for itself rather than a system it can adopt.</div>
+</div>
+<a class="item-link" href="https://yegge.ai/essays/fences-not-sandboxes/" target="_blank" rel="noopener">Read at yegge.ai &#8599;</a>
+</div>
+<div class="item-card" id="c02">
+<div class="item-header">
+<span class="item-tag tag-field">The Field</span>
+<div class="item-headline">FDA lets authorized AI devices update themselves after clearance and publishes no list of which ones carry that authority</div>
+</div>
+<div class="item-source">U.S. Food and Drug Administration &middot; Guidance last revised August 18, 2025</div>
+<div class="item-summary">FDA&rsquo;s Predetermined Change Control Plan guidance, final since December 2024 and last revised August 18, 2025, lets a manufacturer specify in advance how an AI-enabled device may be modified after authorization, so approved changes can be made without a new submission. No FDA list, count or dashboard identifies which cleared devices carry that authority: the agency&rsquo;s AI-Enabled Medical Devices list, last modified June 16, 2026, carries six columns &mdash; decision date, submission number, device, company, panel and product code &mdash; and no field for the plans. FDA describes that list as not comprehensive. The only public tally is an attorney&rsquo;s search of clearance letters, updated August 21 and self-described as incomplete.</div>
+<div class="implication-block">
+<div class="implication-label">Why it matters</div>
+<div class="implication-text">A device authorized to update itself after clearance is not described by its clearance record. No public source identifies which devices hold that authorization.</div>
+</div>
+<a class="item-link" href="https://www.fda.gov/media/166704/download" target="_blank" rel="noopener">Read at FDA &#8599;</a>
+</div>
+<div class="item-card" id="c03">
+<div class="item-header">
+<span class="item-tag tag-field">The Field</span>
+<div class="item-headline">Bill Gates proposes new national and international AI institutions, a &ldquo;Human Reserved&rdquo; job category, and a tax on AI tokens and robots</div>
+</div>
+<div class="item-source">Gates Notes &middot; August 26, 2026</div>
+<div class="item-summary">Bill Gates published an essay arguing the AI transition will be &ldquo;one of the most turbulent times in human history&rdquo; and proposing three responses. The specifics: a cross-agency national framework and a new international AI organization drawing on nuclear inspections, aviation regulation and the ozone agreements; a category of work deliberately kept human, which he names &ldquo;Human Reserved&rdquo;; and a tax on AI tokens and robots to offset falling payroll revenue. He cites Stanford employment data on young workers in AI-exposed occupations, calls Pope Leo XIV&rsquo;s May encyclical &ldquo;a strong foundation,&rdquo; and promises detailed follow-ups beginning with next month&rsquo;s Goalkeepers report. The data are his citations, and the proposals carry no implementation detail.</div>
+<div class="implication-block">
+<div class="implication-label">Why it matters</div>
+<div class="implication-text">Gates Notes is Bill Gates&rsquo;s personal website, where he writes about what he is learning and working on. He says he will now write about AI regularly.</div>
+</div>
+<a class="item-link" href="https://www.gatesnotes.com/a-turbulent-ai-era-and-critical-choices-to-make" target="_blank" rel="noopener">Read at Gates Notes &#8599;</a>
+</div>
+</section>
+
+<!-- ENFORCEMENT AND RULEMAKING -->
+<section id="enforcement">
+<div class="section-header"><span class="section-number">02</span><span class="section-title">Enforcement and Rulemaking</span></div>
+<hr class="section-rule">
+
+<div class="item-card" id="c04">
+<div class="item-header">
+<span class="item-tag tag-enforce">Enforcement and Rulemaking</span>
+<div class="item-headline">A $541.5 million Medicare Advantage settlement turns on record amendments the rendering provider did not initiate</div>
+</div>
+<div class="item-source">U.S. Department of Justice &middot; August 26, 2026</div>
+<div class="item-summary">The Villages Health System LLC, a Florida primary-care provider, agreed on Aug. 26 to pay $541.5 million over Medicare Advantage diagnosis codes. Some codes rested on amendments to a patient&rsquo;s medical record that were &ldquo;not initiated by the rendering provider and were not timely or were not approved by the rendering provider&rdquo;; others had no adequate record support. The conduct ran 2020 through 2024, and Humana, UnitedHealthcare entities and Florida Blue are returning the overpayments to CMS. The Justice Department calls the allegations self-disclosed, submitted under the HHS inspector general&rsquo;s protocol. The company filed for Chapter 11 in July 2025; the bankruptcy court approved the settlement Aug. 25.</div>
+<div class="implication-block">
+<div class="implication-label">Why it matters</div>
+<div class="implication-text">The alleged defect is in who amended the medical record and when, rather than in the diagnosis a code reports.</div>
+</div>
+<a class="item-link" href="https://www.justice.gov/opa/pr/villages-health-system-llc-agrees-5415m-settlement-resolve-false-claims-act-allegations" target="_blank" rel="noopener">Read at justice.gov &#8599;</a>
+</div>
+<div class="item-card" id="c05">
+<div class="item-header">
+<span class="item-tag tag-enforce">Enforcement and Rulemaking</span>
+<div class="item-headline">A Justice Department skin-cancer test settlement resolves into an allowed bankruptcy claim rather than a payment</div>
+</div>
+<div class="item-source">U.S. Department of Justice &middot; August 26, 2026</div>
+<div class="item-summary">The Justice Department announced Aug. 26 that it settled a whistleblower suit against DermTech Inc., a skin-cancer testing company now liquidating in Chapter 11 as DTech Liquidating Inc. What the United States received is an Allowed Class Three General Unsecured Claim of $5,038,011 in the bankruptcy &mdash; a claim against the estate, not a payment, which is why the department&rsquo;s own headline reads &ldquo;up to $5M.&rdquo; The suit alleged DermTech billed Medicare for melanoma-marker tests run against an unvalidated positive control and for tests with too little patient RNA to be tested. The claims do not reach DermTech LLC, which bought the assets in 2024. The allegations were not adjudicated.</div>
+<div class="implication-block">
+<div class="implication-label">Why it matters</div>
+<div class="implication-text">The recovery depends on what a liquidating estate distributes, and the purchaser of the assets is not bound by the settlement.</div>
+</div>
+<a class="item-link" href="https://www.justice.gov/opa/pr/dermtech-inc-pay-5m-resolve-allegations-it-submitted-false-claims-medicare-unreliable-skin" target="_blank" rel="noopener">Read at justice.gov &#8599;</a>
+</div>
+<div class="item-card" id="c06">
+<div class="item-header">
+<span class="item-tag tag-enforce">Enforcement and Rulemaking</span>
+<div class="item-headline">OCR settled a two-year records delay for $50,000 and announced it only by posting the agreement</div>
+</div>
+<div class="item-source">HHS Office for Civil Rights &middot; Posted August 27, 2026</div>
+<div class="item-summary">The HHS Office for Civil Rights resolved a HIPAA right-of-access complaint with Azul Vision, Inc., a California eye-care practice with 31 clinics, for $50,000 and a two-year corrective action plan. A patient asked for her records on Jan. 9, 2023 and received them on Jan. 6, 2025; the complaint was filed that April. The plan requires revised policies within 30 days, access-request lists submitted to HHS every 90 days, annual attestations from an owner or officer, and six years of document retention. The agreement took effect Aug. 13 and appeared on OCR&rsquo;s agreements index Aug. 27; no press release accompanied it. It is not an admission of liability.</div>
+<div class="implication-block">
+<div class="implication-label">Why it matters</div>
+<div class="implication-text">A two-year delay in producing one patient&rsquo;s records produced a two-year corrective action plan reporting to HHS every 90 days.</div>
+</div>
+<a class="item-link" href="https://www.hhs.gov/hipaa/for-professionals/compliance-enforcement/agreements/ra-cap-with-azul-vision/index.html" target="_blank" rel="noopener">Read at HHS &#8599;</a>
+</div>
+</section>
+
+<!-- BIOETHICS AND THE ACADEMY -->
+<section id="academy">
+<div class="section-header"><span class="section-number">03</span><span class="section-title">Bioethics and the Academy</span></div>
+<hr class="section-rule">
+
+<div class="item-card" id="c07">
+<div class="item-header">
+<span class="item-tag tag-academy">Bioethics and the Academy</span>
+<div class="item-headline">Berkeley Law&rsquo;s AI policy makes a citation to a nonexistent source raise a presumption of prohibited AI use</div>
+</div>
+<div class="item-source">UC Berkeley School of Law &middot; Effective summer 2026</div>
+<div class="item-summary">The University of California, Berkeley School of Law adopted an artificial-intelligence policy, effective for summer 2026, whose operative rule states that &ldquo;citations to sources that do not exist will raise a presumption of prohibited AI use.&rdquo; The policy specifies no rebuttal standard, no forum and no burden of proof for that presumption. A companion questions-and-answers page states the weaker proposition that a citation to cases that do not exist is &ldquo;a strong indication&rdquo; of AI use, and it is the Q&amp;A, not the policy, that says such matters are handled like other student conduct violations. The policy originated at a May 6 faculty meeting and was posted later that month.</div>
+<div class="implication-block">
+<div class="implication-label">Why it matters</div>
+<div class="implication-text">A law school has written an evidentiary presumption into an academic rule without the procedural frame a presumption ordinarily carries.</div>
+</div>
+<a class="item-link" href="https://www.law.berkeley.edu/wp-content/uploads/2026/05/AI-Final-Policy-26.pdf" target="_blank" rel="noopener">Read at Berkeley Law &#8599;</a>
+</div>
+<div class="item-card" id="c08">
+<div class="item-header">
+<span class="item-tag tag-academy">Bioethics and the Academy</span>
+<div class="item-headline">Washington State University canceled its AI detection tool after a third of AI-allegation hearings ended in no-fault findings</div>
+</div>
+<div class="item-source">Washington State University Office of the Provost &middot; February 11, 2026</div>
+<div class="item-summary">Washington State University&rsquo;s Office of the Provost canceled its Turnitin AI detection software in a Feb. 11, 2026 memo to instructors, citing its own adjudication record. The memo states that between 2023 and 2025, 33 percent of Academic Integrity Hearing Board cases alleging inappropriate AI use ended in a finding of not responsible &ldquo;because AI detection was submitted independent of any other supporting evidence.&rdquo; It restates the rule that no AI detector may be the sole support for a misconduct case, and that suspicion of AI use is not sufficient for a finding. The memo gives no case count behind the percentage.</div>
+<div class="implication-block">
+<div class="implication-label">Why it matters</div>
+<div class="implication-text">An institution published the outcomes of its own AI-misconduct adjudications, and the outcomes are why it stopped using the tool.</div>
+</div>
+<a class="item-link" href="https://provost.wsu.edu/documents/2026/02/cancellation-of-turnitin-ai-detection-software_memo-to-instructors_provost-office_spring-2026.pdf/" target="_blank" rel="noopener">Read at WSU &#8599;</a>
+</div>
+</section>
+
+<!-- THE CACHE -->
+<section id="cache">
+<div class="section-header"><span class="section-number">04</span><span class="section-title">The Cache</span></div>
+<hr class="section-rule">
+
+<div class="item-card" id="c09">
+<div class="item-header">
+<span class="item-tag tag-cache">The Cache</span>
+<div class="item-headline">Two papers recover what a transformer implicitly believes, then steer it by optimizing that belief</div>
+</div>
+<div class="item-source">arXiv &middot; July 19 and 21, 2026</div>
+<div class="item-summary">Two papers from an overlapping group ask what a trained transformer has internalized about a latent task, and answer it without opening the model. The first shows that different internal posteriors can produce identical average predictions, so comparing predictions cannot identify a belief, and introduces a method that recovers the model&rsquo;s implicit prior and posterior from next-token generation alone. It is tested on balls-and-urns, linear regression and Markov-chain families, with code and frozen artifacts released. The second steers generations by optimizing a prompt prefix against that recovered posterior, without backpropagating through the transformer. Both validate only on synthetic processes; no natural-language model is steered.</div>
+<div class="implication-block">
+<div class="implication-label">Why it matters</div>
+<div class="implication-text">The question is what a model believes, made answerable from its outputs alone rather than from access to its internals.</div>
+</div>
+<a class="item-link" href="https://arxiv.org/abs/2607.17060" target="_blank" rel="noopener">Read at arXiv &#8599;</a>
+</div>
+</section>
+
+<a class="back-to-top" href="#">Return to top &uarr;</a>
+</main>
+
+<footer class="footer">
+<strong>Big Rock Midden</strong><br>
+<div class="footer-gloss">Sifter, sorter, saver of big rocks.</div>
+Prepared by Tom Burket &middot; word/cairn<br>
+August 28, 2026 &middot; Edition No. 3
+<br><br><a href="/editions/">Past editions &rarr;</a>
+</footer>
+
+</body>
+</html>
