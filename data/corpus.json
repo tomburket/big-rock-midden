@@ -1,10 +1,11 @@
 {
  "schema_version": 1,
- "current_edition": 3,
+ "current_edition": 4,
  "edition_dates": {
   "1": "August 15",
   "2": "August 21",
-  "3": "August 28"
+  "3": "August 28",
+  "4": "September 4"
  },
  "active_threads": [
   "f1",
@@ -369,6 +370,114 @@
    "t": "curious",
    "s": "Two papers recover a transformer’s implicit prior and posterior from its outputs alone, then steer it by optimizing that recovered belief.",
    "url": "https://arxiv.org/abs/2607.17060",
+   "img": null
+  },
+  {
+   "id": "e4c1",
+   "ed": 4,
+   "sec": "The Field",
+   "tag": "study",
+   "h": "Engineers and lawyers mean different things by “accurate,” and European AI law requires both",
+   "src": "arXiv · Aug 31",
+   "t": "f1",
+   "s": "A preprint argues that machine-learning researchers and lawyers mean different things by “accuracy,” which the EU AI Act requires of high-risk systems.",
+   "url": "https://arxiv.org/abs/2608.31018",
+   "img": null
+  },
+  {
+   "id": "e4c2",
+   "ed": 4,
+   "sec": "The Field",
+   "tag": "study",
+   "h": "A proposal to give every automated decision a receipt showing which reasons it was allowed to use",
+   "src": "arXiv · Sep 1",
+   "t": "f1",
+   "s": "Researchers propose that automated decisions carry a signed record showing which reasons they were allowed to use, and release a working prototype.",
+   "url": "https://arxiv.org/abs/2609.01040",
+   "img": null
+  },
+  {
+   "id": "e4c3",
+   "ed": 4,
+   "sec": "Enforcement and Rulemaking",
+   "tag": "report",
+   "h": "Auditors checked 180 transplant organs and found Medicare should not have paid for 55",
+   "src": "HHS-OIG · Sep 3",
+   "t": "f2",
+   "s": "An OIG audit sampled 180 transplant organs, found 55 Medicare should not have paid for, and projected a six-year cost between $220 million and $540 million.",
+   "url": "https://oig.hhs.gov/documents/audit/11866/OAS-25-07-124.pdf",
+   "img": null
+  },
+  {
+   "id": "e4c4",
+   "ed": 4,
+   "sec": "Enforcement and Rulemaking",
+   "tag": "report",
+   "h": "Generic drugmakers kept a prescription-only label for nearly four years after the brand went over the counter, and Medicare paid $587.7 million",
+   "src": "HHS-OIG · Sep 2",
+   "t": "f2",
+   "s": "Generic makers left prescription-only labels in place for nearly four years after the brand went over the counter, and Medicare Part D paid $587.7 million.",
+   "url": "https://oig.hhs.gov/documents/audit/11864/OAS-24-02-004.pdf",
+   "img": null
+  },
+  {
+   "id": "e4c5",
+   "ed": 4,
+   "sec": "Enforcement and Rulemaking",
+   "tag": "ruling",
+   "h": "Forty-one states and D.C. signed the 23andMe settlement; California, suing on its own, had been barred from damages four days earlier",
+   "src": "NY AG · Jul 14",
+   "t": "f5",
+   "s": "Forty-one states and D.C. signed the 23andMe bankruptcy settlement; California, suing separately, had been barred from damages four days earlier.",
+   "url": "https://ag.ny.gov/sites/default/files/settlements-agreements/chrome-holding-co-settlement-2026.pdf",
+   "img": null
+  },
+  {
+   "id": "e4c6",
+   "ed": 4,
+   "sec": "The Industry",
+   "tag": "deal",
+   "h": "Hospitals can now plug their Epic patient records into ChatGPT; OpenAI has not said how long it keeps the data",
+   "src": "OpenAI · Sep 1",
+   "t": "curious",
+   "s": "Hospitals can connect Epic records to ChatGPT for Healthcare under a HIPAA vendor contract; OpenAI has not said how long it retains the data.",
+   "url": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources/",
+   "img": null
+  },
+  {
+   "id": "e4c7",
+   "ed": 4,
+   "sec": "The Cache",
+   "tag": "study",
+   "h": "Rivers gather water and deltas spread it, yet both follow one size rule on average; half the deltas break it partway down",
+   "src": "Quanta · Aug 10",
+   "t": "curious",
+   "s": "River networks and delta networks follow the same size rule on average, and about half the deltas break it partway down.",
+   "url": "https://www.quantamagazine.org/why-are-rivers-so-mathematical-20260810/",
+   "img": null
+  },
+  {
+   "id": "e4c8",
+   "ed": 4,
+   "sec": "The Cache",
+   "tag": "report",
+   "h": "A 1979 improv manual has become cult reading in tech",
+   "src": "NYT · Aug 30",
+   "t": "curious",
+   "s": "A 1979 improv manual has become cult reading in tech, and the essay closes on Johnstone’s yes-sayers and no-sayers.",
+   "url": "https://www.nytimes.com/2026/08/30/opinion/silicon-valley-theater-improv.html",
+   "img": null
+  },
+  {
+   "id": "e4c9",
+   "ed": 4,
+   "sec": "The Cache",
+   "tag": "study",
+   "h": "Knit stretchy yarn a certain way and the fabric snaps between shapes and stays there",
+   "src": "Harvard SEAS · Jul 15",
+   "t": "curious",
+   "s": "Machine-knitted fabric with stretchy yarn snaps between stable shapes and holds them, and Harvard engineers wired the snap as a switch.",
+   "url": "https://seas.harvard.edu/news/oh-snap-fabrics-multiple-stable-shapes",
    "img": null
   }
  ]
