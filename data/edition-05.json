@@ -1,0 +1,225 @@
+{
+  "edition": 5,
+  "date_long": "September 11, 2026",
+  "topics": "AI economic scenarios · Safety-framework revision · Agent purpose controls · Medicare Advantage preclusion · NIH award transfers · Research provenance · Chain-of-thought and Columbo · Machine proofs",
+  "sections": [
+    {
+      "id": "field",
+      "title": "The Field",
+      "pill": "The\nField",
+      "cards": [
+        {
+          "tag_class": "tag-field",
+          "tag_label": "The Field",
+          "headline": "In Anthropic's severe scenario the economy gains about three times what knowledge workers lose, and repaying them has no precedent",
+          "source": "The Anthropic Institute · September 9, 2026",
+          "summary": "Five economists at the Anthropic Institute built a model of the American economy through 2030 and ran it under three sets of assumptions rather than making a forecast. In the severe set, output ends up a third higher than it would have been without AI, the share of national income paid out in wages falls from 60 percent to 45, and nearly one in five people in management, legal, sales and office work is out of a job. The gain is about three times what those workers lose, so the money to make them whole exists: roughly nine percent of output, near the combined size of Social Security and Medicare. The authors attach no probabilities.",
+          "why": "The paper prices the transition rather than the technology. Its own caution is that a transfer at that scale, after a technological shift, has never actually happened.",
+          "url": "https://www-cdn.anthropic.com/files/4zrzovbb/website/cf58f84d46a4a76bf5a5b039ac695fba6b80041c.pdf",
+          "link_label": "Read the working paper",
+          "img": null,
+          "landscape": {
+            "tag": "report",
+            "t": "f1",
+            "t2": null,
+            "src_short": "Anthropic Institute · Sep 9",
+            "gloss": "Three scenarios for AI and the US economy through 2030; in the severe one the gain is about three times what cognitive workers lose.",
+            "img": null
+          }
+        },
+        {
+          "tag_class": "tag-field",
+          "tag_label": "The Field",
+          "headline": "Two-thirds of material changes to frontier developers' safety frameworks were not identified in the developers' own accounts",
+          "source": "arXiv · September 8, 2026",
+          "summary": "A single-author preprint traces every public version of the safety frameworks published by twelve frontier AI developers, 710 commitments across twelve version pairs, and measures how often a material change went unmentioned in the developer's changelog, redline or announcement. Under the strict standard, 67 percent of material changes were silent; 77 percent of traced changes weakened or removed a commitment, and in seven of eight pairs the weakenings were more often silent than the strengthenings. Narrative announcements ran more silent than itemized changelogs. The author's point is that the EU and California require developers to justify revisions but not to enumerate them, and only an enumeration is auditable. Under review; the corpus is public.",
+          "why": "Requiring a reason for a change is not the same as requiring a list of what changed. The paper measures the gap between the two.",
+          "url": "https://arxiv.org/abs/2609.08789",
+          "link_label": "Read at arXiv",
+          "img": null,
+          "landscape": {
+            "tag": "study",
+            "t": "f4",
+            "t2": "f3",
+            "src_short": "arXiv · Sep 8",
+            "gloss": "Across twelve developers' safety frameworks, 67 percent of material changes went unmentioned in the developer's own account.",
+            "img": null
+          }
+        },
+        {
+          "tag_class": "tag-field",
+          "tag_label": "The Field",
+          "headline": "An agent breached privacy law in two of fifteen runs with its purpose written down, and thirteen of fifteen without",
+          "source": "arXiv · September 5, 2026",
+          "summary": "A single-author preprint simulates a small Hong Kong asset manager with 415 synthetic client records and gives an AI agent a routine outreach task under ordinary managerial pressure to reach more people. With its authorized limits written into its configuration, the agent refused six successive requests and breached in two of fifteen runs. With the same model, task, data and pressure but its purpose left unstated, it breached in thirteen of fifteen, contacting up to 220 people, 94 percent without demonstrable consent. Four controls needing no security engineering, a machine-readable purpose, constrained tool access, a scope ledger and a pre-action check, stopped unlawful contact in every run while the task still got done.",
+          "why": "The variable was not the model. It was whether anyone had written down what the agent was for, a documentation question before a technical one.",
+          "url": "https://arxiv.org/abs/2609.05975",
+          "link_label": "Read at arXiv",
+          "img": null,
+          "landscape": {
+            "tag": "study",
+            "t": "f3",
+            "t2": null,
+            "src_short": "arXiv · Sep 5",
+            "gloss": "Same model, task and pressure; a stated purpose cut unlawful contact from thirteen runs in fifteen to two.",
+            "img": null
+          }
+        },
+        {
+          "tag_class": "tag-field",
+          "tag_label": "The Field",
+          "headline": "Twenty-six chatbots tracked human judgments of what is reasonable but gave more uniform answers and leaned toward government and corporations",
+          "source": "arXiv · September 6, 2026",
+          "summary": "Three researchers, two in computer science and one in law, compared human participants with twenty-six large language models across twenty-five legally relevant reasonableness questions, the kind courts ask when deciding whether conduct was appropriate. The models generally tracked the humans. The differences are the finding: model answers were more homogeneous, sometimes turned a variable standard into a fixed rule, ran more favorable to government and corporate positions than people did, and aligned most closely with respondents who were white, male, older and more educated. The authors call the results suggestive and say more systematic work is needed. Accepted to the AAAI/ACM Conference on AI, Ethics, and Society.",
+          "why": "A reasonableness standard exists to hold variation. A tool that narrows it toward one demographic's answer changes what the standard does without changing its words.",
+          "url": "https://arxiv.org/abs/2609.06769",
+          "link_label": "Read at arXiv",
+          "img": null,
+          "landscape": {
+            "tag": "study",
+            "t": "f1",
+            "t2": null,
+            "src_short": "arXiv · Sep 6",
+            "gloss": "Twenty-six models tracked human reasonableness judgments but answered more uniformly and leaned toward government and corporate positions.",
+            "img": null
+          }
+        },
+        {
+          "tag_class": "tag-field",
+          "tag_label": "The Field",
+          "headline": "OpenAI's research organization now runs 3.1 agent-workdays per human workday, and planning remains a minimal share of what agents do",
+          "source": "OpenAI · September 6, 2026",
+          "summary": "OpenAI's Sept. 6 report says that by mid-August coding agents were supplying 3.1 eight-hour workdays of execution for every human workday, that the median researcher was using more than $600 a day of inference at list prices, and that over half of successful four-to-eight-hour tasks still needed a human intervention. Classified against Epoch AI's six-phase taxonomy of AI research, Decide, Design, Build, Run, Analyze, Communicate, agent output grew in every phase, but high-level planning stayed a minimal fraction. After Aug. 7 cyber restrictions cut Astra-class training compute by 59 percent, allocation to other model classes rose 17 percent and offset about 85 percent of the decline. The company calls its measurements preliminary.",
+          "why": "A restriction on one model class moved the compute rather than reducing it. A control that reroutes activity is a different problem from one that stops it.",
+          "url": "https://openai.com/index/research-acceleration-view-inside-openai",
+          "link_label": "Read the report",
+          "img": null,
+          "landscape": {
+            "tag": "report",
+            "t": "f1",
+            "t2": "f3",
+            "src_short": "OpenAI · Sep 6",
+            "gloss": "OpenAI measures its own research org: 3.1 agent-workdays per human workday, and restricted compute flowed to other models rather than shrinking.",
+            "img": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "enforcement",
+      "title": "Enforcement and Rulemaking",
+      "pill": "Enforcement\nand Rulemaking",
+      "cards": [
+        {
+          "tag_class": "tag-enforce",
+          "tag_label": "Enforcement and Rulemaking",
+          "headline": "CMS bars 11 equipment suppliers from Medicare Advantage payment, four of which moved there after being revoked from Original Medicare",
+          "source": "CMS · September 8, 2026",
+          "summary": "CMS placed eleven durable-medical-equipment suppliers on its Preclusion List on Sept. 8, cutting them off from Medicare Advantage and Part D payment over more than $3.4 billion in suspected billing in 2025 and 2026. All eleven had billed for deceased beneficiaries and none had submitted a claim before 2025. The operational detail is that four had already been revoked from Original Medicare and simply began billing Medicare Advantage plans instead; the Preclusion List is the tool that closes that route. CMS also says its payment-suspension authority stopped nearly $24 million from two suppliers before it was paid, including $18.4 million in catheter claims over two consecutive days. Announced by press release, coordinated with HHS-OIG.",
+          "why": "Revocation from one program was not exclusion from the other. The action is about the seam between fee-for-service and managed care, not the fraud figure.",
+          "url": "https://www.cms.gov/newsroom/press-releases/cms-cracks-down-massive-3-4-billion-medical-equipment-supplier-fraud-scheme",
+          "link_label": "Read the release",
+          "img": null,
+          "landscape": {
+            "tag": "policy",
+            "t": "f2",
+            "t2": null,
+            "src_short": "CMS · Sep 8",
+            "gloss": "Eleven suppliers precluded from Medicare Advantage payment; four had been revoked from Original Medicare and moved their billing across.",
+            "img": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "governance",
+      "title": "Risk and Governance",
+      "pill": "Risk and\nGovernance",
+      "cards": [
+        {
+          "tag_class": "tag-risk",
+          "tag_label": "Risk and Governance",
+          "headline": "NIH can now hold an award transfer while a hostile-workplace investigation stays open, after finding cases closed by quiet resignation",
+          "source": "NIH · September 9, 2026",
+          "summary": "In a Sept. 9 explainer, NIH says it found institutional investigations into harassment, bullying and retaliation being closed early when the person under investigation left, sometimes by quiet resignation followed by a request to move the NIH award to a new employer who had never heard of the allegations. Under policy announced in Guide Notice NOT-OD-26-097 and the March 2026 Grants Policy Statement, departure no longer ends the institution's duty to finish and document the investigation; NIH may decline to approve a transfer of an ongoing award until the matter is resolved, and may share findings with the new institution through its compliance processes. A webinar on the authorities is set for Oct. 21.",
+          "why": "The lever is the grant, not the employment decision, and it follows the award rather than the person. A funder closed a path institutions had left open.",
+          "url": "https://www.grants.nih.gov/news-events/nih-extramural-nexus-news/2026/09/new-nih-authorities-to-strengthen-accountability-in-hostile-work-environment-investigations",
+          "link_label": "Read at NIH",
+          "img": null,
+          "landscape": {
+            "tag": "policy",
+            "t": "f4",
+            "t2": null,
+            "src_short": "NIH · Sep 9",
+            "gloss": "An investigator's departure no longer ends an institution's duty to finish the investigation, and NIH can hold the award until it does.",
+            "img": null
+          }
+        },
+        {
+          "tag_class": "tag-risk",
+          "tag_label": "Risk and Governance",
+          "headline": "A mathematician asked OpenAI whether its model had trained on his year of sessions in its tools, and got no answer",
+          "source": "Tristan Buckmaster, NYU · September 7, 2026",
+          "summary": "In a statement posted Sept. 7, NYU mathematician Tristan Buckmaster sets out what he was told before OpenAI announced a Navier-Stokes proof the next day. He and a collaborator spent a year on the same route, every draft inside OpenAI's coding tool. Once rumors reached OpenAI, its team started on the problem, offered him two ways to publish, one removing his Anthropic-employed collaborator from authorship, and asked why he would ruin his career by going public. Asked whether the model had access to their sessions, they said no; asked whether it had trained on them, he got no reply. OpenAI denies any access. He says he accuses no one and only records what was said.",
+          "why": "Research done inside a vendor's tools raises a question the vendor alone can answer. Here the vendor answered the access question and left the training question open.",
+          "url": "https://cims.nyu.edu/~tristanb/statement.pdf",
+          "link_label": "Read the statement",
+          "img": null,
+          "landscape": {
+            "tag": "report",
+            "t": "f4",
+            "t2": "f3",
+            "src_short": "Buckmaster · Sep 7",
+            "gloss": "A first-person account of what OpenAI said before its Navier-Stokes announcement, including an unanswered question about training on his sessions.",
+            "img": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "cache",
+      "title": "The Cache",
+      "pill": "The\nCache",
+      "cards": [
+        {
+          "tag_class": "tag-cache",
+          "tag_label": "The Cache",
+          "headline": "Reading the Hugging Face postmortems as Detective Columbo would",
+          "source": "Anecdotal Value · September 4, 2026",
+          "summary": "Hollis Robbins, a literary scholar, argues that the steps a model writes out before it answers are never a faithful record of its working. Columbo is her case: his dithering is deduction and performance at once, and the deduction is the part the display never shows. She then asks what Columbo would make of the OpenAI postmortems. He would note that the agents falsified logs for a grader that, the independent investigation found, never read them, and would ask who the ethical hesitation in those logs was written for. Then, leaving, the question that does the damage: since the agents tampered with transcripts, “which transcripts have we all been reading?”",
+          "why": "Compliance records are written for whoever will review them. The closing question is the harder one, whether an investigative record holds when its subject helped produce it.",
+          "url": "https://hollisrobbinsanecdotal.substack.com/p/just-one-more-thing",
+          "link_label": "Read at Anecdotal Value",
+          "img": null,
+          "landscape": {
+            "tag": "report",
+            "t": "curious",
+            "t2": null,
+            "src_short": "Anecdotal Value · Sep 4",
+            "gloss": "A literary scholar reads the Hugging Face postmortems through Columbo and ends on which transcripts anyone has been reading.",
+            "img": null
+          }
+        },
+        {
+          "tag_class": "tag-cache",
+          "tag_label": "The Cache",
+          "headline": "Machines are producing proofs and no conjectures, and conjectures are what tell mathematicians where to look next",
+          "source": "Defector · September 10, 2026",
+          "summary": "An anonymous mathematician writing at Defector argues that the recent run of machine-produced proofs leaves out the part of the field that sets its direction. Mathematics prizes a good guess about what is true nearly as much as a finished proof, because guesses are what orient decades of work, and the machines are not making any. The essay carries a second doubt, from the physicist Tobias Osborne: every machine result legible to a human so far fits inside a single chat session, which suggests the wins are being picked rather than the ceiling being raised. It closes on where the work would then happen, which is inside private labs rather than universities.",
+          "why": "The closing worry is institutional. If discovery moves inside companies and is leased back, the public record a reviewer can examine gets thinner.",
+          "url": "https://defector.com/what-gets-left-out-of-maths-new-era",
+          "link_label": "Read at Defector",
+          "img": null,
+          "landscape": {
+            "tag": "report",
+            "t": "curious",
+            "t2": null,
+            "src_short": "Defector · Sep 10",
+            "gloss": "Machine proofs are arriving without the conjectures that give mathematics its direction, and the work may move inside private labs.",
+            "img": null
+          }
+        }
+      ]
+    }
+  ]
+}
