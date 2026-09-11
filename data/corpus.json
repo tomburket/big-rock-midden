@@ -1,11 +1,12 @@
 {
  "schema_version": 1,
- "current_edition": 4,
+ "current_edition": 5,
  "edition_dates": {
   "1": "August 15",
   "2": "August 21",
   "3": "August 28",
-  "4": "September 4"
+  "4": "September 4",
+  "5": "September 11"
  },
  "active_threads": [
   "f1",
@@ -478,6 +479,129 @@
    "t": "curious",
    "s": "Machine-knitted fabric with stretchy yarn snaps between stable shapes and holds them, and Harvard engineers wired the snap as a switch.",
    "url": "https://seas.harvard.edu/news/oh-snap-fabrics-multiple-stable-shapes",
+   "img": null
+  },
+  {
+   "id": "e5c1",
+   "ed": 5,
+   "sec": "The Field",
+   "tag": "report",
+   "h": "In Anthropic's severe scenario the economy gains about three times what knowledge workers lose, and repaying them has no precedent",
+   "src": "Anthropic Institute · Sep 9",
+   "t": "f1",
+   "s": "Three scenarios for AI and the US economy through 2030; in the severe one the gain is about three times what cognitive workers lose.",
+   "url": "https://www-cdn.anthropic.com/files/4zrzovbb/website/cf58f84d46a4a76bf5a5b039ac695fba6b80041c.pdf",
+   "img": null
+  },
+  {
+   "id": "e5c2",
+   "ed": 5,
+   "sec": "The Field",
+   "tag": "study",
+   "h": "Two-thirds of material changes to frontier developers' safety frameworks were not identified in the developers' own accounts",
+   "src": "arXiv · Sep 8",
+   "t": "f4",
+   "t2": "f3",
+   "s": "Across twelve developers' safety frameworks, 67 percent of material changes went unmentioned in the developer's own account.",
+   "url": "https://arxiv.org/abs/2609.08789",
+   "img": null
+  },
+  {
+   "id": "e5c3",
+   "ed": 5,
+   "sec": "The Field",
+   "tag": "study",
+   "h": "An agent breached privacy law in two of fifteen runs with its purpose written down, and thirteen of fifteen without",
+   "src": "arXiv · Sep 5",
+   "t": "f3",
+   "s": "Same model, task and pressure; a stated purpose cut unlawful contact from thirteen runs in fifteen to two.",
+   "url": "https://arxiv.org/abs/2609.05975",
+   "img": null
+  },
+  {
+   "id": "e5c4",
+   "ed": 5,
+   "sec": "The Field",
+   "tag": "study",
+   "h": "Twenty-six chatbots tracked human judgments of what is reasonable but gave more uniform answers and leaned toward government and corporations",
+   "src": "arXiv · Sep 6",
+   "t": "f1",
+   "s": "Twenty-six models tracked human reasonableness judgments but answered more uniformly and leaned toward government and corporate positions.",
+   "url": "https://arxiv.org/abs/2609.06769",
+   "img": null
+  },
+  {
+   "id": "e5c5",
+   "ed": 5,
+   "sec": "The Field",
+   "tag": "report",
+   "h": "OpenAI's research organization now runs 3.1 agent-workdays per human workday, and planning remains a minimal share of what agents do",
+   "src": "OpenAI · Sep 6",
+   "t": "f1",
+   "t2": "f3",
+   "s": "OpenAI measures its own research org: 3.1 agent-workdays per human workday, and restricted compute flowed to other models rather than shrinking.",
+   "url": "https://openai.com/index/research-acceleration-view-inside-openai",
+   "img": null
+  },
+  {
+   "id": "e5c6",
+   "ed": 5,
+   "sec": "Enforcement and Rulemaking",
+   "tag": "policy",
+   "h": "CMS bars 11 equipment suppliers from Medicare Advantage payment, four of which moved there after being revoked from Original Medicare",
+   "src": "CMS · Sep 8",
+   "t": "f2",
+   "s": "Eleven suppliers precluded from Medicare Advantage payment; four had been revoked from Original Medicare and moved their billing across.",
+   "url": "https://www.cms.gov/newsroom/press-releases/cms-cracks-down-massive-3-4-billion-medical-equipment-supplier-fraud-scheme",
+   "img": null
+  },
+  {
+   "id": "e5c7",
+   "ed": 5,
+   "sec": "Risk and Governance",
+   "tag": "policy",
+   "h": "NIH can now hold an award transfer while a hostile-workplace investigation stays open, after finding cases closed by quiet resignation",
+   "src": "NIH · Sep 9",
+   "t": "f4",
+   "s": "An investigator's departure no longer ends an institution's duty to finish the investigation, and NIH can hold the award until it does.",
+   "url": "https://www.grants.nih.gov/news-events/nih-extramural-nexus-news/2026/09/new-nih-authorities-to-strengthen-accountability-in-hostile-work-environment-investigations",
+   "img": null
+  },
+  {
+   "id": "e5c8",
+   "ed": 5,
+   "sec": "Risk and Governance",
+   "tag": "report",
+   "h": "A mathematician asked OpenAI whether its model had trained on his year of sessions in its tools, and got no answer",
+   "src": "Buckmaster · Sep 7",
+   "t": "f4",
+   "t2": "f3",
+   "s": "A first-person account of what OpenAI said before its Navier-Stokes announcement, including an unanswered question about training on his sessions.",
+   "url": "https://cims.nyu.edu/~tristanb/statement.pdf",
+   "img": null
+  },
+  {
+   "id": "e5c9",
+   "ed": 5,
+   "sec": "The Cache",
+   "tag": "report",
+   "h": "Reading the Hugging Face postmortems as Detective Columbo would",
+   "src": "Anecdotal Value · Sep 4",
+   "t": "curious",
+   "s": "A literary scholar reads the Hugging Face postmortems through Columbo and ends on which transcripts anyone has been reading.",
+   "url": "https://hollisrobbinsanecdotal.substack.com/p/just-one-more-thing",
+   "img": null
+  },
+  {
+   "id": "e5c10",
+   "ed": 5,
+   "sec": "The Cache",
+   "tag": "report",
+   "h": "Machines are producing proofs and no conjectures, and conjectures are what tell mathematicians where to look next",
+   "src": "Defector · Sep 10",
+   "t": "curious",
+   "s": "Machine proofs are arriving without the conjectures that give mathematics its direction, and the work may move inside private labs.",
+   "url": "https://defector.com/what-gets-left-out-of-maths-new-era",
    "img": null
   }
  ]
