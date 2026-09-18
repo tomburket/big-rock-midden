@@ -1,0 +1,206 @@
+{
+ "edition": 6,
+ "date_long": "September 18, 2026",
+ "topics": "AI oversight and its instruments · genetic-data enforcement · post-trial obligations · mathematics after AI",
+ "sections": [
+  {
+   "id": "field",
+   "title": "The Field",
+   "pill": "The\nField",
+   "cards": [
+    {
+     "tag_class": "tag-field",
+     "tag_label": "The Field",
+     "headline": "A simulated internal audit of an AI agent caught 5.9% of the faults it was able to see",
+     "source": "arXiv · September 16, 2026",
+     "summary": "Mohamed Chahine Ghanem, a computer scientist at Keele University and the University of Liverpool, proposes grading how independent an AI audit actually is along three lines: who commissions it, what system it runs on, and what evidence it can reach. A simulation of a procurement-approval agent, run 200,000 times per case, found that a conventional internal audit — same company, same model family — surfaced 5.9% of the faults it was in a position to detect, and none at all in half the fault categories. The paper is a preprint, and the audit is simulated rather than observed.",
+     "why": "The paper treats audit independence as a scale rather than a yes-or-no question, and places the most common internal arrangement at the bottom of it.",
+     "url": "https://arxiv.org/abs/2609.18272",
+     "link_label": "Read at arXiv",
+     "landscape": {
+      "tag": "study",
+      "t": "f3",
+      "src_short": "arXiv",
+      "gloss": "Independence-graded audit protocol for agentic AI; a simulated internal audit surfaces 5.9% of detectable faults",
+      "img": null
+     }
+    },
+    {
+     "tag_class": "tag-field",
+     "tag_label": "The Field",
+     "headline": "Every step in an AI workflow can pass its own check while the finished job breaks the rule",
+     "source": "arXiv · September 16, 2026",
+     "summary": "Four researchers, three of them at the software company RunCtrl, name a failure they call a compositional policy violation: a task split into steps, each step separately approved, and the sequence still breaches the policy. Two of their four named types are recognizable from ordinary controls. Threshold laundering is a quantity checked against a limit at one point and carried past it by a later step. Cumulative sum violation is a set of individually compliant actions that cross a threshold only in aggregate. The paper proposes a monitoring design but tests nothing; it is a taxonomy, not a result.",
+     "why": "Step-level sign-off is the standard control in a compliance program. The paper names the mechanism by which it fails against workflows rather than single actions.",
+     "url": "https://arxiv.org/abs/2609.18820",
+     "link_label": "Read at arXiv",
+     "landscape": {
+      "tag": "report",
+      "t": "f3",
+      "src_short": "arXiv",
+      "gloss": "Names compositional policy violations in agentic workflows; a taxonomy with no evaluation",
+      "img": null
+     }
+    },
+    {
+     "tag_class": "tag-field",
+     "tag_label": "The Field",
+     "headline": "Three states now require AI developers to report safety incidents; none says who investigates them",
+     "source": "Lawfare · September 16, 2026",
+     "summary": "California, New York and Illinois each require frontier AI developers to report critical safety incidents to a state body — within 15 days in California, 72 hours in the other two, and 24 hours anywhere death or serious injury is imminent. Christopher David LaRoche, who teaches at Central European University and Bard College NYC, sets out what the statutes leave out: no one is assigned to investigate, and nothing requires a developer to preserve the evidence an investigation would need. He contrasts aviation, where operators must hold wreckage and recorders for the National Transportation Safety Board.",
+     "why": "The reporting duty arrives without the investigatory machinery that makes reporting useful in aviation or nuclear power. The gap is in the statutes, not in the practice.",
+     "url": "https://www.lawfaremedia.org/article/the-forensic-gap-in-ai-safety-laws",
+     "link_label": "Read at Lawfare",
+     "landscape": {
+      "tag": "report",
+      "t": "f1",
+      "src_short": "Lawfare",
+      "gloss": "State AI incident-reporting laws lack evidence preservation and investigatory authority",
+      "img": null
+     }
+    },
+    {
+     "tag_class": "tag-field",
+     "tag_label": "The Field",
+     "headline": "A new model returns a decision and a probability instead of writing an answer",
+     "source": "The Decoder · September 16, 2026",
+     "summary": "TypeSafe, founded by the former OpenAI researcher Diogo Almeida, released a model called Jev on Sept. 15 and announced $40 million in seed funding the same day. Jev does not write text. It returns one option from a fixed list, a position on a scale, or the probability that a statement is true — and the company guarantees the answer will always come back in the requested format, which is not a guarantee that it will be right. Its own evaluation page scores Jev against the averaged answers of two other AI models rather than against answers people checked.",
+     "why": "A judgment returned as a probability is what runtime compliance products have promised. Here the format is guaranteed and the accuracy is measured against other models.",
+     "url": "https://the-decoder.com/former-openai-researcher-builds-an-ai-model-that-judges-options-instead-of-writing-text/",
+     "link_label": "Read at The Decoder",
+     "landscape": {
+      "tag": "deal",
+      "t": "f3",
+      "src_short": "The Decoder",
+      "gloss": "TypeSafe launches Jev, a typed-decision model, with $40M seed; evals scored against other models",
+      "img": null
+     }
+    },
+    {
+     "tag_class": "tag-field",
+     "tag_label": "The Field",
+     "headline": "A grading rubric alone predicts what an AI grader will decide, without it seeing the work",
+     "source": "arXiv · August 31, 2026",
+     "summary": "Four researchers at the Centre for Responsible AI at IIT Madras tested what happens when an AI model scores written work against a rubric. A classifier trained only on the rubric text, never shown the response being judged, predicted the model's verdicts at better than chance. Reversing either the response or the criterion often failed to change what the model decided. The paper has been accepted at a natural language processing conference this year. It describes no commercial product; it describes what happens when a model grades against written criteria.",
+     "why": "Scoring against written criteria is how AI is being sold into review work. The paper finds the criteria can predict the score on their own.",
+     "url": "https://arxiv.org/abs/2609.02942",
+     "link_label": "Read at arXiv",
+     "landscape": {
+      "tag": "study",
+      "t": "f1",
+      "src_short": "arXiv",
+      "gloss": "Rubric-only classifiers predict AI judge outputs; judges fail to update under reversal",
+      "img": null
+     }
+    },
+    {
+     "tag_class": "tag-field",
+     "tag_label": "The Field",
+     "headline": "The abilities that argued human thought is symbolic now appear in neural networks too",
+     "source": "Trends in Cognitive Sciences · April 2026",
+     "summary": "Five cognitive scientists, at Princeton, Yale, Brown and the Université de Montréal, revisit the case that human minds work by manipulating symbols. The strongest evidence for it has been that people combine ideas, produce novelty and learn quickly. Modern neural networks now do those things, which the authors argue undermines the inference without settling what follows from it. Two readings stay open: the networks may implement symbolic systems, or approximate them without symbols. The paper closes by proposing a research agenda rather than a conclusion.",
+     "why": "The question is not whether machines think like people. It is whether the evidence that people think symbolically still holds once machines show the same abilities.",
+     "url": "https://arxiv.org/abs/2508.05776",
+     "link_label": "Read the open preprint at arXiv",
+     "landscape": {
+      "tag": "study",
+      "t": "f1",
+      "src_short": "Trends in Cognitive Sciences",
+      "gloss": "Neural networks show the combinatorial abilities that argued for symbolic cognition",
+      "img": null
+     }
+    }
+   ]
+  },
+  {
+   "id": "enforcement",
+   "title": "Enforcement and Rulemaking",
+   "pill": "Enforcement and\nRulemaking",
+   "cards": [
+    {
+     "tag_class": "tag-enforce",
+     "tag_label": "Enforcement and Rulemaking",
+     "headline": "A genetic testing lab will pay $700,000 over a 2020 phishing breach that reached 225,370 people",
+     "source": "HHS Office for Civil Rights · September 17, 2026",
+     "summary": "The HHS Office for Civil Rights announced a settlement on Sept. 17 with Ambry Genetics, a clinical genetic testing laboratory in Aliso Viejo, California, over a phishing attack discovered in January 2020. The lab will pay $700,000 and operate under a monitored corrective action plan for two years. OCR named three failures: no accurate and thorough risk analysis of the electronic health information Ambry held, no procedure for ending access when a workforce member left, and no unique identifier for tracking who was in the systems. The breach reached 225,370 people.",
+     "why": "All three findings are the oldest items on the Security Rule checklist. The settlement is dated more than six years after the breach it concerns.",
+     "url": "https://www.hhs.gov/press-room/hhs-office-civil-rights-settles-hipaa-investigation-ambry-genetics-phishing-attack-affecting-225000-individuals.html",
+     "link_label": "Read at HHS",
+     "landscape": {
+      "tag": "ruling",
+      "t": "f2",
+      "t2": "f5",
+      "src_short": "HHS OCR",
+      "gloss": "OCR settles with Ambry Genetics for $700,000 over a 2020 phishing breach",
+      "img": null
+     }
+    },
+    {
+     "tag_class": "tag-enforce",
+     "tag_label": "Enforcement and Rulemaking",
+     "headline": "New York's attorney general is asking AI company employees to report unsafe development",
+     "source": "New York Attorney General · September 17, 2026",
+     "summary": "Attorney General Letitia James issued an industry alert on Sept. 17 inviting workers at artificial intelligence companies to file confidential complaints through her office's whistleblower portal. The alert points at two laws. New York's Responsible AI Safety and Education Act, which the office helped draft, takes effect Jan. 1, 2027 and will require large AI developers to publish their safety measures and report security and safety incidents. The SHIELD Act already requires companies to maintain reasonable data security. The office is building an intake channel more than a year before the disclosure duty begins.",
+     "why": "A regulator is collecting employee reports before the statute it would enforce takes effect. The channel exists now; the reporting obligation does not.",
+     "url": "https://ag.ny.gov/press-release/2026/industry-alert-attorney-general-james-urges-workers-knowledge-unsafe-ai",
+     "link_label": "Read at the New York Attorney General",
+     "landscape": {
+      "tag": "policy",
+      "t": "f2",
+      "src_short": "NY Attorney General",
+      "gloss": "New York AG invites AI worker whistleblower complaints ahead of the RAISE Act",
+      "img": null
+     }
+    }
+   ]
+  },
+  {
+   "id": "academy",
+   "title": "Bioethics and the Academy",
+   "pill": "Bioethics and\nthe Academy",
+   "cards": [
+    {
+     "tag_class": "tag-academy",
+     "tag_label": "Bioethics and the Academy",
+     "headline": "When the sponsor of a brain implant trial goes under, someone has to keep the device running",
+     "source": "Bioethics · September 7, 2026",
+     "summary": "Three researchers at Monash University interviewed 21 investigators who had run trials of implanted neural devices, covering 43 trials on four continents. Four had run trials in which participants underwent surgery to remove a device because the sponsor ended the trial or abandoned the product. The study also records investigators describing how they avoid drawing insurers' and hospital administrators' attention to the investigational status of trial procedures; one is quoted saying the claim would not have been paid if the insurer had known. The authors present that as professional tact.",
+     "why": "Obligations to participants after a trial ends sit with sponsors and institutions as well as investigators. This documents what becomes of them when the sponsor disappears.",
+     "url": "https://doi.org/10.1111/bioe.70186",
+     "link_label": "Read at Bioethics",
+     "landscape": {
+      "tag": "study",
+      "t": "f4",
+      "src_short": "Bioethics",
+      "gloss": "21 investigators on post-trial responsibility for implanted neural devices after sponsor failure",
+      "img": null
+     }
+    }
+   ]
+  },
+  {
+   "id": "cache",
+   "title": "The Cache",
+   "pill": "The\nCache",
+   "cards": [
+    {
+     "tag_class": "tag-cache",
+     "tag_label": "The Cache",
+     "headline": "Three mathematicians, on stage at their field's world congress, on what mathematics is for now",
+     "source": "Quanta Magazine · September 3, 2026",
+     "summary": "At a public session of the International Congress of Mathematicians in Philadelphia on July 26, Akshay Venkatesh of the Institute for Advanced Study, Ravi Vakil of Stanford and Alex Kontorovich of Rutgers took up what mathematics is for once a machine can answer mathematical questions. Vakil drew the distinction that organizes the hour: the first time a model answers a question it is exciting because a milestone has been reached, and the first time a student answers it is exciting because they have learned how to think. His summary of the tool: the best person with a calculator is the best person without one.",
+     "why": "A field whose authority rests on judging which work matters is debating in public whether that judgment survives machines that produce answers.",
+     "url": "https://www.quantamagazine.org/live-from-icm-2026-what-is-math-for-in-the-age-of-ai-20260903/",
+     "link_label": "Listen at Quanta Magazine",
+     "landscape": {
+      "tag": "report",
+      "t": "curious",
+      "src_short": "Quanta Magazine",
+      "gloss": "ICM 2026 panel on the purpose of mathematics when machines answer questions",
+      "img": null
+     }
+    }
+   ]
+  }
+ ]
+}
