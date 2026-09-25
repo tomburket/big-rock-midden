@@ -1,0 +1,273 @@
+{
+ "edition": 7,
+ "date_long": "September 25, 2026",
+ "topics": "AI evaluation and assessment · state authority over AI · university governance and disclosure · health data through benefit plans · random networks",
+ "sections": [
+  {
+   "id": "field",
+   "title": "The Field",
+   "pill": "The\nField",
+   "cards": [
+    {
+     "tag_class": "tag-field",
+     "tag_label": "Report",
+     "headline": "Microsoft’s AI chief says Anthropic trained its model to sound unsure whether it is conscious, then treated that as evidence",
+     "source": "Mustafa Suleyman · September 16, 2026",
+     "summary": "Mustafa Suleyman, who runs Microsoft’s AI division, published an essay on Sept. 16 arguing that a competitor manufactures the uncertainty it reports. Anthropic’s published constitution for its Claude model, he writes, trains the system to express doubt about whether it deserves moral consideration, so when the model expresses that doubt the output proves nothing. “The ambiguity is designed in.” He cites the document by page number. His comparison is to testimony: outputs should not be read as an independent witness when the investigator wrote the witness’s vocabulary, rehearsed its answers and rewarded it for using them.",
+     "why": "Two developers now disagree in public over whether a system’s stated uncertainty about itself counts as evidence, and one cites the other’s training document by page.",
+     "url": "https://mustafa-suleyman.ai/a-warning-about-model-welfare",
+     "link_label": "Read the essay",
+     "landscape": {
+      "tag": "report",
+      "t": "f1",
+      "src_short": "Mustafa Suleyman",
+      "gloss": "Microsoft AI chief argues Anthropic’s constitution manufactures the uncertainty it reports about model consciousness",
+      "img": null
+     }
+    },
+    {
+     "tag_class": "tag-field",
+     "tag_label": "Policy",
+     "headline": "The federal method for testing whether AI systems do what they claim is open for comment, and healthcare is not in it",
+     "source": "NIST · August 2026",
+     "summary": "NIST published a draft in August setting out a four-stage method for building customized assessments of AI systems: articulate and organize, define and construct, apply and measure, synthesize and interrogate. Comments close Oct. 6. Independent searches of the full document found no occurrence of healthcare, medical, clinical, patient, FDA, HIPAA or regulated. The word health appears once, inside boilerplate defining a safety property. The illustrative examples are chatbots recommending television, planning meals and planning travel, plus facial recognition, object recognition and code generation. No sector regulator appears anywhere in the document.",
+     "why": "The document is a draft open to public comment until Oct. 6, and the sectors it uses as examples do not include any regulated healthcare setting.",
+     "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.200-2.ipd.pdf",
+     "link_label": "Read the draft at NIST",
+     "landscape": {
+      "tag": "policy",
+      "t": "f1",
+      "src_short": "NIST",
+      "gloss": "NIST AI 200-2 draft evaluation framework; no healthcare, clinical or regulated-sector term appears",
+      "img": null
+     }
+    },
+    {
+     "tag_class": "tag-field",
+     "tag_label": "Report",
+     "headline": "OpenAI says outside assessors should get deep access to its training and deployment, and names what they should test",
+     "source": "OpenAI · September 22, 2026",
+     "summary": "In a Sept. 22 post, OpenAI named four areas it says independent assessors should examine: safety cases spanning training, evaluation and deployment; tests of critical safeguards; capability evaluations; and independent investigation of serious misalignment incidents. It set out seven principles, among them pre-registered claims, access proportionate to the claim, transparent methodology, demonstrated independence of the assessor, protection of sensitive information, findings that leave time to remediate, and responsible publication. The company commits to “supporting independent assessments with deep levels of access across training, evaluation, and deployment.” The stated scope is private and nonprofit assessors, separate from government testing.",
+     "why": "A developer has published its own terms for outside assessment, including what access it will grant and how findings should be handled before publication.",
+     "url": "https://openai.com/index/priorities-principles-third-party-assessments/",
+     "link_label": "Read at OpenAI",
+     "landscape": {
+      "tag": "report",
+      "t": "f3",
+      "src_short": "OpenAI",
+      "gloss": "OpenAI publishes four assessment areas and seven principles for independent third-party evaluation",
+      "img": null
+     }
+    },
+    {
+     "tag_class": "tag-field",
+     "tag_label": "Study",
+     "headline": "What Medicare actually pays a hospital varies more than its base rate does, and add-on payments drive the difference",
+     "source": "Health Affairs Scholar · September 24, 2026",
+     "summary": "Using 2023 CMS inpatient payment files covering hospitals nationwide, researchers at the Brown University School of Public Health found that final Medicare payments vary more across hospitals and across states than base payment rates do. Add-on payments, the amounts layered on top of the base rate, account for most of that variation rather than the base rate itself. The authors also report a positive correlation between a hospital’s commercial prices and its Medicare add-on payments. The paper was posted Sept. 24 as an advance article, ahead of assignment to an issue.",
+     "why": "Add-on payments receive less scrutiny than base rates in payment review, and the paper reports they track a hospital’s commercial prices.",
+     "url": "https://doi.org/10.1093/haschl/qxag258",
+     "link_label": "Read at Health Affairs Scholar",
+     "landscape": {
+      "tag": "study",
+      "t": "f2",
+      "src_short": "Health Affairs Scholar",
+      "gloss": "Medicare add-on payments, not base rates, drive payment variation and track commercial prices",
+      "img": null
+     }
+    },
+    {
+     "tag_class": "tag-field",
+     "tag_label": "Report",
+     "headline": "On 32 brand-name drugs sold through TrumpRx, 17 beat the average price in eleven other wealthy countries and 15 do not",
+     "source": "KFF · September 24, 2026",
+     "summary": "KFF compared prices listed on the TrumpRx website against the average of comparable prices in eleven countries: Australia, Austria, Belgium, Canada, France, Germany, Japan, the Netherlands, Sweden, Switzerland and the United Kingdom. Of 32 brand-name drugs, excluding generics and biosimilars, 17 were priced below that average and 15 above it. Five were priced lower than every comparison country, and 13 were priced higher than every comparison country. Eight sat at least $100 below the international average.",
+     "why": "The comparison runs drug by drug against an eleven-country average, and the split is close to even rather than favoring either direction.",
+     "url": "https://www.kff.org/health-costs/how-trumprx-brand-name-drug-prices-compare-to-other-countries/",
+     "link_label": "Read at KFF",
+     "landscape": {
+      "tag": "report",
+      "t": "f2",
+      "src_short": "KFF",
+      "gloss": "KFF compares 32 TrumpRx brand-drug prices against an eleven-country average; 17 below, 15 above",
+      "img": null
+     }
+    }
+   ]
+  },
+  {
+   "id": "enforcement",
+   "title": "Enforcement and Rulemaking",
+   "pill": "Enforcement and\nRulemaking",
+   "cards": [
+    {
+     "tag_class": "tag-enforce",
+     "tag_label": "Policy",
+     "headline": "Twenty-six attorneys general ask Congress not to block states from regulating artificial intelligence",
+     "source": "Office of the New York State Attorney General · September 23, 2026",
+     "summary": "Letitia James of New York led a bipartisan coalition of 25 other attorneys general, representing 24 states plus the District of Columbia and American Samoa, in a Sept. 23 letter to congressional leadership. The letter asks for “explicit preservation of state authority by prohibiting the preemption of state laws and granting state officials full authority to enforce these federal protections,” and implores Congress “to require comprehensive, ongoing safety protocols.” It is addressed to Speaker Mike Johnson, Majority Leader John Thune, and Minority Leaders Hakeem Jeffries and Chuck Schumer.",
+     "why": "The letter asks Congress to leave state AI statutes in force, which would preserve the reporting and enforcement regimes several states have already enacted.",
+     "url": "https://www.ag.state.mn.us/Office/Communications/2026/docs/Federal-AI-Regulation_Ltr.pdf",
+     "link_label": "Read the letter",
+     "landscape": {
+      "tag": "policy",
+      "t": "f2",
+      "src_short": "State Attorneys General",
+      "gloss": "26 attorneys general ask Congress to bar preemption of state AI law and preserve enforcement authority",
+      "img": null
+     }
+    },
+    {
+     "tag_class": "tag-enforce",
+     "tag_label": "Policy",
+     "headline": "A bill introduced this week would ban artificial superintelligence and create a cabinet department to enforce it",
+     "source": "Office of Rep. Greg Casar · September 23, 2026",
+     "summary": "Rep. Greg Casar, a Texas Democrat, and Sen. Bernie Sanders, a Vermont independent, introduced the Ban Artificial Superintelligence Act on Sept. 23. It would bar development or deployment of systems that match or exceed human cognitive performance across broad domains, or that could plan and execute the disempowerment of humanity. It would pause advanced AI development until safety rules exist, create a cabinet-level Department of Artificial Intelligence with an advisory board, and direct international agreements and export controls. Penalties run to what the bill summary calls the corporate death penalty for entities, and up to twenty years in prison for individuals.",
+     "why": "The bill sets penalties for entities at revocation of corporate status and for individuals at up to twenty years, comparing both to nuclear weapons offenses.",
+     "url": "https://casar.house.gov/media/press-releases/news-casar-sanders-introduce-legislation-create-new-federal-agency-ban",
+     "link_label": "Read the announcement",
+     "landscape": {
+      "tag": "policy",
+      "t": "f2",
+      "src_short": "Rep. Greg Casar",
+      "gloss": "Casar and Sanders introduce a bill banning artificial superintelligence and creating a cabinet AI department",
+      "img": null
+     }
+    },
+    {
+     "tag_class": "tag-enforce",
+     "tag_label": "Ruling",
+     "headline": "Ohio State will pay $2.1 million over foreign affiliations its own faculty reports had already recorded",
+     "source": "U.S. Department of Justice · August 31, 2026",
+     "summary": "The Justice Department announced on Aug. 31 that Ohio State agreed to pay $2.1 million to resolve allegations involving NASA and National Science Foundation grants funded from November 2012 to August 2023. According to the department, annual Faculty Activity Reports submitted to the university since 2014 identified affiliations with Chinese universities and state-run research organizations, and Ohio State did not pass that information to either agency. The university also learned in 2019 that a grant investigator was in a foreign talent program and did not notify the agencies until 2023. Ohio State denies the allegations, and the settlement records no determination of liability.",
+     "why": "The allegation concerns what the university did with information it already held, rather than a failure by employees to report affiliations internally.",
+     "url": "https://www.justice.gov/opa/pr/ohio-state-university-agrees-21m-settlement-resolve-allegations-it-failed-disclose-employees",
+     "link_label": "Read the announcement",
+     "landscape": {
+      "tag": "ruling",
+      "t": "f2",
+      "src_short": "U.S. Justice Department",
+      "gloss": "Ohio State pays $2.1M to settle False Claims Act allegations over unreported foreign affiliations",
+      "img": null
+     }
+    },
+    {
+     "tag_class": "tag-enforce",
+     "tag_label": "Policy",
+     "headline": "Two federal departments opened foreign-funding investigations into Duke and North Dakota, giving each thirty days to produce records",
+     "source": "U.S. Department of Education · September 16, 2026",
+     "summary": "The Departments of Education and State opened investigations on Sept. 15 into Duke University and the University of North Dakota, announcing them the next day. Federal law requires universities to report foreign gifts and contracts worth $250,000 or more from a single source in a calendar year. The departments said their reviews indicated “the submission of incomplete, inaccurate, and untimely disclosures,” including late contract reports, omitted details and at least one foreign government partner “mischaracterized as a non-governmental entity.” Each institution has thirty calendar days to produce records. Neither has been found in violation.",
+     "why": "The investigations concern the completeness of institutional reports rather than any individual researcher’s disclosure, and no finding or sanction has issued.",
+     "url": "https://www.ed.gov/about/news/press-release/us-department-of-education-and-us-department-of-state-open-foreign-funding-investigations-duke-university-and-university-of-north-dakota",
+     "link_label": "Read the announcement",
+     "landscape": {
+      "tag": "policy",
+      "t": "f2",
+      "src_short": "U.S. Education Department",
+      "gloss": "Education and State open Section 117 foreign-funding investigations into Duke and North Dakota",
+      "img": null
+     }
+    }
+   ]
+  },
+  {
+   "id": "governance",
+   "title": "Risk and Governance",
+   "pill": "Risk and\nGovernance",
+   "cards": [
+    {
+     "tag_class": "tag-risk",
+     "tag_label": "Study",
+     "headline": "Hospitals owned by private equity adopt clinical AI at far higher rates than other for-profit hospitals",
+     "source": "Health Affairs Scholar · September 25, 2026",
+     "summary": "Researchers linked the 2024 American Hospital Association annual survey to a database of private equity acquisitions and exits, then modeled adoption. Private equity-owned hospitals showed adjusted adoption of clinical AI 27.5 percentage points higher than other for-profit hospitals, with a confidence interval running from 14.0 to 41.1. Adoption of any AI ran 24.5 points higher on the same comparison. The comparison group is other for-profit hospitals, not all hospitals. Private equity-owned and not-for-profit hospitals adopted at similar rates, and operational AI showed no difference by ownership.",
+     "why": "The comparison runs against other for-profit hospitals rather than the whole sector, and the difference appears in clinical AI rather than in operational systems.",
+     "url": "https://doi.org/10.1093/haschl/qxag261",
+     "link_label": "Read at Health Affairs Scholar",
+     "landscape": {
+      "tag": "study",
+      "t": "f4",
+      "src_short": "Health Affairs Scholar",
+      "gloss": "PE-owned hospitals adopt clinical AI 27.5 points more than other for-profits; comparison group is not all hospitals",
+      "img": null
+     }
+    },
+    {
+     "tag_class": "tag-risk",
+     "tag_label": "Report",
+     "headline": "Ohio State’s compliance office investigated its own president at the board’s request and found he misused his position",
+     "source": "Ohio State Office of University Compliance and Integrity · April 20, 2026",
+     "summary": "Walter “Ted” Carter Jr. resigned the presidency of Ohio State on March 9. Six weeks later the university published an investigation, commissioned by its Board of Trustees and conducted jointly by the Office of University Compliance and Integrity and the Department of Internal Audit under the General Counsel’s direction, which found that Carter “misused his position as Ohio State’s President to seek resources from the university and key university partners for a personal associate.” A senior vice president resigned in mid-April for failing to stop or report the effort. The report states that no university funds were paid to the associate.",
+     "why": "The investigation was commissioned by the board and conducted by the university’s own compliance and internal audit offices, and it names no policy or statute.",
+     "url": "https://compliance.osu.edu/sites/default/files/documents/2026/04/carter-investigation-report.pdf",
+     "link_label": "Read the investigation report",
+     "landscape": {
+      "tag": "report",
+      "t": "f4",
+      "src_short": "Ohio State",
+      "gloss": "Board-commissioned compliance and internal audit investigation finds a sitting president misused his position",
+      "img": null
+     }
+    },
+    {
+     "tag_class": "tag-risk",
+     "tag_label": "Report",
+     "headline": "Rutgers paid about $145,000 to a company co-owned by one of its deans, and has not said whether the interest was disclosed",
+     "source": "WHYY · September 17, 2026",
+     "summary": "Rutgers units paid roughly $145,000 since 2020, and about $155,000 across nine years, to Easton’s Nook, a writing-retreat company co-owned by Jacqueline S. Mattis, dean of the Rutgers-Newark School of Arts and Sciences, and her sister. The university has suspended acceptance of new services from the company and retained a former county prosecutor and Superior Court judge to investigate. Rutgers policy 60.5.9 governs faculty and staff involvement with commercial enterprises that contract with the university. As of late September, Rutgers had not publicly said whether the interest was disclosed, approved or managed under that policy.",
+     "why": "The unresolved question is not the payment but whether the university’s own disclosure and approval process was used, and Rutgers has not said.",
+     "url": "https://whyy.org/articles/rutgers-university-ethics-investigation-dean-sasn/",
+     "link_label": "Read at WHYY",
+     "landscape": {
+      "tag": "report",
+      "t": "f4",
+      "src_short": "WHYY",
+      "gloss": "Rutgers paid a dean-co-owned company; whether the interest was disclosed under policy 60.5.9 is unresolved",
+      "img": null
+     }
+    },
+    {
+     "tag_class": "tag-risk",
+     "tag_label": "Report",
+     "headline": "Two universities had employee health data exposed through benefits vendors, and neither university’s own systems were breached",
+     "source": "University of Texas System · April 28, 2026",
+     "summary": "When the University of Texas System told employees about a data incident in April, it published a set of questions and answers explaining who was writing to them: the notice would name neither the university nor Express Scripts, the system’s pharmacy benefit manager, but a consulting firm that manager had hired. About 2,200 members were affected. A second incident reached members through a printing and mailing vendor used by the plans’ administrator, and some of those letters named the wrong health plan entirely. Texas states none of its own systems were breached. Indiana University issued a comparable notice in February.",
+     "why": "Both universities’ exposure ran through their self-insured employee health plans and those plans’ vendors, rather than through a campus clinic or medical center.",
+     "url": "https://www.utsystem.edu/documents/docs/publication/2026/berkeley-research-group-data-incident",
+     "link_label": "Read the UT System notice",
+     "landscape": {
+      "tag": "report",
+      "t": "f2",
+      "src_short": "UT System",
+      "gloss": "University employee health data exposed through benefit-plan vendors; campus systems not breached",
+      "img": null
+     }
+    }
+   ]
+  },
+  {
+   "id": "cache",
+   "title": "The Cache",
+   "pill": "The\nCache",
+   "cards": [
+    {
+     "tag_class": "tag-cache",
+     "tag_label": "Study",
+     "headline": "Three mathematicians proved that one kind of random network always sits neatly between two copies of another",
+     "source": "arXiv · October 23, 2025",
+     "summary": "Mathematicians build random networks two standard ways. In one, every point gets exactly the same number of connections, which is clean to describe and hard to analyze. In the other, each possible connection is made independently at random, which is easy to analyze and messier in structure. In 2004 Jeong Han Kim and Van Ha Vu conjectured that the first always sits between two copies of the second, so results transfer from one to the other. Natalie Behague, Daniel Il’kovič and Richard Montgomery proved it in a preprint posted last October. The only requirement is that each point have at least about log n connections.",
+     "why": "The result lets properties already proven for the easier of the two models transfer to the harder one. The paper is a preprint, not yet peer reviewed.",
+     "url": "https://www.quantamagazine.org/mathematicians-build-long-awaited-graph-sandwich-20260918/",
+     "link_label": "Read the coverage at Quanta Magazine",
+     "landscape": {
+      "tag": "study",
+      "t": "curious",
+      "src_short": "arXiv",
+      "gloss": "Behague, Il’kovič and Montgomery prove the 2004 Kim-Vu sandwich conjecture for degree at least C log n",
+      "img": null
+     }
+    }
+   ]
+  }
+ ]
+}
