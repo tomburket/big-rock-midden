@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "current_edition": 7,
+ "current_edition": 8,
  "edition_dates": {
   "1": "August 15",
   "2": "August 21",
@@ -8,7 +8,8 @@
   "4": "September 4",
   "5": "September 11",
   "6": "September 18",
-  "7": "September 25"
+  "7": "September 25",
+  "8": "October 2"
  },
  "active_threads": [
   "f1",
@@ -893,6 +894,163 @@
    "t": "curious",
    "s": "Behague, Il’kovič and Montgomery prove the 2004 Kim-Vu sandwich conjecture for degree at least C log n",
    "url": "https://www.quantamagazine.org/mathematicians-build-long-awaited-graph-sandwich-20260918/",
+   "img": null
+  },
+  {
+   "id": "e8c1",
+   "ed": 8,
+   "sec": "The Field",
+   "tag": "report",
+   "h": "Anthropic tested a rival’s open-weight model and got past its safeguards 64% to 100% of the time",
+   "src": "Anthropic · Sept 29",
+   "t": "f3",
+   "s": "Anthropic red team: GLM-5.3 safeguards bypassed 64–100% of the time; removing refusals cost about $4,400",
+   "url": "https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities",
+   "img": null
+  },
+  {
+   "id": "e8c2",
+   "ed": 8,
+   "sec": "The Field",
+   "tag": "report",
+   "h": "OpenAI says a frontier training run should need a written safety case, a dissent and a leadership veto",
+   "src": "OpenAI · Sept 28",
+   "t": "f1",
+   "s": "OpenAI guidelines: a safety case, a written dissent and a leadership veto before frontier RL training; aspirational",
+   "url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training/",
+   "img": null
+  },
+  {
+   "id": "e8c3",
+   "ed": 8,
+   "sec": "The Field",
+   "tag": "policy",
+   "h": "A final rule makes drugmakers rebate Medicare when Part B prices exceed a 19-country benchmark, in ZIP codes drawn at random",
+   "src": "Federal Register · Oct 2",
+   "t": "f2",
+   "s": "GLOBE final rule: mandatory Part B rebates against a 19-country benchmark in randomly drawn ZIP areas; $440M estimated",
+   "url": "https://www.federalregister.gov/documents/2026/10/02/2026-20281/global-benchmark-for-efficient-drug-pricing-globe-model",
+   "img": null
+  },
+  {
+   "id": "e8c4",
+   "ed": 8,
+   "sec": "The Field",
+   "tag": "report",
+   "h": "A federal program is paying Stanford up to $14.9 million to build a watchdog over AI agents treating heart patients",
+   "src": "Stanford Medicine · Sept 30",
+   "t": "f3",
+   "s": "ARPA-H ADVOCATE: Stanford’s STEWARD will supervise deployed clinical AI agents; up to $14.9M; program launched Sept. 9",
+   "url": "https://med.stanford.edu/news/all-news/2026/09/arpa-h-awards.html",
+   "img": null
+  },
+  {
+   "id": "e8c5",
+   "ed": 8,
+   "sec": "The Field",
+   "tag": "report",
+   "h": "Kant’s answer to AI-intelligence-as-optimization: who then chooses the ends",
+   "src": "Aeon · Oct 1",
+   "t": "f1",
+   "s": "Sasha Mudd in Aeon: defining intelligence as optimization hands the question of ends to whoever controls the objective; shared reading",
+   "url": "https://aeon.co/essays/why-real-intelligence-is-something-more-than-optimisation",
+   "img": null
+  },
+  {
+   "id": "e8c6",
+   "ed": 8,
+   "sec": "Enforcement and Rulemaking",
+   "tag": "report",
+   "h": "Medicare Advantage and Part D plans paid $72 million to revoked providers missing from the list meant to block them",
+   "src": "HHS-OIG · Oct 1",
+   "t": "f2",
+   "s": "OIG: $72M paid to revoked providers off the Preclusion List; $42M is a Part D pharmacy gap CMS says it cannot close",
+   "url": "https://oig.hhs.gov/reports/all/2026/medicare-advantage-organizations-and-prescription-drug-plans-paid-72-million-during-a-3-year-period-for-services-associated-with-excluded-providers-or-individuals-convicted-of-certain-felonies/",
+   "img": null
+  },
+  {
+   "id": "e8c7",
+   "ed": 8,
+   "sec": "Enforcement and Rulemaking",
+   "tag": "policy",
+   "h": "OCR says which consent lets a state Medicaid agency use addiction-treatment records to exempt a patient from the new work requirement",
+   "src": "HHS OCR · Sept 29",
+   "t": "f2",
+   "s": "OCR Part 2 FAQ: two consent routes for Medicaid agencies verifying SUD exemptions from community engagement",
+   "url": "https://www.hhs.gov/press-room/hhs-ocr-clarifies-privacy-rules-state-medicaid-programs.html",
+   "img": null
+  },
+  {
+   "id": "e8c8",
+   "ed": 8,
+   "sec": "Enforcement and Rulemaking",
+   "tag": "ruling",
+   "h": "A lab’s own audit found it had been overpaid for COVID tests; keeping the money cost it $20.5 million",
+   "src": "Justice Department · Sept 30",
+   "t": "f2",
+   "s": "Signal Diagnostics pays $20.5M: its own audit found ineligible HRSA Uninsured Program claims and it did not refund",
+   "url": "https://www.justice.gov/opa/pr/signal-diagnostics-agrees-pay-over-20m-settle-false-claims-act-allegations-failing-refund",
+   "img": null
+  },
+  {
+   "id": "e8c9",
+   "ed": 8,
+   "sec": "Enforcement and Rulemaking",
+   "tag": "ruling",
+   "h": "The Baylor Genetics breach has drawn 14 federal class actions in Houston, with a motion to consolidate them pending",
+   "src": "S.D. Texas docket · Sept 11",
+   "t": "f5",
+   "s": "Baylor Genetics breach: 14 S.D. Tex. class actions, consolidation motion pending; no OCR or AG action as of Oct. 2",
+   "url": "https://dockets.justia.com/docket/texas/txsdce/4:2026cv07701/2109344",
+   "img": null
+  },
+  {
+   "id": "e8c10",
+   "ed": 8,
+   "sec": "Enforcement and Rulemaking",
+   "tag": "ruling",
+   "h": "A Quest Diagnostics affiliate says Grail’s multi-cancer blood test infringes two of its patents on reading chemical marks on DNA",
+   "src": "D. Del. docket · Sept 11",
+   "t": "f5",
+   "s": "Clinical Genomics (Quest affiliate) v. Grail: two methylation patents asserted against Galleri; answer due Oct. 5",
+   "url": "https://dockets.justia.com/docket/delaware/dedce/1:2026cv01147/94608",
+   "img": null
+  },
+  {
+   "id": "e8c11",
+   "ed": 8,
+   "sec": "Risk and Governance",
+   "tag": "policy",
+   "h": "DOJ’s fraud division tells its prosecutors to “guard against overbroad corporate enforcement” and names ten factors that weigh heavily",
+   "src": "Justice Department · Oct 1",
+   "t": "f4",
+   "s": "NFED Directive 26-12: guard against overbroad corporate enforcement; ten weighted factors; one section monitors resolutions",
+   "url": "https://www.justice.gov/opa/pr/assistant-attorney-general-colin-m-mcdonald-issues-memorandum-national-fraud-enforcement-0",
+   "img": null
+  },
+  {
+   "id": "e8c12",
+   "ed": 8,
+   "sec": "Risk and Governance",
+   "tag": "report",
+   "h": "The Justice Department says UCLA’s law school discriminated by race in admitting three classes, and will sue if settlement talks fail",
+   "src": "Justice Department · Oct 1",
+   "t": "f4",
+   "t2": "f2",
+   "s": "DOJ Civil Rights findings: UCLA Law discriminated by race in 2023–25 admissions; settlement talks, then suit",
+   "url": "https://www.justice.gov/opa/pr/justice-department-finds-ucla-law-school-discriminates-based-race-admissions",
+   "img": null
+  },
+  {
+   "id": "e8c13",
+   "ed": 8,
+   "sec": "The Cache",
+   "tag": "report",
+   "h": "A novelist spent a summer asking AI agents to build the software he wanted, and his lesson is to ask",
+   "src": "Robin Sloan · Sept 18",
+   "t": "curious",
+   "s": "Robin Sloan on building personal apps with AI agents: ask for what you want; essay, shared reading",
+   "url": "https://www.robinsloan.com/lab/ask-for-what-you-want/",
    "img": null
   }
  ]
