@@ -1,0 +1,257 @@
+{
+ "edition": 8,
+ "date_long": "October 2, 2026",
+ "topics": "model safeguards and safety cases · intelligence as optimization · international drug pricing · provider screening and retained overpayments · the Baylor Genetics litigation · corporate enforcement · asking for what you want",
+ "sections": [
+  {
+   "id": "field",
+   "title": "The Field",
+   "pill": "The\nField",
+   "cards": [
+    {
+     "tag_class": "tag-field",
+     "tag_label": "Report",
+     "headline": "Anthropic tested a rival’s open-weight model and got past its safeguards 64% to 100% of the time",
+     "source": "Anthropic Frontier Red Team · September 29, 2026",
+     "summary": "Anthropic’s Frontier Red Team published a report Sept. 29 on GLM-5.3, an open-weight model from China’s Zhipu AI. Its finding: attackers can bypass the model’s safeguards “between 64% and 100% of the time with simple techniques in our simulated tests.” Out of the box the model refused in every trial; told it was a red-team agent on an exercise, it engaged 64% of the time, and with its refusals edited out of the weights, 100%. That edit took Anthropic’s own team about 2,200 GPU hours and roughly $4,400, which the report says an experienced team could do for about $1,200. The report’s remedy: “Governments should conduct safety testing on sufficiently capable AI models.”",
+     "why": "The report puts a dollar figure on removing a released model’s safeguards and asks governments, not developers, to test such models.",
+     "url": "https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities",
+     "link_label": "Read the report",
+     "landscape": {
+      "tag": "report",
+      "t": "f3",
+      "src_short": "Anthropic · Sept 29",
+      "gloss": "Anthropic red team: GLM-5.3 safeguards bypassed 64–100% of the time; removing refusals cost about $4,400",
+      "img": null
+     }
+    },
+    {
+     "tag_class": "tag-field",
+     "tag_label": "Report",
+     "headline": "OpenAI says a frontier training run should need a written safety case, a dissent and a leadership veto",
+     "source": "OpenAI · September 28, 2026",
+     "summary": "OpenAI posted guidelines Sept. 28 for “safety cases,” defined as “comprehensive, structured, evidence-based arguments about risk which are used in other safety-critical industries,” to be made before a frontier reinforcement-learning training run. After a case is drafted, “a member of another team should write a dissent to find potential holes in the safety case.” Senior leaders “should each have the ability to veto the run.” The responsible leader is accountable “including as part of performance reviews,” and incident findings “should be shared with the public.” The document calls itself “initial guidelines” and “an aspirational north star,” says the recommendations are “in the process of being implemented at OpenAI,” and covers training only, not deployment.",
+     "why": "Every mechanism in the document is a “should,” and the company says the controls are being implemented rather than in force.",
+     "url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training/",
+     "link_label": "Read the guidelines",
+     "landscape": {
+      "tag": "report",
+      "t": "f1",
+      "src_short": "OpenAI · Sept 28",
+      "gloss": "OpenAI guidelines: a safety case, a written dissent and a leadership veto before frontier RL training; aspirational",
+      "img": null
+     }
+    },
+    {
+     "tag_class": "tag-field",
+     "tag_label": "Policy",
+     "headline": "A final rule makes drugmakers rebate Medicare when Part B prices exceed a 19-country benchmark, in ZIP codes drawn at random",
+     "source": "Federal Register · October 2, 2026",
+     "summary": "CMS published the GLOBE Model final rule Oct. 2, “a new mandatory Medicare payment model.” Manufacturers of qualifying Part B drugs, seven drug classes with more than $100 million a year in Original Medicare spending, pay rebates to the Part B trust fund whenever the Medicare price exceeds a benchmark built from 19 countries. Model areas are chosen “through a random selection of ZIP Code Tabulation Areas,” about 25% of Original Medicare Part B enrollees. Five performance years run April 1, 2027 to March 31, 2032. CMS estimates “overall savings of $440 million in Medicare Part B net spending during the 7-year payment period.” Negotiated-price drugs, orphan-only drugs and cell and gene therapies are excluded.",
+     "why": "The rule is mandatory and assigns participation by random draw, so a manufacturer’s exposure depends on geography rather than on anything it decides.",
+     "url": "https://www.federalregister.gov/documents/2026/10/02/2026-20281/global-benchmark-for-efficient-drug-pricing-globe-model",
+     "link_label": "Read the final rule",
+     "landscape": {
+      "tag": "policy",
+      "t": "f2",
+      "src_short": "Federal Register · Oct 2",
+      "gloss": "GLOBE final rule: mandatory Part B rebates against a 19-country benchmark in randomly drawn ZIP areas; $440M estimated",
+      "img": null
+     }
+    },
+    {
+     "tag_class": "tag-field",
+     "tag_label": "Report",
+     "headline": "A federal program is paying Stanford up to $14.9 million to build a watchdog over AI agents treating heart patients",
+     "source": "Stanford Medicine · September 30, 2026",
+     "summary": "Stanford Medicine announced Sept. 30 that a team co-led by Roxana Daneshjou received up to $14.9 million from ARPA-H, the federal health research agency, under ADVOCATE, a program ARPA-H launched Sept. 9 with six teams and $62.7 million over four years. Stanford’s role is the supervisor: a system called STEWARD “which will monitor the AI agents deployed in clinical settings giving on-site reports to clinical teams,” built as three stages ending in an auditing agent. Other teams build the patient-facing agent for cardiovascular care and must submit an FDA authorization package within 24 months. Stanford names OpenAI, the University of Washington and Tuple Health as partners; ARPA-H names neither OpenAI nor the dollar figure.",
+     "why": "The program funds the monitor and the monitored agent as separate teams, with the supervisor watching the agent after deployment.",
+     "url": "https://med.stanford.edu/news/all-news/2026/09/arpa-h-awards.html",
+     "link_label": "Read the announcement",
+     "landscape": {
+      "tag": "report",
+      "t": "f3",
+      "src_short": "Stanford Medicine · Sept 30",
+      "gloss": "ARPA-H ADVOCATE: Stanford’s STEWARD will supervise deployed clinical AI agents; up to $14.9M; program launched Sept. 9",
+      "img": null
+     }
+    },
+    {
+     "tag_class": "tag-field",
+     "tag_label": "Report",
+     "headline": "Kant’s answer to AI-intelligence-as-optimization: who then chooses the ends",
+     "source": "Aeon · October 1, 2026",
+     "summary": "Sasha Mudd, a philosophy professor in Santiago, Chile, published an essay in Aeon Oct. 1. It opens with a computer scientist telling an audience that systems which optimize, and improve at it with experience, are intelligent. “What troubled me was the ease with which a definition appropriate to machines sounded like a definition of intelligence as such.” The argument runs through Hume, for whom reason serves given ends, and Kant, for whom it also judges them. Her point: “once intelligence is defined as optimisation, the question of ends and their value does not go away. It simply passes unnoticed into the hands of whoever – or whatever – controls the objective function.”",
+     "why": "The essay relocates the alignment question from whether machines follow human ends to who writes the objective the machine serves.",
+     "url": "https://aeon.co/essays/why-real-intelligence-is-something-more-than-optimisation",
+     "link_label": "Read the essay",
+     "landscape": {
+      "tag": "report",
+      "t": "f1",
+      "src_short": "Aeon · Oct 1",
+      "gloss": "Sasha Mudd in Aeon: defining intelligence as optimization hands the question of ends to whoever controls the objective; shared reading",
+      "img": null
+     }
+    }
+   ]
+  },
+  {
+   "id": "enforcement",
+   "title": "Enforcement and Rulemaking",
+   "pill": "Enforcement and\nRulemaking",
+   "cards": [
+    {
+     "tag_class": "tag-enforce",
+     "tag_label": "Report",
+     "headline": "Medicare Advantage and Part D plans paid $72 million to revoked providers missing from the list meant to block them",
+     "source": "HHS Office of Inspector General · October 1, 2026",
+     "summary": "An HHS-OIG data brief posted Oct. 1 compared 7,991 Medicare enrollment revocations with 2,973 entries on CMS’s Preclusion List, which tells Medicare Advantage and Part D plans whom not to pay. It found 1,017 revoked providers, tied to exclusions or felony convictions, absent from the list at the end of 2023. Plans paid $72 million from 2022 through 2024 for services associated with 249 of them. The largest piece, $42 million, went to pharmacies filling Part D prescriptions, which OIG says CMS “does not have the authority under current regulations” to preclude. Timing errors and unprecluded organizations account for the rest. The brief “does not contain any specific recommendations to CMS”; CMS gave technical comments.",
+     "why": "Most of the money sits in a gap OIG says the regulations leave open, not in the screening a plan’s compliance program controls.",
+     "url": "https://oig.hhs.gov/reports/all/2026/medicare-advantage-organizations-and-prescription-drug-plans-paid-72-million-during-a-3-year-period-for-services-associated-with-excluded-providers-or-individuals-convicted-of-certain-felonies/",
+     "link_label": "Read the data brief",
+     "landscape": {
+      "tag": "report",
+      "t": "f2",
+      "src_short": "HHS-OIG · Oct 1",
+      "gloss": "OIG: $72M paid to revoked providers off the Preclusion List; $42M is a Part D pharmacy gap CMS says it cannot close",
+      "img": null
+     }
+    },
+    {
+     "tag_class": "tag-enforce",
+     "tag_label": "Policy",
+     "headline": "OCR says which consent lets a state Medicaid agency use addiction-treatment records to exempt a patient from the new work requirement",
+     "source": "HHS Office for Civil Rights · September 29, 2026",
+     "summary": "HHS’s Office for Civil Rights issued guidance Sept. 29 on when 42 CFR Part 2, the federal rule protecting substance-use-disorder treatment records, lets a state Medicaid agency use them to verify an applicant’s exemption from the Medicaid community-engagement requirement, due by Jan. 1, 2027. Two routes: a consent the treatment program already obtained “for all future uses and disclosures for treatment, payment, and health care operations purposes,” or a written consent the agency obtains itself, which “must include the required elements specified in 42 CFR 2.31(a), including the patient’s right to revoke consent and an expiration date or event.” Records used this way still cannot be used to charge or investigate the patient.",
+     "why": "The guidance answers a question states will face at every exemption determination, and a wrong answer is a Part 2 disclosure.",
+     "url": "https://www.hhs.gov/press-room/hhs-ocr-clarifies-privacy-rules-state-medicaid-programs.html",
+     "link_label": "Read the guidance",
+     "landscape": {
+      "tag": "policy",
+      "t": "f2",
+      "src_short": "HHS OCR · Sept 29",
+      "gloss": "OCR Part 2 FAQ: two consent routes for Medicaid agencies verifying SUD exemptions from community engagement",
+      "img": null
+     }
+    },
+    {
+     "tag_class": "tag-enforce",
+     "tag_label": "Ruling",
+     "headline": "A lab’s own audit found it had been overpaid for COVID tests; keeping the money cost it $20.5 million",
+     "source": "U.S. Department of Justice · September 30, 2026",
+     "summary": "Signal Diagnostics, a Los Angeles clinical laboratory, agreed Sept. 30 to pay $20.5 million to resolve False Claims Act allegations “for failing to refund overpayments to the HRSA Uninsured Program,” the federal fund that paid for COVID-19 testing of people without insurance. Signal billed the program from October 2020 to March 2022. “Through the audit, Signal determined that it had submitted claims to the Uninsured Program that were ineligible for payment because the individuals had insurance.” From January 2022 to May 2023 it kept auditing, calculated the overpayment and “knowingly and improperly avoided its obligation to repay HRSA.” No relator is named. The claims “are allegations only and there has been no determination of liability.”",
+     "why": "The liability theory is retention after discovery, so the audit that found the problem is also the fact that established knowledge.",
+     "url": "https://www.justice.gov/opa/pr/signal-diagnostics-agrees-pay-over-20m-settle-false-claims-act-allegations-failing-refund",
+     "link_label": "Read the announcement",
+     "landscape": {
+      "tag": "ruling",
+      "t": "f2",
+      "src_short": "Justice Department · Sept 30",
+      "gloss": "Signal Diagnostics pays $20.5M: its own audit found ineligible HRSA Uninsured Program claims and it did not refund",
+      "img": null
+     }
+    },
+    {
+     "tag_class": "tag-enforce",
+     "tag_label": "Ruling",
+     "headline": "The Baylor Genetics breach has drawn 14 federal class actions in Houston, with a motion to consolidate them pending",
+     "source": "U.S. District Court, Southern District of Texas · September 11, 2026",
+     "summary": "Baylor Genetics, a Houston genetic-testing laboratory, says an unauthorized party had access to parts of its network “between June 11 and June 17, 2026,” reaching test results, medical testing information and some Social Security numbers. Between Aug. 18 and Sept. 11, 14 separate suits were filed against it in the Southern District of Texas; a Sept. 11 filing backs a pending motion to consolidate the cases and appoint class counsel. The company’s undated notice gives no total; the 2,810,878 figure in circulation is HIPAA Journal’s reading of the HHS breach portal. As of Oct. 2 the OCR enforcement index lists no Baylor matter and no state attorney general has announced an action.",
+     "why": "A genetic-testing breach has moved from patient notice to 14 complaints in three weeks, ahead of any regulator, with the count still unconfirmed.",
+     "url": "https://dockets.justia.com/docket/texas/txsdce/4:2026cv07701/2109344",
+     "link_label": "Read the docket",
+     "landscape": {
+      "tag": "ruling",
+      "t": "f5",
+      "src_short": "S.D. Texas docket · Sept 11",
+      "gloss": "Baylor Genetics breach: 14 S.D. Tex. class actions, consolidation motion pending; no OCR or AG action as of Oct. 2",
+      "img": null
+     }
+    },
+    {
+     "tag_class": "tag-enforce",
+     "tag_label": "Ruling",
+     "headline": "A Quest Diagnostics affiliate says Grail’s multi-cancer blood test infringes two of its patents on reading chemical marks on DNA",
+     "source": "U.S. District Court, District of Delaware · September 11, 2026",
+     "summary": "Three Clinical Genomics entities, Australian companies whose court disclosure names Quest Diagnostics as an affiliate, sued Grail for patent infringement in federal court in Delaware Sept. 11. The complaint asserts U.S. patents 10,590,468 and 10,941,449 against Galleri, which Bloomberg Law describes as a test that “uses a single blood draw to screen for more than 50 different cancers.” Both patents cover methods of detecting methylation, chemical marks on DNA that tumors shed into blood; the ’468 patent claims a general method and the ’449 patent is written around colorectal cancer. Grail was served Sept. 14 and its answer is due Oct. 5. The complaint itself is not on the public mirror.",
+     "why": "One asserted patent is drafted around colorectal cancer and the accused test screens for more than 50, which is where the claim-scope fight sits.",
+     "url": "https://dockets.justia.com/docket/delaware/dedce/1:2026cv01147/94608",
+     "link_label": "Read the docket",
+     "landscape": {
+      "tag": "ruling",
+      "t": "f5",
+      "src_short": "D. Del. docket · Sept 11",
+      "gloss": "Clinical Genomics (Quest affiliate) v. Grail: two methylation patents asserted against Galleri; answer due Oct. 5",
+      "img": null
+     }
+    }
+   ]
+  },
+  {
+   "id": "governance",
+   "title": "Risk and Governance",
+   "pill": "Risk and\nGovernance",
+   "cards": [
+    {
+     "tag_class": "tag-risk",
+     "tag_label": "Policy",
+     "headline": "DOJ’s fraud division tells its prosecutors to “guard against overbroad corporate enforcement” and names ten factors that weigh heavily",
+     "source": "U.S. Department of Justice · October 1, 2026",
+     "summary": "Assistant Attorney General Colin McDonald of the National Fraud Enforcement Division issued Directive 26-12 on Oct. 1, his second since the division was created in August. Prosecutors “will also firmly guard against overbroad corporate enforcement—rightly dividing between shades of corporate malfeasance—lest we interfere with legitimate business operations.” Health care fraud is the first of four priorities. In corporate matters prosecutors “must place great weight on” ten factors, among them management’s knowledge, concealment from auditors, schemes lasting three years or more, and $25 million in loss. Open corporate investigations are reported within seven days to the Corporate Enforcement Section, which also takes over evaluating a settled company’s compliance program “during the term of the agreement.”",
+     "why": "The division now separates prosecuting a company from evaluating its compliance program under a resolution, and assigns the second to one section.",
+     "url": "https://www.justice.gov/opa/pr/assistant-attorney-general-colin-m-mcdonald-issues-memorandum-national-fraud-enforcement-0",
+     "link_label": "Read the directive",
+     "landscape": {
+      "tag": "policy",
+      "t": "f4",
+      "src_short": "Justice Department · Oct 1",
+      "gloss": "NFED Directive 26-12: guard against overbroad corporate enforcement; ten weighted factors; one section monitors resolutions",
+      "img": null
+     }
+    },
+    {
+     "tag_class": "tag-risk",
+     "tag_label": "Report",
+     "headline": "The Justice Department says UCLA’s law school discriminated by race in admitting three classes, and will sue if settlement talks fail",
+     "source": "U.S. Department of Justice, Civil Rights Division · October 1, 2026",
+     "summary": "The Civil Rights Division announced Oct. 1 “investigative findings that the University of California-Los Angeles School of Law (UCLA Law) discriminated against white and Asian students in granting admission to its 2023, 2024, and 2025 incoming classes.” It says the school “rejected white and Asian applicants who had the same LSAT scores as admitted black and Hispanic applicants,” that post-2023 essay prompts are “designed to elicit information about race,” and that staff coached applicants on revealing race at a “Diversity Admissions Open House.” It cites Title VI and the 2023 SFFA decision. “Where a violation has been found, the Department will engage in settlement negotiations… If those efforts fail, the Department will file suit.”",
+     "why": "A second UCLA professional school is now under a federal admissions finding in five months, each with a negotiate-then-sue sequence.",
+     "url": "https://www.justice.gov/opa/pr/justice-department-finds-ucla-law-school-discriminates-based-race-admissions",
+     "link_label": "Read the announcement",
+     "landscape": {
+      "tag": "report",
+      "t": "f4",
+      "t2": "f2",
+      "src_short": "Justice Department · Oct 1",
+      "gloss": "DOJ Civil Rights findings: UCLA Law discriminated by race in 2023–25 admissions; settlement talks, then suit",
+      "img": null
+     }
+    }
+   ]
+  },
+  {
+   "id": "cache",
+   "title": "The Cache",
+   "pill": "The\nCache",
+   "cards": [
+    {
+     "tag_class": "tag-cache",
+     "tag_label": "Report",
+     "headline": "A novelist spent a summer asking AI agents to build the software he wanted, and his lesson is to ask",
+     "source": "Robin Sloan · September 18, 2026",
+     "summary": "Robin Sloan, the novelist, published a note Sept. 18 on building two personal tools over the summer with AI coding agents, a notes app and an email client, neither released. His point is the asking. “Ask for what you want. It takes practice, and a bit of audacity.” The software environment “is malleable. It can, at last, be anything I want,” he writes; “building a personal app with the help of AI agents still totally counts as ‘home cooking,’” and the obligation at the end is use: “You do, at some point, have to use your tools. You do have to actually make something.” An essay, with no finding; here as shared reading.",
+     "why": "The piece describes software made by one user for one user, a category no vendor contract, policy or audit currently reaches.",
+     "url": "https://www.robinsloan.com/lab/ask-for-what-you-want/",
+     "link_label": "Read the essay",
+     "landscape": {
+      "tag": "report",
+      "t": "curious",
+      "src_short": "Robin Sloan · Sept 18",
+      "gloss": "Robin Sloan on building personal apps with AI agents: ask for what you want; essay, shared reading",
+      "img": null
+     }
+    }
+   ]
+  }
+ ]
+}
