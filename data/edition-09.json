@@ -1,0 +1,206 @@
+{
+ "edition": 9,
+ "date_long": "October 9, 2026",
+ "topics": "an AI vendor’s high-risk rules · text watermarks · plan directories · a delete list left alone · Colorado’s AI rules · AI prescribing in Utah · genetic tests in life insurance · papers that rerun their own code · agent confidence · machine-checked proofs",
+ "sections": [
+  {
+   "id": "field",
+   "title": "The Field",
+   "pill": "The\nField",
+   "cards": [
+    {
+     "tag_class": "tag-field",
+     "tag_label": "Policy",
+     "headline": "Anthropic’s new usage rules name prior authorization as high-risk, but approvals wholly in a patient’s favor need no human review",
+     "source": "Anthropic · October 8, 2026",
+     "summary": "Anthropic, maker of the Claude AI models, posted a revised usage policy Oct. 8, effective Nov. 12. Its high-risk list now names prior-authorization and medical-necessity determinations, triage and eligibility for care, and public benefits. For those, a qualified person, licensed where the law requires, must review the AI’s recommendation before it is used, and the person affected must be told AI was involved. A new exception waives that review, “where permitted by law,” for decisions “wholly favorable to the individual,” such as approving prior authorization a clinician ordered. Coverage led with a new ban on abusing the chatbot; Ellen Burns, a philosopher, asks who should judge the evidence for rules like that.",
+     "why": "Under one AI vendor’s contract terms, a model may approve a prior authorization on its own, while a denial still needs a qualified person.",
+     "url": "https://ellennoraburns.substack.com/p/anthropics-ban-on-cruelty-towards",
+     "link_label": "Read Ellen Burns on the policy",
+     "landscape": {
+      "tag": "policy",
+      "t": "f1",
+      "src_short": "Anthropic · Oct 8",
+      "gloss": "Anthropic usage policy, effective Nov. 12: high-risk list names prior auth and medical necessity; wholly favorable decisions exempt from human review",
+      "img": null
+     }
+    },
+    {
+     "tag_class": "tag-field",
+     "tag_label": "Policy",
+     "headline": "OpenAI will hide a detectable marker in ChatGPT text for EU users, and says a missing marker proves nothing",
+     "source": "OpenAI · October 5, 2026",
+     "summary": "OpenAI said Oct. 5 that, to meet the EU AI Act’s requirement that AI-generated text be identifiable by machine, it will add an invisible statistical watermark to ChatGPT and Codex text for users in the European Union over the coming weeks. API customers anywhere may opt in; it stays off by default. Only approved researchers and expert organizations get the detector. The post is plain about limits: “The absence of a detected watermark does not prove human authorship,” and a watermark does not determine “whether disclosure was required, or who is responsible for it.” In OpenAI’s own test, swapping one word in ten for a synonym cut detection from about 92% to 66%.",
+     "why": "When a document’s origin matters to an investigation, the vendor itself says its detector can show AI involvement but can never rule it out.",
+     "url": "https://openai.com/index/eu-text-provenance/",
+     "link_label": "Read OpenAI’s post",
+     "landscape": {
+      "tag": "policy",
+      "t": "f1",
+      "src_short": "OpenAI · Oct 5",
+      "gloss": "OpenAI EU text watermark (textGrain): EU ChatGPT and Codex, API opt-in, detector for vetted researchers; absence proves nothing",
+      "img": null
+     }
+    },
+    {
+     "tag_class": "tag-field",
+     "tag_label": "Study",
+     "headline": "A third of Medicare Advantage visits in February 2023 were with doctors missing from the patient’s plan directory, MedPAC staff found",
+     "source": "MedPAC · October 8, 2026",
+     "summary": "Staff of MedPAC, the commission that advises Congress on Medicare payment, matched Medicare Advantage claims against plan provider directories. In February 2023, 32% of visits were with a physician who did not appear in the directory of the patient’s own plan. Staff name two explanations, directories that were incomplete or out of date and out-of-network care, and do not say how much each accounts for. The directory data come from Ideon, a commercial compiler, and reconciling sources is listed as unfinished work. The slides, presented at the Oct. 8 meeting and marked “Preliminary and subject to change,” are headed for a June 2027 report; the commission has voted on nothing.",
+     "why": "Provider directories are how enrollees find in-network care, and Medicare Advantage plans are accountable to CMS for keeping them accurate.",
+     "url": "https://www.medpac.gov/wp-content/uploads/2026/10/Tab-C-Physicians-in-MA-networks-Oct-2026.pdf",
+     "link_label": "Read the staff slides",
+     "landscape": {
+      "tag": "study",
+      "t": "f2",
+      "src_short": "MedPAC · Oct 8",
+      "gloss": "MedPAC staff, preliminary: 32% of Feb. 2023 MA visits with a physician absent from the enrollee’s plan directory; errors vs out-of-network not split",
+      "img": null
+     }
+    }
+   ]
+  },
+  {
+   "id": "enforcement",
+   "title": "Enforcement and Rulemaking",
+   "pill": "Enforcement and\nRulemaking",
+   "cards": [
+    {
+     "tag_class": "tag-enforce",
+     "tag_label": "Ruling",
+     "headline": "An HIV nonprofit that ran Medicare Advantage plans settles for $1.44 million over diagnosis codes its own coders had flagged for deletion",
+     "source": "Justice Department · October 6, 2026",
+     "summary": "AIDS Healthcare Foundation, a Los Angeles nonprofit whose managed-care division ran Medicare Advantage special needs plans for people with HIV, agreed to resolve False Claims Act allegations for $1.44 million, DOJ said Oct. 6: $640,000 in cash and $800,000 recouped through Medicare’s risk-adjustment reconciliation. The government contends that for payment years 2017 to 2023 the plans’ coders listed unsupported diagnosis codes in “Delete Research” spreadsheets and most were never deleted within the 60 days it says the plans had. A former risk-adjustment coder brought the suit and receives $259,200. AHF admits no liability; DOJ credited its cooperation and remediation.",
+     "why": "The government’s theory rests on the plan’s own internal review, which flagged the unsupported codes and was then left unacted on for years.",
+     "url": "https://www.justice.gov/opa/pr/aids-healthcare-foundation-agrees-pay-144m-settle-false-claims-act-allegations",
+     "link_label": "Read the release",
+     "landscape": {
+      "tag": "ruling",
+      "t": "f2",
+      "src_short": "Justice Department · Oct 6",
+      "gloss": "AHF (Positive Healthcare Partners) MA SNPs, $1.44M FCA ($640K cash, $800K recoupment); codes on internal delete lists not deleted, PY 2017–23",
+      "img": null
+     }
+    },
+    {
+     "tag_class": "tag-enforce",
+     "tag_label": "Policy",
+     "headline": "Colorado posts a working draft of its AI decision rules, with a lab-test example that puts the decision on the physician",
+     "source": "Colorado Department of Law · October 6, 2026",
+     "summary": "Colorado’s Department of Law posted an interim draft Oct. 6 of the rules implementing the state’s laws on automated decision-making technology and chatbot safety, ahead of an Oct. 26 hearing and comment deadline. It is a working revision, not the formal proposal filed Aug. 11, and not final; it says the rules take effect Jan. 1, 2027. One example: a lab runs an AI-assisted test indicating a patient will not respond to a treatment, and a physician, a HIPAA-covered provider, decides not to give it. The draft says the lab has no deployer duties, because the physician makes the decision and is exempt under the statute.",
+     "why": "The draft’s example assigns a consequential health decision, and the statute’s exemption, to the treating physician rather than to the lab whose AI produced the result.",
+     "url": "https://coag.gov/ai/",
+     "link_label": "Read the draft and hearing notice",
+     "landscape": {
+      "tag": "policy",
+      "t": "f2",
+      "src_short": "Colorado Department of Law · Oct 6",
+      "gloss": "Colorado AG interim draft ADMT/chatbot rules, Oct. 6; hearing Oct. 26; effective Jan. 1, 2027; lab-test example: physician is decision-maker",
+      "img": null
+     }
+    },
+    {
+     "tag_class": "tag-enforce",
+     "tag_label": "Policy",
+     "headline": "Utah lets an AI refill maintenance prescriptions, with physicians checking the first 250 in advance and then only some afterward",
+     "source": "Utah Department of Commerce · October 5, 2026",
+     "summary": "Utah’s Office of Artificial Intelligence Policy posted contracts Oct. 5 for new pilots in its regulatory sandbox, where the state agrees not to enforce certain licensing rules. August AI may refill non-controlled maintenance drugs a patient already takes: a Utah-licensed provider reviews the first 250 refills before they reach patients, the next 1,000 afterward, then spot-checks at least 5%. The state’s release says review comes “before prescriptions are authorized”; the contract says otherwise. Nolla Health’s pilot for first-time topical acne prescriptions began its one-year term Oct. 5. Both contracts require telling patients they are dealing with AI. Six outside evaluators are named; at least two sell AI-assurance products.",
+     "why": "The contracts set out, stage by stage, how much human review a state requires before software may prescribe without a physician checking each order.",
+     "url": "https://commerce.utah.gov/2026/10/05/utah-enhances-pro-human-ai-initiative-with-new-healthcare-pillar-adds-new-pilots-to-its-regulatory-sandbox-and-partners-with-third-party-evaluators/",
+     "link_label": "Read the release",
+     "landscape": {
+      "tag": "policy",
+      "t": "f2",
+      "src_short": "Utah Department of Commerce · Oct 5",
+      "gloss": "Utah AI sandbox: August AI refills (250 pre-review, 1,000 post, 5% spot), Nolla first-time acne Rx from Oct. 5; six evaluators",
+      "img": null,
+      "t2": "f3"
+     }
+    },
+    {
+     "tag_class": "tag-enforce",
+     "tag_label": "Policy",
+     "headline": "California bars life and disability insurers from using genetic tests against applicants, though a test may still be used to clear one",
+     "source": "California Legislature · September 30, 2026",
+     "summary": "Gov. Gavin Newsom signed AB 1798 Sept. 30 (Chapter 897); with no urgency clause, it takes effect Jan. 1, 2027. Life and disability insurers may not cancel, limit or deny coverage based on a genetic test, or seek or use genetic information, with one exception: a test already in the medical record, not a direct-to-consumer kit, may be used with consent only to rule out an adverse finding. Any use or disclosure of a person’s full genome is barred. Health insurance is excluded. An advocacy group’s release calls it the “Safeguarding Genetic Information Act” and a ban on genetic tests in underwriting; the bill carries no such title and permits that clearing use.",
+     "why": "Federal genetic-discrimination law covers health insurance and employment but not life or disability coverage, which is where this California statute applies.",
+     "url": "https://legiscan.com/CA/text/AB1798/id/3461185/California-2025-AB1798-Chaptered.html",
+     "link_label": "Read the chaptered bill",
+     "landscape": {
+      "tag": "policy",
+      "t": "f5",
+      "src_short": "California Legislature · Sept 30",
+      "gloss": "California AB 1798 (Ch. 897): life and disability insurers barred from genetic tests except to clear an applicant; full genome barred",
+      "img": null
+     }
+    }
+   ]
+  },
+  {
+   "id": "academy",
+   "title": "Bioethics and the Academy",
+   "pill": "Bioethics and\nthe Academy",
+   "cards": [
+    {
+     "tag_class": "tag-academy",
+     "tag_label": "Study",
+     "headline": "Stanford team turns published papers into AI agents that rerun the authors’ code; 26 of 100 biology papers could not be converted",
+     "source": "Nature · September 16, 2026",
+     "summary": "Stanford researchers reported in Nature on Sept. 16 a method that turns a paper and its public code into an AI assistant a reader can question in plain English; the assistant answers by running the authors’ own tested code, not by reading the text. Of 100 computational biology papers, 74 converted. The rest failed mostly because code, data or software setup was missing, which the authors propose as a practical test of whether a paper’s computations can be reproduced. On one genetics paper, two expert graders scored the agent at 82.7% on 30 open-ended questions. The authors call it a tool, not “an autonomous or authoritative source.”",
+     "why": "The authors expect journals to add an “agent availability” section beside data and code, and they flag attribution, security and intellectual-property problems needing careful handling.",
+     "url": "https://www.nature.com/articles/s41586-026-11044-y",
+     "link_label": "Read the paper",
+     "landscape": {
+      "tag": "study",
+      "t": "f1",
+      "src_short": "Nature · Sept 16",
+      "gloss": "Paper2Agent (Stanford, Nature Sept. 16): papers become agents that rerun authors’ code; 74 of 100 biology papers converted; window override",
+      "img": null
+     }
+    }
+   ]
+  },
+  {
+   "id": "cache",
+   "title": "The Cache",
+   "pill": "The\nCache",
+   "cards": [
+    {
+     "tag_class": "tag-cache",
+     "tag_label": "Study",
+     "headline": "A paper shows an AI agent’s accurate confidence at each step need not add up to accurate confidence in finishing the task",
+     "source": "arXiv · September 7, 2026",
+     "summary": "Seven researchers led from Trinity College Dublin posted a preprint surveying how AI agents report uncertainty, with one short proof at its center. A confidence score is well calibrated if, of all the times a system says it is 70% sure, it is right about 70% of the time. The authors show with a two-step example that every step’s confidence can be calibrated while the combined odds of finishing the whole task are wrong, too high or too low, because an error at one step changes the odds at the next. Small experiments on a household-task simulation found that linkage in both models tested. Most of the paper reviews 120 earlier studies.",
+     "why": "An agent’s honest confidence at each step cannot by itself tell a reviewer how likely the whole job is to come out right.",
+     "url": "https://arxiv.org/abs/2609.07395",
+     "link_label": "Read the paper",
+     "landscape": {
+      "tag": "study",
+      "t": "curious",
+      "src_short": "arXiv · Sept 7",
+      "gloss": "Trinity College Dublin preprint: step-level calibration does not compose to task-level calibration; two-step counterexample and bound",
+      "img": null
+     }
+    },
+    {
+     "tag_class": "tag-cache",
+     "tag_label": "Report",
+     "headline": "OpenAI posted 722 AI-written math papers, a computer has checked about 42% of their main results, and three were withdrawn",
+     "source": "OpenAI · October 6, 2026",
+     "summary": "OpenAI released Oct. 6 a catalog of 722 papers written by its AI, claiming results in 372 areas of mathematics, among them a proof of the unique games conjecture, a famous open problem about how hard it is to find even rough solutions to puzzles with many competing constraints. Its repository says about 42% of the main results have been checked in Lean, software that verifies every logical step; that check does not confirm the statement proved is the one mathematicians meant. One paper was edited by a person, and none shows outside review. On Oct. 7 OpenAI withdrew three papers over a sign error and repaired 14 others.",
+     "why": "A machine check certifies that each step follows, not that the right statement was proved, and here that check covers fewer than half the results.",
+     "url": "https://www.quantamagazine.org/as-ai-closed-in-on-unique-games-proof-researchers-raced-to-beat-the-machines-20261007/",
+     "link_label": "Read Quanta’s account",
+     "landscape": {
+      "tag": "report",
+      "t": "curious",
+      "src_short": "OpenAI · Oct 6",
+      "gloss": "OpenAI math release: 722 manuscripts, 372 families, ~42% of top-line results Lean-formalized, 3 withdrawn Oct. 7; UGC proof claimed",
+      "img": null
+     }
+    }
+   ]
+  }
+ ]
+}
