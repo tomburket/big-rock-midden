@@ -3,16 +3,16 @@
 <head>
 <!--
 EDITION METADATA
-edition: 8
-date: October 2, 2026
-cards: 13
-sections: The Field, Enforcement and Rulemaking, Risk and Governance, The Cache
+edition: 9
+date: October 9, 2026
+cards: 10
+sections: The Field, Enforcement and Rulemaking, Bioethics and the Academy, The Cache
 template_version: v1.0
 -->
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="robots" content="noindex, nofollow">
-<title>Big Rock Midden &middot; October 2, 2026</title>
+<title>Big Rock Midden &middot; October 9, 2026</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,300;0,400;0,600;1,300;1,400&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
@@ -371,24 +371,24 @@ section { margin-bottom: 40px; }
 
 <header class="masthead">
 <div class="masthead-inner">
-<div class="masthead-date">October 2, 2026 &middot; Edition No. 8</div>
+<div class="masthead-date">October 9, 2026 &middot; Edition No. 9</div>
 <div class="masthead-title">Big Rock Midden</div>
 <div class="masthead-rule"></div>
-<div class="masthead-meta">13 entries &middot; model safeguards and safety cases &middot; intelligence as optimization &middot; international drug pricing &middot; provider screening and retained overpayments &middot; the Baylor Genetics litigation &middot; corporate enforcement &middot; asking for what you want</div>
+<div class="masthead-meta">10 entries &middot; an AI vendor&rsquo;s high-risk rules &middot; text watermarks &middot; plan directories &middot; a delete list left alone &middot; Colorado&rsquo;s AI rules &middot; AI prescribing in Utah &middot; genetic tests in life insurance &middot; papers that rerun their own code &middot; agent confidence &middot; machine-checked proofs</div>
 </div>
 </header>
 
 <div class="summary-strip" aria-label="Coverage summary">
-<div class="summary-pill"><div class="summary-pill-num">5</div><div class="summary-pill-label">The<br>Field</div></div>
-<div class="summary-pill"><div class="summary-pill-num">5</div><div class="summary-pill-label">Enforcement and<br>Rulemaking</div></div>
-<div class="summary-pill"><div class="summary-pill-num">2</div><div class="summary-pill-label">Risk and<br>Governance</div></div>
-<div class="summary-pill"><div class="summary-pill-num">1</div><div class="summary-pill-label">The<br>Cache</div></div>
+<div class="summary-pill"><div class="summary-pill-num">3</div><div class="summary-pill-label">The<br>Field</div></div>
+<div class="summary-pill"><div class="summary-pill-num">4</div><div class="summary-pill-label">Enforcement and<br>Rulemaking</div></div>
+<div class="summary-pill"><div class="summary-pill-num">1</div><div class="summary-pill-label">Bioethics and<br>the Academy</div></div>
+<div class="summary-pill"><div class="summary-pill-num">2</div><div class="summary-pill-label">The<br>Cache</div></div>
 </div>
 
 <nav class="section-nav">
 <a href="#field">The Field</a>
 <a href="#enforcement">Enforcement and Rulemaking</a>
-<a href="#governance">Risk and Governance</a>
+<a href="#academy">Bioethics and the Academy</a>
 <a href="#cache">The Cache</a>
 </nav>
 
@@ -401,68 +401,42 @@ section { margin-bottom: 40px; }
 
 <div class="item-card" id="c01">
 <div class="item-header">
-<span class="item-tag tag-field">Report</span>
-<div class="item-headline">Anthropic tested a rival&rsquo;s open-weight model and got past its safeguards 64% to 100% of the time</div>
+<span class="item-tag tag-field">Policy</span>
+<div class="item-headline">Anthropic&rsquo;s new usage rules name prior authorization as high-risk, but approvals wholly in a patient&rsquo;s favor need no human review</div>
 </div>
-<div class="item-source">Anthropic Frontier Red Team &middot; September 29, 2026</div>
-<div class="item-summary">Anthropic&rsquo;s Frontier Red Team published a report Sept. 29 on GLM-5.3, an open-weight model from China&rsquo;s Zhipu AI. Its finding: attackers can bypass the model&rsquo;s safeguards &ldquo;between 64% and 100% of the time with simple techniques in our simulated tests.&rdquo; Out of the box the model refused in every trial; told it was a red-team agent on an exercise, it engaged 64% of the time, and with its refusals edited out of the weights, 100%. That edit took Anthropic&rsquo;s own team about 2,200 GPU hours and roughly $4,400, which the report says an experienced team could do for about $1,200. The report&rsquo;s remedy: &ldquo;Governments should conduct safety testing on sufficiently capable AI models.&rdquo;</div>
+<div class="item-source">Anthropic &middot; October 8, 2026</div>
+<div class="item-summary">Anthropic, maker of the Claude AI models, posted a revised usage policy Oct. 8, effective Nov. 12. Its high-risk list now names prior-authorization and medical-necessity determinations, triage and eligibility for care, and public benefits. For those, a qualified person, licensed where the law requires, must review the AI&rsquo;s recommendation before it is used, and the person affected must be told AI was involved. A new exception waives that review, &ldquo;where permitted by law,&rdquo; for decisions &ldquo;wholly favorable to the individual,&rdquo; such as approving prior authorization a clinician ordered. Coverage led with a new ban on abusing the chatbot; Ellen Burns, a philosopher, asks who should judge the evidence for rules like that.</div>
 <div class="implication-block">
 <div class="implication-label">Why it matters</div>
-<div class="implication-text">The report puts a dollar figure on removing a released model&rsquo;s safeguards and asks governments, not developers, to test such models.</div>
+<div class="implication-text">Under one AI vendor&rsquo;s contract terms, a model may approve a prior authorization on its own, while a denial still needs a qualified person.</div>
 </div>
-<a class="item-link" href="https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities" target="_blank" rel="noopener">Read the report &#8599;</a>
+<a class="item-link" href="https://ellennoraburns.substack.com/p/anthropics-ban-on-cruelty-towards" target="_blank" rel="noopener">Read Ellen Burns on the policy &#8599;</a>
 </div>
 <div class="item-card" id="c02">
 <div class="item-header">
-<span class="item-tag tag-field">Report</span>
-<div class="item-headline">OpenAI says a frontier training run should need a written safety case, a dissent and a leadership veto</div>
+<span class="item-tag tag-field">Policy</span>
+<div class="item-headline">OpenAI will hide a detectable marker in ChatGPT text for EU users, and says a missing marker proves nothing</div>
 </div>
-<div class="item-source">OpenAI &middot; September 28, 2026</div>
-<div class="item-summary">OpenAI posted guidelines Sept. 28 for &ldquo;safety cases,&rdquo; defined as &ldquo;comprehensive, structured, evidence-based arguments about risk which are used in other safety-critical industries,&rdquo; to be made before a frontier reinforcement-learning training run. After a case is drafted, &ldquo;a member of another team should write a dissent to find potential holes in the safety case.&rdquo; Senior leaders &ldquo;should each have the ability to veto the run.&rdquo; The responsible leader is accountable &ldquo;including as part of performance reviews,&rdquo; and incident findings &ldquo;should be shared with the public.&rdquo; The document calls itself &ldquo;initial guidelines&rdquo; and &ldquo;an aspirational north star,&rdquo; says the recommendations are &ldquo;in the process of being implemented at OpenAI,&rdquo; and covers training only, not deployment.</div>
+<div class="item-source">OpenAI &middot; October 5, 2026</div>
+<div class="item-summary">OpenAI said Oct. 5 that, to meet the EU AI Act&rsquo;s requirement that AI-generated text be identifiable by machine, it will add an invisible statistical watermark to ChatGPT and Codex text for users in the European Union over the coming weeks. API customers anywhere may opt in; it stays off by default. Only approved researchers and expert organizations get the detector. The post is plain about limits: &ldquo;The absence of a detected watermark does not prove human authorship,&rdquo; and a watermark does not determine &ldquo;whether disclosure was required, or who is responsible for it.&rdquo; In OpenAI&rsquo;s own test, swapping one word in ten for a synonym cut detection from about 92% to 66%.</div>
 <div class="implication-block">
 <div class="implication-label">Why it matters</div>
-<div class="implication-text">Every mechanism in the document is a &ldquo;should,&rdquo; and the company says the controls are being implemented rather than in force.</div>
+<div class="implication-text">When a document&rsquo;s origin matters to an investigation, the vendor itself says its detector can show AI involvement but can never rule it out.</div>
 </div>
-<a class="item-link" href="https://openai.com/index/towards-safety-cases-for-frontier-ai-training/" target="_blank" rel="noopener">Read the guidelines &#8599;</a>
+<a class="item-link" href="https://openai.com/index/eu-text-provenance/" target="_blank" rel="noopener">Read OpenAI&rsquo;s post &#8599;</a>
 </div>
 <div class="item-card" id="c03">
 <div class="item-header">
-<span class="item-tag tag-field">Policy</span>
-<div class="item-headline">A final rule makes drugmakers rebate Medicare when Part B prices exceed a 19-country benchmark, in ZIP codes drawn at random</div>
+<span class="item-tag tag-field">Study</span>
+<div class="item-headline">A third of Medicare Advantage visits in February 2023 were with doctors missing from the patient&rsquo;s plan directory, MedPAC staff found</div>
 </div>
-<div class="item-source">Federal Register &middot; October 2, 2026</div>
-<div class="item-summary">CMS published the GLOBE Model final rule Oct. 2, &ldquo;a new mandatory Medicare payment model.&rdquo; Manufacturers of qualifying Part B drugs, seven drug classes with more than $100 million a year in Original Medicare spending, pay rebates to the Part B trust fund whenever the Medicare price exceeds a benchmark built from 19 countries. Model areas are chosen &ldquo;through a random selection of ZIP Code Tabulation Areas,&rdquo; about 25% of Original Medicare Part B enrollees. Five performance years run April 1, 2027 to March 31, 2032. CMS estimates &ldquo;overall savings of $440 million in Medicare Part B net spending during the 7-year payment period.&rdquo; Negotiated-price drugs, orphan-only drugs and cell and gene therapies are excluded.</div>
+<div class="item-source">MedPAC &middot; October 8, 2026</div>
+<div class="item-summary">Staff of MedPAC, the commission that advises Congress on Medicare payment, matched Medicare Advantage claims against plan provider directories. In February 2023, 32% of visits were with a physician who did not appear in the directory of the patient&rsquo;s own plan. Staff name two explanations, directories that were incomplete or out of date and out-of-network care, and do not say how much each accounts for. The directory data come from Ideon, a commercial compiler, and reconciling sources is listed as unfinished work. The slides, presented at the Oct. 8 meeting and marked &ldquo;Preliminary and subject to change,&rdquo; are headed for a June 2027 report; the commission has voted on nothing.</div>
 <div class="implication-block">
 <div class="implication-label">Why it matters</div>
-<div class="implication-text">The rule is mandatory and assigns participation by random draw, so a manufacturer&rsquo;s exposure depends on geography rather than on anything it decides.</div>
+<div class="implication-text">Provider directories are how enrollees find in-network care, and Medicare Advantage plans are accountable to CMS for keeping them accurate.</div>
 </div>
-<a class="item-link" href="https://www.federalregister.gov/documents/2026/10/02/2026-20281/global-benchmark-for-efficient-drug-pricing-globe-model" target="_blank" rel="noopener">Read the final rule &#8599;</a>
-</div>
-<div class="item-card" id="c04">
-<div class="item-header">
-<span class="item-tag tag-field">Report</span>
-<div class="item-headline">A federal program is paying Stanford up to $14.9 million to build a watchdog over AI agents treating heart patients</div>
-</div>
-<div class="item-source">Stanford Medicine &middot; September 30, 2026</div>
-<div class="item-summary">Stanford Medicine announced Sept. 30 that a team co-led by Roxana Daneshjou received up to $14.9 million from ARPA-H, the federal health research agency, under ADVOCATE, a program ARPA-H launched Sept. 9 with six teams and $62.7 million over four years. Stanford&rsquo;s role is the supervisor: a system called STEWARD &ldquo;which will monitor the AI agents deployed in clinical settings giving on-site reports to clinical teams,&rdquo; built as three stages ending in an auditing agent. Other teams build the patient-facing agent for cardiovascular care and must submit an FDA authorization package within 24 months. Stanford names OpenAI, the University of Washington and Tuple Health as partners; ARPA-H names neither OpenAI nor the dollar figure.</div>
-<div class="implication-block">
-<div class="implication-label">Why it matters</div>
-<div class="implication-text">The program funds the monitor and the monitored agent as separate teams, with the supervisor watching the agent after deployment.</div>
-</div>
-<a class="item-link" href="https://med.stanford.edu/news/all-news/2026/09/arpa-h-awards.html" target="_blank" rel="noopener">Read the announcement &#8599;</a>
-</div>
-<div class="item-card" id="c05">
-<div class="item-header">
-<span class="item-tag tag-field">Report</span>
-<div class="item-headline">Kant&rsquo;s answer to AI-intelligence-as-optimization: who then chooses the ends</div>
-</div>
-<div class="item-source">Aeon &middot; October 1, 2026</div>
-<div class="item-summary">Sasha Mudd, a philosophy professor in Santiago, Chile, published an essay in Aeon Oct. 1. It opens with a computer scientist telling an audience that systems which optimize, and improve at it with experience, are intelligent. &ldquo;What troubled me was the ease with which a definition appropriate to machines sounded like a definition of intelligence as such.&rdquo; The argument runs through Hume, for whom reason serves given ends, and Kant, for whom it also judges them. Her point: &ldquo;once intelligence is defined as optimisation, the question of ends and their value does not go away. It simply passes unnoticed into the hands of whoever &ndash; or whatever &ndash; controls the objective function.&rdquo;</div>
-<div class="implication-block">
-<div class="implication-label">Why it matters</div>
-<div class="implication-text">The essay relocates the alignment question from whether machines follow human ends to who writes the objective the machine serves.</div>
-</div>
-<a class="item-link" href="https://aeon.co/essays/why-real-intelligence-is-something-more-than-optimisation" target="_blank" rel="noopener">Read the essay &#8599;</a>
+<a class="item-link" href="https://www.medpac.gov/wp-content/uploads/2026/10/Tab-C-Physicians-in-MA-networks-Oct-2026.pdf" target="_blank" rel="noopener">Read the staff slides &#8599;</a>
 </div>
 </section>
 
@@ -471,103 +445,77 @@ section { margin-bottom: 40px; }
 <div class="section-header"><span class="section-number">02</span><span class="section-title">Enforcement and Rulemaking</span></div>
 <hr class="section-rule">
 
-<div class="item-card" id="c06">
+<div class="item-card" id="c04">
 <div class="item-header">
-<span class="item-tag tag-enforce">Report</span>
-<div class="item-headline">Medicare Advantage and Part D plans paid $72 million to revoked providers missing from the list meant to block them</div>
+<span class="item-tag tag-enforce">Ruling</span>
+<div class="item-headline">An HIV nonprofit that ran Medicare Advantage plans settles for $1.44 million over diagnosis codes its own coders had flagged for deletion</div>
 </div>
-<div class="item-source">HHS Office of Inspector General &middot; October 1, 2026</div>
-<div class="item-summary">An HHS-OIG data brief posted Oct. 1 compared 7,991 Medicare enrollment revocations with 2,973 entries on CMS&rsquo;s Preclusion List, which tells Medicare Advantage and Part D plans whom not to pay. It found 1,017 revoked providers, tied to exclusions or felony convictions, absent from the list at the end of 2023. Plans paid $72 million from 2022 through 2024 for services associated with 249 of them. The largest piece, $42 million, went to pharmacies filling Part D prescriptions, which OIG says CMS &ldquo;does not have the authority under current regulations&rdquo; to preclude. Timing errors and unprecluded organizations account for the rest. The brief &ldquo;does not contain any specific recommendations to CMS&rdquo;; CMS gave technical comments.</div>
+<div class="item-source">Justice Department &middot; October 6, 2026</div>
+<div class="item-summary">AIDS Healthcare Foundation, a Los Angeles nonprofit whose managed-care division ran Medicare Advantage special needs plans for people with HIV, agreed to resolve False Claims Act allegations for $1.44 million, DOJ said Oct. 6: $640,000 in cash and $800,000 recouped through Medicare&rsquo;s risk-adjustment reconciliation. The government contends that for payment years 2017 to 2023 the plans&rsquo; coders listed unsupported diagnosis codes in &ldquo;Delete Research&rdquo; spreadsheets and most were never deleted within the 60 days it says the plans had. A former risk-adjustment coder brought the suit and receives $259,200. AHF admits no liability; DOJ credited its cooperation and remediation.</div>
 <div class="implication-block">
 <div class="implication-label">Why it matters</div>
-<div class="implication-text">Most of the money sits in a gap OIG says the regulations leave open, not in the screening a plan&rsquo;s compliance program controls.</div>
+<div class="implication-text">The government&rsquo;s theory rests on the plan&rsquo;s own internal review, which flagged the unsupported codes and was then left unacted on for years.</div>
 </div>
-<a class="item-link" href="https://oig.hhs.gov/reports/all/2026/medicare-advantage-organizations-and-prescription-drug-plans-paid-72-million-during-a-3-year-period-for-services-associated-with-excluded-providers-or-individuals-convicted-of-certain-felonies/" target="_blank" rel="noopener">Read the data brief &#8599;</a>
+<a class="item-link" href="https://www.justice.gov/opa/pr/aids-healthcare-foundation-agrees-pay-144m-settle-false-claims-act-allegations" target="_blank" rel="noopener">Read the release &#8599;</a>
+</div>
+<div class="item-card" id="c05">
+<div class="item-header">
+<span class="item-tag tag-enforce">Policy</span>
+<div class="item-headline">Colorado posts a working draft of its AI decision rules, with a lab-test example that puts the decision on the physician</div>
+</div>
+<div class="item-source">Colorado Department of Law &middot; October 6, 2026</div>
+<div class="item-summary">Colorado&rsquo;s Department of Law posted an interim draft Oct. 6 of the rules implementing the state&rsquo;s laws on automated decision-making technology and chatbot safety, ahead of an Oct. 26 hearing and comment deadline. It is a working revision, not the formal proposal filed Aug. 11, and not final; it says the rules take effect Jan. 1, 2027. One example: a lab runs an AI-assisted test indicating a patient will not respond to a treatment, and a physician, a HIPAA-covered provider, decides not to give it. The draft says the lab has no deployer duties, because the physician makes the decision and is exempt under the statute.</div>
+<div class="implication-block">
+<div class="implication-label">Why it matters</div>
+<div class="implication-text">The draft&rsquo;s example assigns a consequential health decision, and the statute&rsquo;s exemption, to the treating physician rather than to the lab whose AI produced the result.</div>
+</div>
+<a class="item-link" href="https://coag.gov/ai/" target="_blank" rel="noopener">Read the draft and hearing notice &#8599;</a>
+</div>
+<div class="item-card" id="c06">
+<div class="item-header">
+<span class="item-tag tag-enforce">Policy</span>
+<div class="item-headline">Utah lets an AI refill maintenance prescriptions, with physicians checking the first 250 in advance and then only some afterward</div>
+</div>
+<div class="item-source">Utah Department of Commerce &middot; October 5, 2026</div>
+<div class="item-summary">Utah&rsquo;s Office of Artificial Intelligence Policy posted contracts Oct. 5 for new pilots in its regulatory sandbox, where the state agrees not to enforce certain licensing rules. August AI may refill non-controlled maintenance drugs a patient already takes: a Utah-licensed provider reviews the first 250 refills before they reach patients, the next 1,000 afterward, then spot-checks at least 5%. The state&rsquo;s release says review comes &ldquo;before prescriptions are authorized&rdquo;; the contract says otherwise. Nolla Health&rsquo;s pilot for first-time topical acne prescriptions began its one-year term Oct. 5. Both contracts require telling patients they are dealing with AI. Six outside evaluators are named; at least two sell AI-assurance products.</div>
+<div class="implication-block">
+<div class="implication-label">Why it matters</div>
+<div class="implication-text">The contracts set out, stage by stage, how much human review a state requires before software may prescribe without a physician checking each order.</div>
+</div>
+<a class="item-link" href="https://commerce.utah.gov/2026/10/05/utah-enhances-pro-human-ai-initiative-with-new-healthcare-pillar-adds-new-pilots-to-its-regulatory-sandbox-and-partners-with-third-party-evaluators/" target="_blank" rel="noopener">Read the release &#8599;</a>
 </div>
 <div class="item-card" id="c07">
 <div class="item-header">
 <span class="item-tag tag-enforce">Policy</span>
-<div class="item-headline">OCR says which consent lets a state Medicaid agency use addiction-treatment records to exempt a patient from the new work requirement</div>
+<div class="item-headline">California bars life and disability insurers from using genetic tests against applicants, though a test may still be used to clear one</div>
 </div>
-<div class="item-source">HHS Office for Civil Rights &middot; September 29, 2026</div>
-<div class="item-summary">HHS&rsquo;s Office for Civil Rights issued guidance Sept. 29 on when 42 CFR Part 2, the federal rule protecting substance-use-disorder treatment records, lets a state Medicaid agency use them to verify an applicant&rsquo;s exemption from the Medicaid community-engagement requirement, due by Jan. 1, 2027. Two routes: a consent the treatment program already obtained &ldquo;for all future uses and disclosures for treatment, payment, and health care operations purposes,&rdquo; or a written consent the agency obtains itself, which &ldquo;must include the required elements specified in 42 CFR 2.31(a), including the patient&rsquo;s right to revoke consent and an expiration date or event.&rdquo; Records used this way still cannot be used to charge or investigate the patient.</div>
+<div class="item-source">California Legislature &middot; September 30, 2026</div>
+<div class="item-summary">Gov. Gavin Newsom signed AB 1798 Sept. 30 (Chapter 897); with no urgency clause, it takes effect Jan. 1, 2027. Life and disability insurers may not cancel, limit or deny coverage based on a genetic test, or seek or use genetic information, with one exception: a test already in the medical record, not a direct-to-consumer kit, may be used with consent only to rule out an adverse finding. Any use or disclosure of a person&rsquo;s full genome is barred. Health insurance is excluded. An advocacy group&rsquo;s release calls it the &ldquo;Safeguarding Genetic Information Act&rdquo; and a ban on genetic tests in underwriting; the bill carries no such title and permits that clearing use.</div>
 <div class="implication-block">
 <div class="implication-label">Why it matters</div>
-<div class="implication-text">The guidance answers a question states will face at every exemption determination, and a wrong answer is a Part 2 disclosure.</div>
+<div class="implication-text">Federal genetic-discrimination law covers health insurance and employment but not life or disability coverage, which is where this California statute applies.</div>
 </div>
-<a class="item-link" href="https://www.hhs.gov/press-room/hhs-ocr-clarifies-privacy-rules-state-medicaid-programs.html" target="_blank" rel="noopener">Read the guidance &#8599;</a>
-</div>
-<div class="item-card" id="c08">
-<div class="item-header">
-<span class="item-tag tag-enforce">Ruling</span>
-<div class="item-headline">A lab&rsquo;s own audit found it had been overpaid for COVID tests; keeping the money cost it $20.5 million</div>
-</div>
-<div class="item-source">U.S. Department of Justice &middot; September 30, 2026</div>
-<div class="item-summary">Signal Diagnostics, a Los Angeles clinical laboratory, agreed Sept. 30 to pay $20.5 million to resolve False Claims Act allegations &ldquo;for failing to refund overpayments to the HRSA Uninsured Program,&rdquo; the federal fund that paid for COVID-19 testing of people without insurance. Signal billed the program from October 2020 to March 2022. &ldquo;Through the audit, Signal determined that it had submitted claims to the Uninsured Program that were ineligible for payment because the individuals had insurance.&rdquo; From January 2022 to May 2023 it kept auditing, calculated the overpayment and &ldquo;knowingly and improperly avoided its obligation to repay HRSA.&rdquo; No relator is named. The claims &ldquo;are allegations only and there has been no determination of liability.&rdquo;</div>
-<div class="implication-block">
-<div class="implication-label">Why it matters</div>
-<div class="implication-text">The liability theory is retention after discovery, so the audit that found the problem is also the fact that established knowledge.</div>
-</div>
-<a class="item-link" href="https://www.justice.gov/opa/pr/signal-diagnostics-agrees-pay-over-20m-settle-false-claims-act-allegations-failing-refund" target="_blank" rel="noopener">Read the announcement &#8599;</a>
-</div>
-<div class="item-card" id="c09">
-<div class="item-header">
-<span class="item-tag tag-enforce">Ruling</span>
-<div class="item-headline">The Baylor Genetics breach has drawn 14 federal class actions in Houston, with a motion to consolidate them pending</div>
-</div>
-<div class="item-source">U.S. District Court, Southern District of Texas &middot; September 11, 2026</div>
-<div class="item-summary">Baylor Genetics, a Houston genetic-testing laboratory, says an unauthorized party had access to parts of its network &ldquo;between June 11 and June 17, 2026,&rdquo; reaching test results, medical testing information and some Social Security numbers. Between Aug. 18 and Sept. 11, 14 separate suits were filed against it in the Southern District of Texas; a Sept. 11 filing backs a pending motion to consolidate the cases and appoint class counsel. The company&rsquo;s undated notice gives no total; the 2,810,878 figure in circulation is HIPAA Journal&rsquo;s reading of the HHS breach portal. As of Oct. 2 the OCR enforcement index lists no Baylor matter and no state attorney general has announced an action.</div>
-<div class="implication-block">
-<div class="implication-label">Why it matters</div>
-<div class="implication-text">A genetic-testing breach has moved from patient notice to 14 complaints in three weeks, ahead of any regulator, with the count still unconfirmed.</div>
-</div>
-<a class="item-link" href="https://dockets.justia.com/docket/texas/txsdce/4:2026cv07701/2109344" target="_blank" rel="noopener">Read the docket &#8599;</a>
-</div>
-<div class="item-card" id="c10">
-<div class="item-header">
-<span class="item-tag tag-enforce">Ruling</span>
-<div class="item-headline">A Quest Diagnostics affiliate says Grail&rsquo;s multi-cancer blood test infringes two of its patents on reading chemical marks on DNA</div>
-</div>
-<div class="item-source">U.S. District Court, District of Delaware &middot; September 11, 2026</div>
-<div class="item-summary">Three Clinical Genomics entities, Australian companies whose court disclosure names Quest Diagnostics as an affiliate, sued Grail for patent infringement in federal court in Delaware Sept. 11. The complaint asserts U.S. patents 10,590,468 and 10,941,449 against Galleri, which Bloomberg Law describes as a test that &ldquo;uses a single blood draw to screen for more than 50 different cancers.&rdquo; Both patents cover methods of detecting methylation, chemical marks on DNA that tumors shed into blood; the &rsquo;468 patent claims a general method and the &rsquo;449 patent is written around colorectal cancer. Grail was served Sept. 14 and its answer is due Oct. 5. The complaint itself is not on the public mirror.</div>
-<div class="implication-block">
-<div class="implication-label">Why it matters</div>
-<div class="implication-text">One asserted patent is drafted around colorectal cancer and the accused test screens for more than 50, which is where the claim-scope fight sits.</div>
-</div>
-<a class="item-link" href="https://dockets.justia.com/docket/delaware/dedce/1:2026cv01147/94608" target="_blank" rel="noopener">Read the docket &#8599;</a>
+<a class="item-link" href="https://legiscan.com/CA/text/AB1798/id/3461185/California-2025-AB1798-Chaptered.html" target="_blank" rel="noopener">Read the chaptered bill &#8599;</a>
 </div>
 </section>
 
-<!-- RISK AND GOVERNANCE -->
-<section id="governance">
-<div class="section-header"><span class="section-number">03</span><span class="section-title">Risk and Governance</span></div>
+<!-- BIOETHICS AND THE ACADEMY -->
+<section id="academy">
+<div class="section-header"><span class="section-number">03</span><span class="section-title">Bioethics and the Academy</span></div>
 <hr class="section-rule">
 
-<div class="item-card" id="c11">
+<div class="item-card" id="c08">
 <div class="item-header">
-<span class="item-tag tag-risk">Policy</span>
-<div class="item-headline">DOJ&rsquo;s fraud division tells its prosecutors to &ldquo;guard against overbroad corporate enforcement&rdquo; and names ten factors that weigh heavily</div>
+<span class="item-tag tag-academy">Study</span>
+<div class="item-headline">Stanford team turns published papers into AI agents that rerun the authors&rsquo; code; 26 of 100 biology papers could not be converted</div>
 </div>
-<div class="item-source">U.S. Department of Justice &middot; October 1, 2026</div>
-<div class="item-summary">Assistant Attorney General Colin McDonald of the National Fraud Enforcement Division issued Directive 26-12 on Oct. 1, his second since the division was created in August. Prosecutors &ldquo;will also firmly guard against overbroad corporate enforcement&mdash;rightly dividing between shades of corporate malfeasance&mdash;lest we interfere with legitimate business operations.&rdquo; Health care fraud is the first of four priorities. In corporate matters prosecutors &ldquo;must place great weight on&rdquo; ten factors, among them management&rsquo;s knowledge, concealment from auditors, schemes lasting three years or more, and $25 million in loss. Open corporate investigations are reported within seven days to the Corporate Enforcement Section, which also takes over evaluating a settled company&rsquo;s compliance program &ldquo;during the term of the agreement.&rdquo;</div>
+<div class="item-source">Nature &middot; September 16, 2026</div>
+<div class="item-summary">Stanford researchers reported in Nature on Sept. 16 a method that turns a paper and its public code into an AI assistant a reader can question in plain English; the assistant answers by running the authors&rsquo; own tested code, not by reading the text. Of 100 computational biology papers, 74 converted. The rest failed mostly because code, data or software setup was missing, which the authors propose as a practical test of whether a paper&rsquo;s computations can be reproduced. On one genetics paper, two expert graders scored the agent at 82.7% on 30 open-ended questions. The authors call it a tool, not &ldquo;an autonomous or authoritative source.&rdquo;</div>
 <div class="implication-block">
 <div class="implication-label">Why it matters</div>
-<div class="implication-text">The division now separates prosecuting a company from evaluating its compliance program under a resolution, and assigns the second to one section.</div>
+<div class="implication-text">The authors expect journals to add an &ldquo;agent availability&rdquo; section beside data and code, and they flag attribution, security and intellectual-property problems needing careful handling.</div>
 </div>
-<a class="item-link" href="https://www.justice.gov/opa/pr/assistant-attorney-general-colin-m-mcdonald-issues-memorandum-national-fraud-enforcement-0" target="_blank" rel="noopener">Read the directive &#8599;</a>
-</div>
-<div class="item-card" id="c12">
-<div class="item-header">
-<span class="item-tag tag-risk">Report</span>
-<div class="item-headline">The Justice Department says UCLA&rsquo;s law school discriminated by race in admitting three classes, and will sue if settlement talks fail</div>
-</div>
-<div class="item-source">U.S. Department of Justice, Civil Rights Division &middot; October 1, 2026</div>
-<div class="item-summary">The Civil Rights Division announced Oct. 1 &ldquo;investigative findings that the University of California-Los Angeles School of Law (UCLA Law) discriminated against white and Asian students in granting admission to its 2023, 2024, and 2025 incoming classes.&rdquo; It says the school &ldquo;rejected white and Asian applicants who had the same LSAT scores as admitted black and Hispanic applicants,&rdquo; that post-2023 essay prompts are &ldquo;designed to elicit information about race,&rdquo; and that staff coached applicants on revealing race at a &ldquo;Diversity Admissions Open House.&rdquo; It cites Title VI and the 2023 SFFA decision. &ldquo;Where a violation has been found, the Department will engage in settlement negotiations&#8230; If those efforts fail, the Department will file suit.&rdquo;</div>
-<div class="implication-block">
-<div class="implication-label">Why it matters</div>
-<div class="implication-text">A second UCLA professional school is now under a federal admissions finding in five months, each with a negotiate-then-sue sequence.</div>
-</div>
-<a class="item-link" href="https://www.justice.gov/opa/pr/justice-department-finds-ucla-law-school-discriminates-based-race-admissions" target="_blank" rel="noopener">Read the announcement &#8599;</a>
+<a class="item-link" href="https://www.nature.com/articles/s41586-026-11044-y" target="_blank" rel="noopener">Read the paper &#8599;</a>
 </div>
 </section>
 
@@ -576,18 +524,31 @@ section { margin-bottom: 40px; }
 <div class="section-header"><span class="section-number">04</span><span class="section-title">The Cache</span></div>
 <hr class="section-rule">
 
-<div class="item-card" id="c13">
+<div class="item-card" id="c09">
 <div class="item-header">
-<span class="item-tag tag-cache">Report</span>
-<div class="item-headline">A novelist spent a summer asking AI agents to build the software he wanted, and his lesson is to ask</div>
+<span class="item-tag tag-cache">Study</span>
+<div class="item-headline">A paper shows an AI agent&rsquo;s accurate confidence at each step need not add up to accurate confidence in finishing the task</div>
 </div>
-<div class="item-source">Robin Sloan &middot; September 18, 2026</div>
-<div class="item-summary">Robin Sloan, the novelist, published a note Sept. 18 on building two personal tools over the summer with AI coding agents, a notes app and an email client, neither released. His point is the asking. &ldquo;Ask for what you want. It takes practice, and a bit of audacity.&rdquo; The software environment &ldquo;is malleable. It can, at last, be anything I want,&rdquo; he writes; &ldquo;building a personal app with the help of AI agents still totally counts as &lsquo;home cooking,&rsquo;&rdquo; and the obligation at the end is use: &ldquo;You do, at some point, have to use your tools. You do have to actually make something.&rdquo; An essay, with no finding; here as shared reading.</div>
+<div class="item-source">arXiv &middot; September 7, 2026</div>
+<div class="item-summary">Seven researchers led from Trinity College Dublin posted a preprint surveying how AI agents report uncertainty, with one short proof at its center. A confidence score is well calibrated if, of all the times a system says it is 70% sure, it is right about 70% of the time. The authors show with a two-step example that every step&rsquo;s confidence can be calibrated while the combined odds of finishing the whole task are wrong, too high or too low, because an error at one step changes the odds at the next. Small experiments on a household-task simulation found that linkage in both models tested. Most of the paper reviews 120 earlier studies.</div>
 <div class="implication-block">
 <div class="implication-label">Why it matters</div>
-<div class="implication-text">The piece describes software made by one user for one user, a category no vendor contract, policy or audit currently reaches.</div>
+<div class="implication-text">An agent&rsquo;s honest confidence at each step cannot by itself tell a reviewer how likely the whole job is to come out right.</div>
 </div>
-<a class="item-link" href="https://www.robinsloan.com/lab/ask-for-what-you-want/" target="_blank" rel="noopener">Read the essay &#8599;</a>
+<a class="item-link" href="https://arxiv.org/abs/2609.07395" target="_blank" rel="noopener">Read the paper &#8599;</a>
+</div>
+<div class="item-card" id="c10">
+<div class="item-header">
+<span class="item-tag tag-cache">Report</span>
+<div class="item-headline">OpenAI posted 722 AI-written math papers, a computer has checked about 42% of their main results, and three were withdrawn</div>
+</div>
+<div class="item-source">OpenAI &middot; October 6, 2026</div>
+<div class="item-summary">OpenAI released Oct. 6 a catalog of 722 papers written by its AI, claiming results in 372 areas of mathematics, among them a proof of the unique games conjecture, a famous open problem about how hard it is to find even rough solutions to puzzles with many competing constraints. Its repository says about 42% of the main results have been checked in Lean, software that verifies every logical step; that check does not confirm the statement proved is the one mathematicians meant. One paper was edited by a person, and none shows outside review. On Oct. 7 OpenAI withdrew three papers over a sign error and repaired 14 others.</div>
+<div class="implication-block">
+<div class="implication-label">Why it matters</div>
+<div class="implication-text">A machine check certifies that each step follows, not that the right statement was proved, and here that check covers fewer than half the results.</div>
+</div>
+<a class="item-link" href="https://www.quantamagazine.org/as-ai-closed-in-on-unique-games-proof-researchers-raced-to-beat-the-machines-20261007/" target="_blank" rel="noopener">Read Quanta&rsquo;s account &#8599;</a>
 </div>
 </section>
 
@@ -598,7 +559,7 @@ section { margin-bottom: 40px; }
 <strong>Big Rock Midden</strong><br>
 <div class="footer-gloss">Sifter, sorter, saver of big rocks.</div>
 Prepared by Tom Burket &middot; word/cairn<br>
-October 2, 2026 &middot; Edition No. 8
+October 9, 2026 &middot; Edition No. 9
 <br><br><a href="/editions/">Past editions &rarr;</a>
 </footer>
 
