@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "current_edition": 8,
+ "current_edition": 9,
  "edition_dates": {
   "1": "August 15",
   "2": "August 21",
@@ -9,7 +9,8 @@
   "5": "September 11",
   "6": "September 18",
   "7": "September 25",
-  "8": "October 2"
+  "8": "October 2",
+  "9": "October 9"
  },
  "active_threads": [
   "f1",
@@ -1051,6 +1052,127 @@
    "t": "curious",
    "s": "Robin Sloan on building personal apps with AI agents: ask for what you want; essay, shared reading",
    "url": "https://www.robinsloan.com/lab/ask-for-what-you-want/",
+   "img": null
+  },
+  {
+   "id": "e9c1",
+   "ed": 9,
+   "sec": "The Field",
+   "tag": "policy",
+   "h": "Anthropic’s new usage rules name prior authorization as high-risk, but approvals wholly in a patient’s favor need no human review",
+   "src": "Anthropic · Oct 8",
+   "t": "f1",
+   "s": "Anthropic usage policy, effective Nov. 12: high-risk list names prior auth and medical necessity; wholly favorable decisions exempt from human review",
+   "url": "https://ellennoraburns.substack.com/p/anthropics-ban-on-cruelty-towards",
+   "img": null
+  },
+  {
+   "id": "e9c2",
+   "ed": 9,
+   "sec": "The Field",
+   "tag": "policy",
+   "h": "OpenAI will hide a detectable marker in ChatGPT text for EU users, and says a missing marker proves nothing",
+   "src": "OpenAI · Oct 5",
+   "t": "f1",
+   "s": "OpenAI EU text watermark (textGrain): EU ChatGPT and Codex, API opt-in, detector for vetted researchers; absence proves nothing",
+   "url": "https://openai.com/index/eu-text-provenance/",
+   "img": null
+  },
+  {
+   "id": "e9c3",
+   "ed": 9,
+   "sec": "The Field",
+   "tag": "study",
+   "h": "A third of Medicare Advantage visits in February 2023 were with doctors missing from the patient’s plan directory, MedPAC staff found",
+   "src": "MedPAC · Oct 8",
+   "t": "f2",
+   "s": "MedPAC staff, preliminary: 32% of Feb. 2023 MA visits with a physician absent from the enrollee’s plan directory; errors vs out-of-network not split",
+   "url": "https://www.medpac.gov/wp-content/uploads/2026/10/Tab-C-Physicians-in-MA-networks-Oct-2026.pdf",
+   "img": null
+  },
+  {
+   "id": "e9c4",
+   "ed": 9,
+   "sec": "Enforcement and Rulemaking",
+   "tag": "ruling",
+   "h": "An HIV nonprofit that ran Medicare Advantage plans settles for $1.44 million over diagnosis codes its own coders had flagged for deletion",
+   "src": "Justice Department · Oct 6",
+   "t": "f2",
+   "s": "AHF (Positive Healthcare Partners) MA SNPs, $1.44M FCA ($640K cash, $800K recoupment); codes on internal delete lists not deleted, PY 2017–23",
+   "url": "https://www.justice.gov/opa/pr/aids-healthcare-foundation-agrees-pay-144m-settle-false-claims-act-allegations",
+   "img": null
+  },
+  {
+   "id": "e9c5",
+   "ed": 9,
+   "sec": "Enforcement and Rulemaking",
+   "tag": "policy",
+   "h": "Colorado posts a working draft of its AI decision rules, with a lab-test example that puts the decision on the physician",
+   "src": "Colorado Department of Law · Oct 6",
+   "t": "f2",
+   "s": "Colorado AG interim draft ADMT/chatbot rules, Oct. 6; hearing Oct. 26; effective Jan. 1, 2027; lab-test example: physician is decision-maker",
+   "url": "https://coag.gov/ai/",
+   "img": null
+  },
+  {
+   "id": "e9c6",
+   "ed": 9,
+   "sec": "Enforcement and Rulemaking",
+   "tag": "policy",
+   "h": "Utah lets an AI refill maintenance prescriptions, with physicians checking the first 250 in advance and then only some afterward",
+   "src": "Utah Department of Commerce · Oct 5",
+   "t": "f2",
+   "t2": "f3",
+   "s": "Utah AI sandbox: August AI refills (250 pre-review, 1,000 post, 5% spot), Nolla first-time acne Rx from Oct. 5; six evaluators",
+   "url": "https://commerce.utah.gov/2026/10/05/utah-enhances-pro-human-ai-initiative-with-new-healthcare-pillar-adds-new-pilots-to-its-regulatory-sandbox-and-partners-with-third-party-evaluators/",
+   "img": null
+  },
+  {
+   "id": "e9c7",
+   "ed": 9,
+   "sec": "Enforcement and Rulemaking",
+   "tag": "policy",
+   "h": "California bars life and disability insurers from using genetic tests against applicants, though a test may still be used to clear one",
+   "src": "California Legislature · Sept 30",
+   "t": "f5",
+   "s": "California AB 1798 (Ch. 897): life and disability insurers barred from genetic tests except to clear an applicant; full genome barred",
+   "url": "https://legiscan.com/CA/text/AB1798/id/3461185/California-2025-AB1798-Chaptered.html",
+   "img": null
+  },
+  {
+   "id": "e9c8",
+   "ed": 9,
+   "sec": "Bioethics and the Academy",
+   "tag": "study",
+   "h": "Stanford team turns published papers into AI agents that rerun the authors’ code; 26 of 100 biology papers could not be converted",
+   "src": "Nature · Sept 16",
+   "t": "f1",
+   "s": "Paper2Agent (Stanford, Nature Sept. 16): papers become agents that rerun authors’ code; 74 of 100 biology papers converted; window override",
+   "url": "https://www.nature.com/articles/s41586-026-11044-y",
+   "img": null
+  },
+  {
+   "id": "e9c9",
+   "ed": 9,
+   "sec": "The Cache",
+   "tag": "study",
+   "h": "A paper shows an AI agent’s accurate confidence at each step need not add up to accurate confidence in finishing the task",
+   "src": "arXiv · Sept 7",
+   "t": "curious",
+   "s": "Trinity College Dublin preprint: step-level calibration does not compose to task-level calibration; two-step counterexample and bound",
+   "url": "https://arxiv.org/abs/2609.07395",
+   "img": null
+  },
+  {
+   "id": "e9c10",
+   "ed": 9,
+   "sec": "The Cache",
+   "tag": "report",
+   "h": "OpenAI posted 722 AI-written math papers, a computer has checked about 42% of their main results, and three were withdrawn",
+   "src": "OpenAI · Oct 6",
+   "t": "curious",
+   "s": "OpenAI math release: 722 manuscripts, 372 families, ~42% of top-line results Lean-formalized, 3 withdrawn Oct. 7; UGC proof claimed",
+   "url": "https://www.quantamagazine.org/as-ai-closed-in-on-unique-games-proof-researchers-raced-to-beat-the-machines-20261007/",
    "img": null
   }
  ]
