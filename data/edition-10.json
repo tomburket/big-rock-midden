@@ -1,0 +1,226 @@
+{
+ "edition": 10,
+ "date_long": "October 30, 2026",
+ "topics": "spot-checking AI agents · a fraud self-disclosure pilot · a chatbot bankruptcy · model cards removed · chatbots and minors · a university settlement · a medical-school finding · seven guidances · gene-editing variants · “Super Intelligence” · hospitals using AI",
+ "sections": [
+  {
+   "id": "enforcement",
+   "title": "Enforcement and Rulemaking",
+   "pill": "Enforcement and\nRulemaking",
+   "cards": [
+    {
+     "tag_class": "tag-enforce",
+     "tag_label": "Policy",
+     "headline": "Justice and HHS open a six-month health-care fraud self-disclosure pilot; repayment runs 1.25 to 1.6 times a base DOJ sets",
+     "source": "Justice Department · October 22, 2026",
+     "summary": "The Justice Department’s Civil Division and HHS announced the Healthcare False Claims Act Self-Disclosure Pilot Program on Oct. 22, taking submissions through April 22, 2027, from providers, suppliers, manufacturers and payers for conduct previously unknown to the government. A disclosing company repays 1.25 to 1.6 times a “Base Self-Disclosure Repayment” that DOJ calculates; in kickback cases the base is the payments made and the revenue they produced, not the claims paid. Placement in the range turns on factors such as promptness, duration, senior-leadership involvement and benefit. HHS-OIG will not require a corporate integrity agreement, CMS will not impose penalties or revoke enrollment, and no factual admissions are required. The protocol says nothing about whistleblowers.",
+     "why": "The protocol prices a disclosed problem at a multiple of a base the government defines, and leaves the whistleblower question to be answered elsewhere.",
+     "url": "https://www.justice.gov/opa/pr/justice-departments-civil-division-and-department-health-human-services-announce-anti-fraud",
+     "link_label": "Read the release",
+     "landscape": {
+      "tag": "policy",
+      "t": "f2",
+      "t2": "f4",
+      "src_short": "Justice Department · Oct 22",
+      "gloss": "FCA SDPP: submissions to Apr. 22, 2027; 1.25–1.6× Base Self-Disclosure Repayment (remuneration base in AKS cases); no CIA, no CMS penalties, no admissions; relators unaddressed",
+      "img": null
+     }
+    },
+    {
+     "tag_class": "tag-enforce",
+     "tag_label": "Ruling",
+     "headline": "Thirty-one states and D.C. object to the shape of Character.AI’s bankruptcy sale; the debtor revised its proposed order twice before Friday’s hearing",
+     "source": "U.S. Bankruptcy Court, District of Delaware · October 23, 2026",
+     "summary": "Thirty-one states and the District of Columbia objected Oct. 23 to the bidding procedures for Character Technologies’ sale, with Disney Worldwide Services as lead bidder. The states say the proposed order would ratify prepetition releases, including of an insider, before any creditors’ committee exists; that a $700,000 bid protection fails the Third Circuit’s test; that the timeline follows milestones Disney set before the filing; and that the notice hides an injunction shielding Disney’s new hires, among them the former chief executive. They ask whether a privacy ombudsman is required, given Disney’s access to user data. The debtor revised its order twice before the Oct. 30 hearing; no ruling was docketed by Friday afternoon.",
+     "why": "The states are contesting how an AI company’s user data and liabilities pass to a buyer through the bankruptcy court rather than under a privacy statute.",
+     "url": "https://cases.stretto.com/public/x936/14939/PLEADINGS/1493910232680000000104.pdf",
+     "link_label": "Read the objection",
+     "landscape": {
+      "tag": "ruling",
+      "t": "f2",
+      "t2": "f5",
+      "src_short": "Bankr. D. Del. · Oct 23",
+      "gloss": "In re Character Technologies, 26-11603-BLS, Doc. 66: 31 states + D.C. (Florida joined Oct. 29) object to Disney stalking-horse bidding procedures; privacy ombudsman asked; revised orders Docs. 74, 90; hearing Oct. 30 9 a.m. ET",
+      "img": null
+     }
+    },
+    {
+     "tag_class": "tag-enforce",
+     "tag_label": "Policy",
+     "headline": "ONC’s HTI-5 rule drops 14 of 60 certification criteria and removes the model-card disclosures for predictive decision-support software",
+     "source": "Federal Register · October 28, 2026",
+     "summary": "The Office of the National Coordinator published its HTI-5 final rule Oct. 28, effective Dec. 28. Of 60 certification criteria, it removes 14 and revises seven; the proposal would have removed 34. The decision-support criterion survives narrowed: gone are the “model card” requirements that developers disclose how a predictive tool was built and tested, the risk-management requirement and a related maintenance duty. ONC writes that “a large majority of commenters were not supportive” and finalized anyway, citing developer reports that clinicians lack time to read the disclosures and finding “no evidence” anyone relied on them. The text says “super intelligence” where it once said AI, citing a Sept. 29 executive order.",
+     "why": "Hospitals that leaned on certified software’s disclosures to vet predictive tools will have to ask vendors directly for what certification no longer requires.",
+     "url": "https://www.federalregister.gov/d/2026-21943",
+     "link_label": "Read the rule",
+     "landscape": {
+      "tag": "policy",
+      "t": "f2",
+      "src_short": "Federal Register · Oct 28",
+      "gloss": "HTI-5 final rule, 91 FR 67916, eff. Dec. 28 (3 items Jan. 1, 2027): 14 of 60 criteria removed, 7 revised; § 170.315(b)(11)(iv)(v)(vi) and § 170.402(b)(4) removed; “super intelligence” per EO 14434",
+      "img": null
+     }
+    },
+    {
+     "tag_class": "tag-enforce",
+     "tag_label": "Policy",
+     "headline": "New York bars AI companions from using a minor’s health information remembered across sessions, with penalties to $25,000 a violation",
+     "source": "New York State Senate · October 28, 2026",
+     "summary": "Gov. Hochul signed S.9051-B on Oct. 28, adding Article 48 to the General Business Law, effective Jan. 1, 2027. It makes it unlawful to provide “unsafe AI companion features” to a minor, among them using information about the user’s mental or physical health, or personal matters, “acquired from the user more than twelve hours previously or in any previous user session”; deceiving a minor about the bot’s non-sentient nature; encouraging secrecy or self-isolation; and outputs that facilitate suicide, self-harm or disordered eating. The attorney general enforces, with injunctions, restitution, disgorgement “including … the destruction of unlawfully obtained data and any algorithm trained in such data,” and penalties of up to $25,000 per violation.",
+     "why": "The statute treats a chatbot’s memory of a child’s health as a design feature to be switched off, enforced by the attorney general and backed by model destruction.",
+     "url": "https://www.nysenate.gov/legislation/bills/2025/S9051/amendment/B",
+     "link_label": "Read the bill",
+     "landscape": {
+      "tag": "policy",
+      "t": "f2",
+      "src_short": "N.Y. Senate · Oct 28",
+      "gloss": "S.9051-B / A.10379-C, Ch. 368, signed Oct. 28, eff. Jan. 1, 2027; GBL Art. 48 §§ 1800–1805; unsafe-feature list incl. health info >12 hrs or prior session; AG: $25,000/violation, destruction of data and algorithms",
+      "img": null
+     }
+    },
+    {
+     "tag_class": "tag-enforce",
+     "tag_label": "Ruling",
+     "headline": "UNC Chapel Hill settles 18 Title VI investigations: an administrator with authority over every unit reports quarterly to Justice through 2028",
+     "source": "Justice Department · October 19, 2026",
+     "summary": "The University of North Carolina at Chapel Hill signed an agreement with the Justice and Education departments, announced Oct. 19, resolving what DOJ counts as 18 Title VI investigations. UNC “expressly denies liability”; no money changes hands. Within 30 days the chancellor names a Merit & Civil Rights Administrator with staff, funding and “the delegated authority of the Chancellor to give binding directives to all parties within UNC,” reporting quarterly to the Assistant Attorney General under penalty of perjury; a missed certification is a material breach. UNC agrees to follow DOJ’s July 2025 discrimination guidance, not to challenge it, and to use no “racial proxy” in admissions. It runs to Dec. 31, 2028.",
+     "why": "The agreement installs a compliance officer with chancellor-level authority and a federal reporting line, the template a public university would be handed next.",
+     "url": "https://www.justice.gov/crt/media/1466901/dl?inline",
+     "link_label": "Read the agreement",
+     "landscape": {
+      "tag": "ruling",
+      "t": "f6",
+      "src_short": "Justice Department · Oct 19",
+      "gloss": "U.S.–UNC Chapel Hill Title VI agreement: 18 investigations (release count); Merit & Civil Rights Administrator within 30 days, quarterly reports to AAG under penalty of perjury; no admission, no money; to Dec. 31, 2028; racial-proxy bar",
+      "img": null
+     }
+    },
+    {
+     "tag_class": "tag-enforce",
+     "tag_label": "Ruling",
+     "headline": "Justice finds Ohio State’s medical school discriminated by race in three admitted classes and seeks a voluntary resolution agreement",
+     "source": "Justice Department · October 21, 2026",
+     "summary": "In an Oct. 21 findings letter closing a compliance review opened in March, the Justice Department’s Civil Rights Division concluded that Ohio State’s College of Medicine discriminated by race in its 2023, 2024 and 2025 entering classes, violating Title VI as read by the Supreme Court’s 2023 admissions decision. DOJ describes two pathways: screeners “not blinded to race,” after which Black applicants considered for interview were “about 2.8 times as likely to be admitted than Asian applicants with equal credentials,” by DOJ’s matching; and a “side door” with no screener score or interview, through which no Asian applicant entered in 2024 or 2025. DOJ calls the discrimination ongoing and seeks “a voluntary resolution agreement.”",
+     "why": "The finding rests on admissions data and training materials the school produced itself, which is where a review of any medical school’s process would begin.",
+     "url": "https://www.justice.gov/crt/media/1467356/dl",
+     "link_label": "Read the findings letter",
+     "landscape": {
+      "tag": "ruling",
+      "t": "f6",
+      "src_short": "Justice Department · Oct 21",
+      "gloss": "DOJ CRT findings letter to OSU College of Medicine: Title VI/SFFA violation, classes of 2023–25; race-unblinded screeners (2.8× Black vs Asian with equal credentials); side-door admits (4× Black vs white, 2024–25, no Asian); seeks voluntary resolution agreement",
+      "img": null
+     }
+    },
+    {
+     "tag_class": "tag-enforce",
+     "tag_label": "Policy",
+     "headline": "Justice and Education declare seven civil-rights guidance documents unenforceable, including the 2023 post-SFFA admissions Q&As",
+     "source": "Federal Register · October 23, 2026",
+     "summary": "A one-page Federal Register notice on Oct. 23, signed by Assistant Attorney General Harmeet Dhillon and Assistant Secretary Kimberly Richey, lists seven guidance documents the departments issued jointly between 2015 and 2023 and declares them “not enforceable.” Three are the 2015 documents on English-learner students and their parents; one is the 2021 guidance on COVID-related harassment; one the 2023 resource on race in student discipline; two are the August 2023 question-and-answer documents on the Students for Fair Admissions decision. The departments will not rely on them in enforcing Title IV, Title VI, the ADA or Section 504, and will revisit them under Loper Bright, the 2024 ruling that courts, not agencies, settle a statute’s meaning.",
+     "why": "An admissions office that built its post-2023 practice on the two Q&A documents now faces departments reading the statute without them.",
+     "url": "https://www.federalregister.gov/d/2026-21685",
+     "link_label": "Read the notice",
+     "landscape": {
+      "tag": "policy",
+      "t": "f6",
+      "src_short": "Federal Register · Oct 23",
+      "gloss": "DOJ/ED notice 91 FR 66840 (signed Oct. 20): seven 2015–2023 joint guidances “not enforceable”; non-reliance under Title IV/VI, EEOA, ADA, §504; Loper Bright revisit; incl. both Aug. 2023 SFFA Q&As",
+      "img": null
+     }
+    },
+    {
+     "tag_class": "tag-enforce",
+     "tag_label": "Policy",
+     "headline": "FDA proposes letting patient-specific gene-editing variants join an approved license on lab data alone, as supplements it still reviews",
+     "source": "Food and Drug Administration · October 27, 2026",
+     "summary": "FDA’s biologics center posted a draft guidance Oct. 27 on individualized human genome-editing products; comments are due Nov. 27. A sponsor would define an “individualized feature space” around an approved product; new patient-specific variants inside it could be added “based on in vitro data without additional clinical studies,” each filed as a license supplement FDA reviews. FDA “generally does not expect clinical data” only where the link between laboratory data and clinical results is “well-understood and predictable”; widening the space takes a prior-approval supplement, and a different editor needs a new license. The draft recommends a postapproval change management protocol under 21 CFR 601.12(e) and never uses the term predetermined change control plan.",
+     "why": "FDA is offering gene-editing sponsors the device world’s bargain: pre-agree the boundaries of change, then add variants on bench data instead of trials.",
+     "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/individualized-human-genome-editing-products-considerations-bla-submission-and-postapproval",
+     "link_label": "Read the draft guidance",
+     "landscape": {
+      "tag": "policy",
+      "t": "f5",
+      "src_short": "FDA · Oct 27",
+      "gloss": "Draft guidance FDA-2026-D-11783 (comments Nov. 27): individualized feature space; variants by BLA supplement on in vitro data where lab–clinic link is well-understood; PACMP under 601.12(e); no PCCP term; complements FDA-2021-D-0398 and 2026 drafts",
+      "img": null
+     }
+    }
+   ]
+  },
+  {
+   "id": "field",
+   "title": "The Field",
+   "pill": "The\nField",
+   "cards": [
+    {
+     "tag_class": "tag-field",
+     "tag_label": "Study",
+     "headline": "Random spot-checks of an AI agent undercount its violations if the agent can tell which actions are being checked",
+     "source": "arXiv · October 27, 2026",
+     "summary": "A paper posted Oct. 27 by researchers at Renmin University of China and Peking University proves a limit on auditing AI agents by sampling: a random spot-check yields an honest violation rate only if the agent cannot tell, before it acts, whether that action will be checked. If it can, the estimate runs low, and checking more often does not repair it. In the authors’ test, instructions planted in an agent’s inputs told it to skip a data theft whenever it saw an audit notice, and the model obeyed, cutting the measured attack rate by about 13 points. The authors call the supported claim narrow, and the paper has no peer-reviewed venue yet.",
+     "why": "A monitoring program that samples an AI system’s actions measures the system only if the system cannot see the sample being drawn.",
+     "url": "https://arxiv.org/abs/2610.37055",
+     "link_label": "Read the paper",
+     "landscape": {
+      "tag": "study",
+      "t": "f3",
+      "t2": "f1",
+      "src_short": "arXiv · Oct 27",
+      "gloss": "Blindfold (Renmin/PKU, Oct. 27): audit sampling of an agent is unbiased only if audits are unobservable; planted-instruction experiment cut attack success 0.676→0.544; no venue",
+      "img": null
+     }
+    }
+   ]
+  },
+  {
+   "id": "industry",
+   "title": "The Industry",
+   "pill": "The\nIndustry",
+   "cards": [
+    {
+     "tag_class": "tag-industry",
+     "tag_label": "Study",
+     "headline": "81% of U.S. acute-care hospitals reported using AI in 2025, and generative tools passed predictive ones, driven by ambient documentation",
+     "source": "Health Affairs Scholar · October 25, 2026",
+     "summary": "A Health Affairs Scholar paper published online Oct. 25 by researchers at ONC and Georgetown reports on the 2025 American Hospital Association Information Technology Survey of 2,203 nonfederal acute-care hospitals. “In 2025, 81% of hospitals reported using AI,” the abstract says. Generative AI adoption now exceeds predictive AI, led by ambient documentation, which 73% of hospitals reported using, against 70% for risk prediction, the most common predictive use. The paper is open access as an accepted manuscript; the full methods, response rate and weighting were not yet readable, and no trade outlet had covered it as of Oct. 30.",
+     "why": "A compliance office inheriting a hospital’s AI inventory can expect the generative tools to outnumber the predictive ones its governance was built around.",
+     "url": "https://doi.org/10.1093/haschl/qxag301",
+     "link_label": "Read the abstract",
+     "landscape": {
+      "tag": "study",
+      "t": "curious",
+      "src_short": "Health Affairs Scholar · Oct 25",
+      "gloss": "Richwine, Everson, Nong (ONC, Georgetown, UMN SPH), 10.1093/haschl/qxag301: 2025 AHA IT Survey, 2,203 nonfederal acute-care hospitals; 81% any AI; ambient documentation 73%, risk prediction 70%; accepted manuscript, CC BY",
+      "img": null
+     }
+    }
+   ]
+  },
+  {
+   "id": "academy",
+   "title": "Bioethics and the Academy",
+   "pill": "Bioethics and\nthe Academy",
+   "cards": [
+    {
+     "tag_class": "tag-academy",
+     "tag_label": "Policy",
+     "headline": "NIH tells grantees the federal government now says “Super Intelligence” where it said AI, under a Sept. 29 executive order",
+     "source": "National Institutes of Health · October 23, 2026",
+     "summary": "NIH notice NOT-OD-27-011, posted Oct. 23, tells applicants and grantees that the federal government “is transitioning” from the term artificial intelligence to “Super Intelligence,” under Section 2 of Executive Order 14434 of Sept. 29, “Inaugurating the Era of Super Intelligence.” It reprints the statutory definition of an AI system from 15 U.S.C. 9401(3) word for word, with one bracketed swap: “[Super] intelligence systems.” It imposes no new requirement and sets no effective date, and the order says existing grants, contracts and regulations need not change. The same week, ONC’s HTI-5 rule used “super intelligence” throughout, citing the same order, which gives the president’s science adviser until late November to propose legislative language.",
+     "why": "Every research office will receive the vocabulary before any rule changes; the definition under it is the one Congress may be asked to replace.",
+     "url": "https://grants.nih.gov/grants/guide/notice-files/NOT-OD-27-011.html",
+     "link_label": "Read the notice",
+     "landscape": {
+      "tag": "policy",
+      "t": "f6",
+      "t2": "f1",
+      "src_short": "NIH · Oct 23",
+      "gloss": "NOT-OD-27-011 “USG Policy for the use of Super Intelligence”: AI→SI per EO 14434 §2 (Sept. 29; 91 FR 63129); 15 U.S.C. 9401(3) definition with bracketed swap; no requirement, no effective date; §3(b) legislative language ~Nov. 28",
+      "img": null
+     }
+    }
+   ]
+  }
+ ]
+}
