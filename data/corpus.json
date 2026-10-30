@@ -18,7 +18,8 @@
   "f3",
   "f4",
   "f5",
-  "curious"
+  "curious",
+  "f6"
  ],
  "thread_names": {
   "f1": "The AI-and-law field",
@@ -26,7 +27,8 @@
   "f3": "The enforcement rail (runtime and formal-methods products)",
   "f4": "The governance seat (CCO/CRO/board)",
   "f5": "Genetics and the law",
-  "curious": "Untagged reservoir"
+  "curious": "Untagged reservoir",
+  "f6": "The University"
  },
  "cards": [
   {
