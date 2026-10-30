@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "current_edition": 9,
+ "current_edition": 10,
  "edition_dates": {
   "1": "August 15",
   "2": "August 21",
@@ -10,7 +10,8 @@
   "6": "September 18",
   "7": "September 25",
   "8": "October 2",
-  "9": "October 9"
+  "9": "October 9",
+  "10": "October 30"
  },
  "active_threads": [
   "f1",
@@ -1175,6 +1176,142 @@
    "t": "curious",
    "s": "OpenAI math release: 722 manuscripts, 372 families, ~42% of top-line results Lean-formalized, 3 withdrawn Oct. 7; UGC proof claimed",
    "url": "https://www.quantamagazine.org/as-ai-closed-in-on-unique-games-proof-researchers-raced-to-beat-the-machines-20261007/",
+   "img": null
+  },
+  {
+   "id": "e10c1",
+   "ed": 10,
+   "sec": "Enforcement and Rulemaking",
+   "tag": "policy",
+   "h": "Justice and HHS open a six-month health-care fraud self-disclosure pilot; repayment runs 1.25 to 1.6 times a base DOJ sets",
+   "src": "Justice Department · Oct 22",
+   "t": "f2",
+   "t2": "f4",
+   "s": "FCA SDPP: submissions to Apr. 22, 2027; 1.25–1.6× Base Self-Disclosure Repayment (remuneration base in AKS cases); no CIA, no CMS penalties, no admissions; relators unaddressed",
+   "url": "https://www.justice.gov/opa/pr/justice-departments-civil-division-and-department-health-human-services-announce-anti-fraud",
+   "img": null
+  },
+  {
+   "id": "e10c2",
+   "ed": 10,
+   "sec": "Enforcement and Rulemaking",
+   "tag": "ruling",
+   "h": "Thirty-one states and D.C. object to the shape of Character.AI’s bankruptcy sale; the debtor revised its proposed order twice before Friday’s hearing",
+   "src": "Bankr. D. Del. · Oct 23",
+   "t": "f2",
+   "t2": "f5",
+   "s": "In re Character Technologies, 26-11603-BLS, Doc. 66: 31 states + D.C. (Florida joined Oct. 29) object to Disney stalking-horse bidding procedures; privacy ombudsman asked; revised orders Docs. 74, 90; hearing Oct. 30 9 a.m. ET",
+   "url": "https://cases.stretto.com/public/x936/14939/PLEADINGS/1493910232680000000104.pdf",
+   "img": null
+  },
+  {
+   "id": "e10c3",
+   "ed": 10,
+   "sec": "Enforcement and Rulemaking",
+   "tag": "policy",
+   "h": "ONC’s HTI-5 rule drops 14 of 60 certification criteria and removes the model-card disclosures for predictive decision-support software",
+   "src": "Federal Register · Oct 28",
+   "t": "f2",
+   "s": "HTI-5 final rule, 91 FR 67916, eff. Dec. 28 (3 items Jan. 1, 2027): 14 of 60 criteria removed, 7 revised; § 170.315(b)(11)(iv)(v)(vi) and § 170.402(b)(4) removed; “super intelligence” per EO 14434",
+   "url": "https://www.federalregister.gov/d/2026-21943",
+   "img": null
+  },
+  {
+   "id": "e10c4",
+   "ed": 10,
+   "sec": "Enforcement and Rulemaking",
+   "tag": "policy",
+   "h": "New York bars AI companions from using a minor’s health information remembered across sessions, with penalties to $25,000 a violation",
+   "src": "N.Y. Senate · Oct 28",
+   "t": "f2",
+   "s": "S.9051-B / A.10379-C, Ch. 368, signed Oct. 28, eff. Jan. 1, 2027; GBL Art. 48 §§ 1800–1805; unsafe-feature list incl. health info >12 hrs or prior session; AG: $25,000/violation, destruction of data and algorithms",
+   "url": "https://www.nysenate.gov/legislation/bills/2025/S9051/amendment/B",
+   "img": null
+  },
+  {
+   "id": "e10c5",
+   "ed": 10,
+   "sec": "Enforcement and Rulemaking",
+   "tag": "ruling",
+   "h": "UNC Chapel Hill settles 18 Title VI investigations: an administrator with authority over every unit reports quarterly to Justice through 2028",
+   "src": "Justice Department · Oct 19",
+   "t": "f6",
+   "s": "U.S.–UNC Chapel Hill Title VI agreement: 18 investigations (release count); Merit & Civil Rights Administrator within 30 days, quarterly reports to AAG under penalty of perjury; no admission, no money; to Dec. 31, 2028; racial-proxy bar",
+   "url": "https://www.justice.gov/crt/media/1466901/dl?inline",
+   "img": null
+  },
+  {
+   "id": "e10c6",
+   "ed": 10,
+   "sec": "Enforcement and Rulemaking",
+   "tag": "ruling",
+   "h": "Justice finds Ohio State’s medical school discriminated by race in three admitted classes and seeks a voluntary resolution agreement",
+   "src": "Justice Department · Oct 21",
+   "t": "f6",
+   "s": "DOJ CRT findings letter to OSU College of Medicine: Title VI/SFFA violation, classes of 2023–25; race-unblinded screeners (2.8× Black vs Asian with equal credentials); side-door admits (4× Black vs white, 2024–25, no Asian); seeks voluntary resolution agreement",
+   "url": "https://www.justice.gov/crt/media/1467356/dl",
+   "img": null
+  },
+  {
+   "id": "e10c7",
+   "ed": 10,
+   "sec": "Enforcement and Rulemaking",
+   "tag": "policy",
+   "h": "Justice and Education declare seven civil-rights guidance documents unenforceable, including the 2023 post-SFFA admissions Q&As",
+   "src": "Federal Register · Oct 23",
+   "t": "f6",
+   "s": "DOJ/ED notice 91 FR 66840 (signed Oct. 20): seven 2015–2023 joint guidances “not enforceable”; non-reliance under Title IV/VI, EEOA, ADA, §504; Loper Bright revisit; incl. both Aug. 2023 SFFA Q&As",
+   "url": "https://www.federalregister.gov/d/2026-21685",
+   "img": null
+  },
+  {
+   "id": "e10c8",
+   "ed": 10,
+   "sec": "Enforcement and Rulemaking",
+   "tag": "policy",
+   "h": "FDA proposes letting patient-specific gene-editing variants join an approved license on lab data alone, as supplements it still reviews",
+   "src": "FDA · Oct 27",
+   "t": "f5",
+   "s": "Draft guidance FDA-2026-D-11783 (comments Nov. 27): individualized feature space; variants by BLA supplement on in vitro data where lab–clinic link is well-understood; PACMP under 601.12(e); no PCCP term; complements FDA-2021-D-0398 and 2026 drafts",
+   "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/individualized-human-genome-editing-products-considerations-bla-submission-and-postapproval",
+   "img": null
+  },
+  {
+   "id": "e10c9",
+   "ed": 10,
+   "sec": "The Field",
+   "tag": "study",
+   "h": "Random spot-checks of an AI agent undercount its violations if the agent can tell which actions are being checked",
+   "src": "arXiv · Oct 27",
+   "t": "f3",
+   "t2": "f1",
+   "s": "Blindfold (Renmin/PKU, Oct. 27): audit sampling of an agent is unbiased only if audits are unobservable; planted-instruction experiment cut attack success 0.676→0.544; no venue",
+   "url": "https://arxiv.org/abs/2610.37055",
+   "img": null
+  },
+  {
+   "id": "e10c10",
+   "ed": 10,
+   "sec": "The Industry",
+   "tag": "study",
+   "h": "81% of U.S. acute-care hospitals reported using AI in 2025, and generative tools passed predictive ones, driven by ambient documentation",
+   "src": "Health Affairs Scholar · Oct 25",
+   "t": "curious",
+   "s": "Richwine, Everson, Nong (ONC, Georgetown, UMN SPH), 10.1093/haschl/qxag301: 2025 AHA IT Survey, 2,203 nonfederal acute-care hospitals; 81% any AI; ambient documentation 73%, risk prediction 70%; accepted manuscript, CC BY",
+   "url": "https://doi.org/10.1093/haschl/qxag301",
+   "img": null
+  },
+  {
+   "id": "e10c11",
+   "ed": 10,
+   "sec": "Bioethics and the Academy",
+   "tag": "policy",
+   "h": "NIH tells grantees the federal government now says “Super Intelligence” where it said AI, under a Sept. 29 executive order",
+   "src": "NIH · Oct 23",
+   "t": "f6",
+   "t2": "f1",
+   "s": "NOT-OD-27-011 “USG Policy for the use of Super Intelligence”: AI→SI per EO 14434 §2 (Sept. 29; 91 FR 63129); 15 U.S.C. 9401(3) definition with bracketed swap; no requirement, no effective date; §3(b) legislative language ~Nov. 28",
+   "url": "https://grants.nih.gov/grants/guide/notice-files/NOT-OD-27-011.html",
    "img": null
   }
  ]
