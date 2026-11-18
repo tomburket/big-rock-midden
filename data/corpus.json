@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "current_edition": 10,
+ "current_edition": 11,
  "edition_dates": {
   "1": "August 15",
   "2": "August 21",
@@ -11,7 +11,8 @@
   "7": "September 25",
   "8": "October 2",
   "9": "October 9",
-  "10": "October 30"
+  "10": "October 30",
+  "11": "November 18"
  },
  "active_threads": [
   "f1",
@@ -1312,6 +1313,133 @@
    "t2": "f1",
    "s": "NOT-OD-27-011 “USG Policy for the use of Super Intelligence”: AI→SI per EO 14434 §2 (Sept. 29; 91 FR 63129); 15 U.S.C. 9401(3) definition with bracketed swap; no requirement, no effective date; §3(b) legislative language ~Nov. 28",
    "url": "https://grants.nih.gov/grants/guide/notice-files/NOT-OD-27-011.html",
+   "img": null
+  },
+  {
+   "id": "e11c1",
+   "ed": 11,
+   "sec": "Enforcement and Rulemaking",
+   "tag": "ruling",
+   "h": "Justice sues Penn State over in-state tuition for undocumented students; its suit against Minnesota was dismissed in March and is on appeal",
+   "src": "Justice Department · Nov 5",
+   "t": "f6",
+   "t2": "f2",
+   "s": "U.S. v. Penn State, 4:26-cv-03279 (M.D. Pa.), filed Nov. 5; 8 U.S.C. 1623(a); DOJ count 27 suits, 6 favorable orders (DOJ’s own); U.S. v. Walz, 0:25-cv-02668 (D. Minn.) dismissed Mar. 27, 2026, appeal 8th Cir. 26-1886; U.S. v. Univ. of Delaware, 1:26-cv-01266, Oct. 1",
+   "url": "https://www.justice.gov/opa/pr/department-justice-files-complaint-against-pennsylvania-state-university-challenging-its",
+   "img": null
+  },
+  {
+   "id": "e11c2",
+   "ed": 11,
+   "sec": "Enforcement and Rulemaking",
+   "tag": "ruling",
+   "h": "The Supreme Court hears Nov. 30 whether employees of federally funded schools can sue for sex discrimination under Title IX",
+   "src": "Supreme Court · Nov 30",
+   "t": "f6",
+   "t2": "f4",
+   "s": "Crowther v. Bd. of Regents of Univ. System of Georgia, No. 25-183; QP verbatim; below 121 F.4th 855 (11th Cir. Nov. 7, 2024); cert granted May 18, 2026; U.S. amicus for respondents, divided argument granted Oct. 5; “8-3” is petitioners’ count",
+   "url": "https://www.supremecourt.gov/search.aspx?filename=/docket/docketfiles/html/public/25-183.html",
+   "img": null
+  },
+  {
+   "id": "e11c3",
+   "ed": 11,
+   "sec": "Enforcement and Rulemaking",
+   "tag": "policy",
+   "h": "Medicare will pay teaching physicians when either the physician or the resident is with the patient and the other joins by video",
+   "src": "Federal Register · Nov 9",
+   "t": "f6",
+   "t2": "f2",
+   "s": "CY 2027 PFS final rule, 91 FR 70992, eff. Jan. 1, 2027: 42 CFR 415.172(a), (b)(2) amended (virtual presence when teaching physician or resident is with the beneficiary; telehealth-list services; additive to 3-way visits); § 415.174 primary care exception extended to all O/O E/M levels",
+   "url": "https://www.govinfo.gov/content/pkg/FR-2026-11-09/html/2026-22743.htm",
+   "img": null
+  },
+  {
+   "id": "e11c4",
+   "ed": 11,
+   "sec": "Enforcement and Rulemaking",
+   "tag": "policy",
+   "h": "Hospitals must attest by Dec. 31, 2027, that off-campus outpatient departments meet Medicare’s rules, or lose outpatient payment for them in 2028",
+   "src": "Federal Register · Nov 6",
+   "t": "f6",
+   "t2": "f2",
+   "s": "CY 2027 OPPS final rule, 91 FR 70284: implements § 6225 of Pub. L. 119-75 (SSA § 1833(t)(23)); separate NPI and provider-based attestation (42 CFR 413.65) for off-campus departments; initial attestation window Jan. 1, 2026–Dec. 31, 2027; § 419.23(c); subsequent-attestation interval not final",
+   "url": "https://www.govinfo.gov/content/pkg/FR-2026-11-06/html/2026-22739.htm",
+   "img": null
+  },
+  {
+   "id": "e11c5",
+   "ed": 11,
+   "sec": "Enforcement and Rulemaking",
+   "tag": "ruling",
+   "h": "Bankruptcy judge orders a consumer privacy ombudsman for the Character.AI sale; a Dec. 3 hearing will take up the sale itself",
+   "src": "Bankr. D. Del. · Nov 17",
+   "t": "f2",
+   "t2": "f5",
+   "s": "In re Character Technologies, 26-11603-BLS: ECF 106 further revised bidding procedures order signed Nov. 4 (text unread); ECF 181 order directing § 332(a) consumer privacy ombudsman, Nov. 17; ECF 182 appointment, Nov. 18; sale hearing Dec. 3, 9:30 a.m.; sale objections due Nov. 18",
+   "url": "https://www.courtlistener.com/docket/74951888/character-technologies-inc/",
+   "img": null
+  },
+  {
+   "id": "e11c6",
+   "ed": 11,
+   "sec": "Risk and Governance",
+   "tag": "report",
+   "h": "Vanderbilt says restoring file systems after a Nov. 9 cyberattack will take weeks and has not said what data was accessed",
+   "src": "Vanderbilt University · Nov 9",
+   "t": "f6",
+   "t2": "f4",
+   "s": "Vanderbilt incident-update page, entries Nov. 9 10:45 a.m. through Nov. 18 12 p.m.: devices offline Nov. 9; majority of systems back Nov. 13; OneDrive/SharePoint/Teams disabled, first milestone first week of December; Box by Nov. 20; no statement on data accessed; attacker claims not carded",
+   "url": "https://news.vanderbilt.edu/2026/11/09/nov-9-active-cybersecurity-incident-updates/",
+   "img": null
+  },
+  {
+   "id": "e11c7",
+   "ed": 11,
+   "sec": "Bioethics and the Academy",
+   "tag": "policy",
+   "h": "NIH proposes data and safety monitoring plans for all the clinical research it funds, not only clinical trials",
+   "src": "NIH · Nov 2",
+   "t": "f6",
+   "s": "NOT-OD-27-006, draft update to 1998 DSM policy: scope to all NIH-supported clinical research; risk-based plan approved by ICO before human-subject activity; deemed approved after 30 days; DSMB mandate for all phase 3/multi-site trials removed; effective 6 months after final; comments to Jan. 6, 2027",
+   "url": "https://grants.nih.gov/grants/guide/notice-files/NOT-OD-27-006.html",
+   "img": null
+  },
+  {
+   "id": "e11c8",
+   "ed": 11,
+   "sec": "The Field",
+   "tag": "study",
+   "h": "Tested on 159 court-documented frauds, AI models endorsed fraud in 3% of answers and carried it out in 21% of agent tasks",
+   "src": "arXiv · Nov 9",
+   "t": "f1",
+   "t2": "f3",
+   "s": "FraudBench, arXiv 2611.12167 v1 (authors: accepted NeurIPS E&D 2026): 159 scenarios from fraud opinions 2014–2025; 20 models (2025 vintage); control-condition fraud rate 3.0% binary / 14.7% open / 21.4% agentic (simulated trajectories); human baseline 29.8% vs 13.1% on open task (model-based estimate, 100 scenarios); 3-model LLM jury, κ 0.81 vs legal experts",
+   "url": "https://arxiv.org/abs/2611.12167",
+   "img": null
+  },
+  {
+   "id": "e11c9",
+   "ed": 11,
+   "sec": "The Field",
+   "tag": "report",
+   "h": "Anthropic says its Mythos 5.2 reached outside its walled-off test environment in 3.1% of scenarios, against 39% for Mythos 5",
+   "src": "Anthropic · Nov 9",
+   "t": "f3",
+   "s": "Anthropic launch post, Fable 5.2 / Mythos 5.2 (edit note Nov. 11): dedicated sandbox-escape evaluation, >1,800 scenarios, deliberate weakness; credentials or files outside sandbox used 3.1% (Mythos 5.2), 3.3% (Opus 5.5), 5.1% (Sonnet 5.5), 39% / 21% (Mythos 5 / 5.1); maker’s own test; system card unread; external evaluators did not review the post (fn. 5)",
+   "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+   "img": null
+  },
+  {
+   "id": "e11c10",
+   "ed": 11,
+   "sec": "The Cache",
+   "tag": "report",
+   "h": "Safety board: a NOAA research boat with no crew was hard to see and too passively watched before a Lake Erie collision",
+   "src": "NTSB · Oct 27",
+   "t": "curious",
+   "s": "NTSB MIR-26-32 (report dated Oct. 7, released Oct. 27): NOAA GLERL SeaTrac SP-48 USV and Prestige 450, Lake Erie, Aug. 10, 2024; probable cause: inadequate perceptibility and lack of active monitoring given configuration, mode and level of autonomy; “adapted hold” mode, 150-foot radius; six recommendations; USV total loss $186,000",
+   "url": "https://www.ntsb.gov/investigations/AccidentReports/Reports/MIR2632.pdf",
    "img": null
   }
  ]
